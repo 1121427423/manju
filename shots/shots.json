@@ -1,0 +1,551 @@
+{
+ "title": "青冥·伞 / QINGMING: THE UMBRELLA",
+ "version": 1,
+ "fps": 30,
+ "w": 1280,
+ "h": 720,
+ "duration": 40.0,
+ "shots": [
+  {
+   "id": 1,
+   "t0": 0.0,
+   "t1": 3.0,
+   "art": "A01_feet",
+   "zoom": [
+    1.0,
+    1.12
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 0.8,
+   "vfx": [
+    "rain",
+    "fog",
+    "water",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "fadein"
+  },
+  {
+   "id": 2,
+   "t0": 3.0,
+   "t1": 5.6,
+   "art": "A02_vines",
+   "zoom": [
+    1.06,
+    1.0
+   ],
+   "pan": [
+    0,
+    -4
+   ],
+   "rot": -0.4,
+   "shake": 0.8,
+   "vfx": [
+    "rain",
+    "fog",
+    "embers",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 3,
+   "t0": 5.6,
+   "t1": 7.6,
+   "art": "A03_umbrella_wide",
+   "zoom": [
+    1.1,
+    1.0
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 0.9,
+   "vfx": [
+    "rain",
+    "fog",
+    "bells",
+    "grain"
+   ],
+   "caption": "她说，伞下无雨。",
+   "trans": "cut"
+  },
+  {
+   "id": 4,
+   "t0": 7.6,
+   "t1": 9.2,
+   "art": "A04_umbrella_top",
+   "zoom": [
+    1.0,
+    1.14
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 22.0,
+   "shake": 1.0,
+   "vfx": [
+    "fog",
+    "swirl",
+    "bells",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 5,
+   "t0": 9.2,
+   "t1": 11.0,
+   "art": "A05_tower",
+   "zoom": [
+    1.14,
+    1.02
+   ],
+   "pan": [
+    0,
+    2
+   ],
+   "rot": 0.0,
+   "shake": 0.7,
+   "vfx": [
+    "rain",
+    "fog",
+    "lightning",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 6,
+   "t0": 11.0,
+   "t1": 12.6,
+   "art": "A06_halfface",
+   "zoom": [
+    1.0,
+    1.16
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 0.6,
+   "vfx": [
+    "fog",
+    "rain",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 7,
+   "t0": 12.6,
+   "t1": 15.6,
+   "art": "A07_eye",
+   "zoom": [
+    1.04,
+    1.22
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 0.5,
+   "vfx": [
+    "fog",
+    "pupil",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 8,
+   "t0": 15.6,
+   "t1": 17.0,
+   "art": "A08_swordswoman",
+   "zoom": [
+    1.0,
+    1.1
+   ],
+   "pan": [
+    2,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 1.4,
+   "vfx": [
+    "rain",
+    "fog",
+    "water",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 9,
+   "t0": 17.0,
+   "t1": 18.2,
+   "art": "A09_standoff",
+   "zoom": [
+    1.12,
+    1.02
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 1.8,
+   "vfx": [
+    "rain",
+    "fog",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 10,
+   "t0": 18.2,
+   "t1": 19.4,
+   "art": "A10_charge",
+   "zoom": [
+    1.0,
+    1.18
+   ],
+   "pan": [
+    -6,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 3.0,
+   "vfx": [
+    "rain",
+    "water",
+    "speedlines",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 11,
+   "t0": 19.4,
+   "t1": 20.2,
+   "art": "A11_impact",
+   "zoom": [
+    1.04,
+    1.22
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 6.0,
+   "vfx": [
+    "sparks",
+    "flash_impact",
+    "shake",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 12,
+   "t0": 20.2,
+   "t1": 21.4,
+   "art": "A12_shield",
+   "zoom": [
+    1.16,
+    1.0
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 2.0,
+   "vfx": [
+    "fog",
+    "swirl",
+    "bells",
+    "grain"
+   ],
+   "caption": "可伞外，是天。",
+   "trans": "cut"
+  },
+  {
+   "id": 13,
+   "t0": 21.4,
+   "t1": 22.4,
+   "art": "A13_sweep",
+   "zoom": [
+    1.1,
+    1.0
+   ],
+   "pan": [
+    -10,
+    0
+   ],
+   "rot": -3.0,
+   "shake": 4.0,
+   "vfx": [
+    "speedlines",
+    "blade",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 14,
+   "t0": 22.4,
+   "t1": 23.6,
+   "art": "A14_corrupt",
+   "zoom": [
+    1.0,
+    1.14
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 2.2,
+   "vfx": [
+    "fog",
+    "corrupt",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 15,
+   "t0": 23.6,
+   "t1": 24.8,
+   "art": "A15_leap",
+   "zoom": [
+    1.02,
+    1.16
+   ],
+   "pan": [
+    0,
+    8
+   ],
+   "rot": 0.0,
+   "shake": 3.0,
+   "vfx": [
+    "rain",
+    "speedlines",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 16,
+   "t0": 24.8,
+   "t1": 26.2,
+   "art": "A16_ice",
+   "zoom": [
+    1.1,
+    1.0
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 4.0,
+   "vfx": [
+    "ice",
+    "flash_impact",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 17,
+   "t0": 26.2,
+   "t1": 27.8,
+   "art": "A17_clash",
+   "zoom": [
+    1.0,
+    1.2
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 6.0,
+   "vfx": [
+    "sparks",
+    "blade",
+    "orb",
+    "grain",
+    "shake"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 18,
+   "t0": 27.8,
+   "t1": 29.4,
+   "art": "A18_whiteout",
+   "zoom": [
+    1.08,
+    0.96
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 5.0,
+   "vfx": [
+    "whiteout",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 19,
+   "t0": 29.4,
+   "t1": 31.2,
+   "art": "A19_rift",
+   "zoom": [
+    1.0,
+    1.16
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 2.4,
+   "vfx": [
+    "fog",
+    "rift",
+    "embers",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 20,
+   "t0": 31.2,
+   "t1": 33.0,
+   "art": "A20_demon",
+   "zoom": [
+    1.16,
+    1.0
+   ],
+   "pan": [
+    0,
+    -3
+   ],
+   "rot": 0.0,
+   "shake": 2.0,
+   "vfx": [
+    "fog",
+    "embers",
+    "demon_eye",
+    "grain"
+   ],
+   "caption": "天，也不是尽头。",
+   "trans": "cut"
+  },
+  {
+   "id": 21,
+   "t0": 33.0,
+   "t1": 34.6,
+   "art": "A21_hand_slam",
+   "zoom": [
+    1.0,
+    1.22
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 8.0,
+   "vfx": [
+    "dust",
+    "flash_impact",
+    "shake",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 22,
+   "t0": 34.6,
+   "t1": 36.4,
+   "art": "A22_gold_eye",
+   "zoom": [
+    1.02,
+    1.24
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 1.2,
+   "vfx": [
+    "fog",
+    "pupil",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "cut"
+  },
+  {
+   "id": 23,
+   "t0": 36.4,
+   "t1": 40.0,
+   "art": "TITLE",
+   "zoom": [
+    1.0,
+    1.0
+   ],
+   "pan": [
+    0,
+    0
+   ],
+   "rot": 0.0,
+   "shake": 0.0,
+   "vfx": [
+    "title",
+    "grain"
+   ],
+   "caption": null,
+   "trans": "fadeout"
+  }
+ ]
+}
