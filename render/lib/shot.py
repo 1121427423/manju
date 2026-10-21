@@ -57,6 +57,17 @@ class Shot:
                 mask = MO.soft_band(H, W, spec.get("y0", 0.3), spec.get("y1", 1.0),
                                     spec.get("x0", 0.0), spec.get("x1", 1.0),
                                     spec.get("feather", 0.18))
+            elif kind == "bright":
+                # 按亮度挑"白袍 / 发丝 / 光边"：这些是角色身上会飘的部分，
+                # 让它们相对身体有一点自己的位移，人就不会像被钉在画里。
+                art = np.asarray(self.canvas.convert("L"), np.float32) / 255.0
+                if art.shape[:2] != (H, W):
+                    art = MO._resize_np(art, (H, W))
+                mask = MO.luminance_gate(art[..., None].repeat(3, 2),
+                                         spec.get("lo", 0.42), spec.get("hi", 1.0),
+                                         spec.get("soft", 0.16))
+                mask = mask * MO.soft_band(H, W, spec.get("y0", 0.2), spec.get("y1", 0.95),
+                                           feather=0.2)
             else:
                 mask = np.ones((H, W), np.float32)
             self.warps.append(dict(mask=mask, noise=noise, **spec))
@@ -75,9 +86,11 @@ class Shot:
         # 全镜头轻微手持（0.55px / 0.05°），让静帧路线也有"被拍"的感觉
         if True:
             tt0 = i / self.fps
-            pan = (pan[0] + np.sin(tt0 * 1.7 + m["id"]) * 0.55,
-                   pan[1] + np.cos(tt0 * 1.3 + m["id"] * 1.7) * 0.45)
-            rot += np.sin(tt0 * 1.1 + m["id"]) * 0.05
+            # 三频叠加 = 手持的"抖"，量级 1.6px / 0.10°：够活，不至于晕
+            pan = (pan[0] + 1.15 * np.sin(tt0 * 2.3 + m["id"]) + 0.45 * np.sin(tt0 * 5.7 + 1.3),
+                   pan[1] + 1.05 * np.cos(tt0 * 1.9 + m["id"] * 1.7) + 0.40 * np.cos(tt0 * 6.1))
+            rot += 0.062 * np.sin(tt0 * 1.55 + m["id"]) + 0.038 * np.sin(tt0 * 4.3 + 0.7)
+            zoom *= 1.0 + 0.0022 * np.sin(tt0 * 3.1 + m["id"])
         if sh > 0:
             tt = i / self.fps
             # 两层正弦 + 冲击衰减

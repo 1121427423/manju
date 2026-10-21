@@ -69,6 +69,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     54,
+     -16
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -142,6 +160,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     60,
+     -30
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -215,6 +251,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     46,
+     -12
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -288,6 +342,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     70,
+     0
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -417,6 +489,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     26,
+     -8
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -473,6 +563,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     18,
+     -4
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -546,6 +654,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     90,
+     -22
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -602,6 +728,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     34,
+     -10
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -675,6 +819,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     110,
+     -18
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -748,6 +910,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     74,
+     -26
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -821,6 +1001,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     46,
+     -8
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -894,6 +1092,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     96,
+     -30
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -967,6 +1183,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     40,
+     -12
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -1040,6 +1274,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     86,
+     -42
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -1113,6 +1365,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     66,
+     -34
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -1186,6 +1456,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     82,
+     -40
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -1259,6 +1547,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     36,
+     -26
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -1332,6 +1638,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     48,
+     -24
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -1405,6 +1729,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     44,
+     -18
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -1478,6 +1820,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     70,
+     40
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },
@@ -1534,6 +1894,24 @@
     "feather": 0.11,
     "rate": 0.9,
     "phase": 0.0
+   },
+   {
+    "kind": "bright",
+    "lo": 0.4,
+    "hi": 1.0,
+    "soft": 0.18,
+    "y0": 0.16,
+    "y1": 0.96,
+    "amp": 4.0,
+    "drift": [
+     16,
+     -4
+    ],
+    "speed": 1.6,
+    "scale": 1.0,
+    "rate": 1.1,
+    "phase": 0.0,
+    "feather": 0.2
    }
   ]
  },

@@ -69,6 +69,13 @@ MOTION_SPEC = {
  23:  ((14, -8), (2, -2), (12, -6), [], 1),         # 标题：几乎静止
 }
 
+# 白衣层：亮度门控的相对运动（角色身上"会飘"的部分）
+ROBE_SPEC = {1: (54, -16), 2: (60, -30), 3: (46, -12), 4: (70, 0), 6: (26, -8),
+             7: (18, -4), 8: (90, -22), 9: (34, -10), 10: (110, -18), 11: (74, -26),
+             12: (46, -8), 13: (96, -30), 14: (40, -12), 15: (86, -42), 16: (66, -34),
+             17: (82, -40), 18: (36, -26), 19: (48, -24), 20: (44, -18), 21: (70, 40),
+             22: (16, -4)}
+
 MOTION = {}
 for sid, (sky, mid, gnd, extra, sh) in MOTION_SPEC.items():
     warps = []
@@ -78,6 +85,10 @@ for sid, (sky, mid, gnd, extra, sh) in MOTION_SPEC.items():
         warps.append(L(MID, 4.0, mid, 1.0, 1.0, feather=0.14))
     if any(abs(v) > 3 for v in gnd):
         warps.append(L(GND, 6.0, gnd, 1.5, 1.3))
+    if sid in ROBE_SPEC:
+        warps.append(dict(kind="bright", lo=0.40, hi=1.0, soft=0.18, y0=0.16, y1=0.96,
+                          amp=4.0, drift=list(ROBE_SPEC[sid]), speed=1.6, scale=1.0,
+                          rate=1.1, phase=0.0, feather=0.2))
     warps += extra
     if sid not in (23,):
         MOTION[sid] = dict(shutter=sh, parallax=PARA_NEAR if sid >= 8 else PARA_DEEP,

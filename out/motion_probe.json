@@ -1,12 +1,12 @@
 [
  {
-  "file": "v3.mp4",
-  "n": 26,
+  "file": "v4.mp4",
+  "n": 58,
   "fps_probe": 12,
-  "global_px": 1.0,
-  "local_px": 25.0,
-  "local_mean": 28.4,
-  "local_p90": 35.6,
-  "motion_ratio": 7.15
+  "global_px": 0.0,
+  "local_px": 9.0,
+  "local_mean": 14.84,
+  "local_p90": 31.8,
+  "motion_ratio": 22.3
  }
 ]
