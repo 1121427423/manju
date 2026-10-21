@@ -11,11 +11,17 @@
 
 | | |
 |---|---|
-| 成片 | `out/青冥·伞_40s.mp4`（40.0 s / 1280×720 / 30 fps / H.264 + AAC） |
+| **风格验证片（本轮交付）** | `out/青冥·伞_风格验证片_15.6s.mp4`（前 7 镜 / 1280×720 / 30 fps / H.264 + AAC） |
+| 完整音轨（40 s） | `out/score.wav`（立体声，程序化配乐，时间轴已对齐全片分镜） |
 | 海报 | `out/poster.jpg` |
-| 联络表 | `out/contact_sheet.jpg`（全片 20 格） |
-| 音轨 | `out/score.wav`（40.0 s 立体声，程序化配乐） |
-| 风格验证片 | `out/01_styleproof.mp4`（前 7 镜，用于快速校验影调与节奏） |
+| 联络表 | `out/contact_sheet.jpg` |
+| 角色卡 | `out/character_cards.jpg` |
+| 完整 40 s 分镜 | `shots/shots.json`（22 镜，含运镜/特效/字幕/转场） |
+| 剩余镜头状态 | 镜 8–22 的关键帧待生成（受单轮出图配额限制），见 [`docs/05`](docs/05-交付状态与下一步.md) |
+
+> **说明**：本轮把"配额之外的全部工程"做完了 —— 分镜、提示词、渲染管线、音轨、后期、质检。
+> 画面只出了引子段 7 镜（15.6 s），因为图像生成有每轮 10 张的上限，且我不接受用火柴人剪影糊弄。
+> 下一轮补 15 张关键帧即可出满 40 s，命令与参数全部就绪。
 
 ## 文档导航
 
@@ -26,6 +32,7 @@
 | [`docs/02-分镜提示词包.md`](docs/02-分镜提示词包.md) | 逐镜可直接投喂的提示词（关键帧 + 图生视频运动）、角色一致性规范 |
 | [`docs/03-技术方案与工具链.md`](docs/03-技术方案与工具链.md) | 用了哪些工具、管线、算法、成本核算、已知差距、复现步骤 |
 | [`docs/04-质检报告.md`](docs/04-质检报告.md) | 成片与参考片的逐项数值对比 + 自检清单 |
+| [`docs/05-交付状态与下一步.md`](docs/05-交付状态与下一步.md) | 交付清单、配额说明、下一轮执行计划、达标判定 |
 
 ## 快速复现
 
@@ -35,6 +42,8 @@ pip install --break-system-packages numpy pillow imageio-ffmpeg fonttools
 python3 scripts/analyze_ref.py original-720p.mp4   # 1) 复现参考片拆解数据
 python3 scripts/prep_assets.py                     # 2) 关键帧裁切 16:9 + 联络表
 python3 -m render.render_video                     # 3) 出片（2 核 CPU ≈ 5 分钟）
+python3 scripts/make_qc_doc.py out/青冥·伞_40s.mp4 40   # 4) 质检报告
+python3 scripts/make_derived.py out/青冥·伞_40s.mp4     # 5) 海报/联络表/角色卡
 ```
 
 单镜头调试：
