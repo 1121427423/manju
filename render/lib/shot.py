@@ -1,4 +1,5 @@
 """单镜头合成：运镜 + 特效 + 调色，输出一帧 RGB float 数组。"""
+import os
 import numpy as np
 from PIL import Image, ImageFilter
 from .core import (W, H, Cache, np2img, img2np, affine, crop169, ease, blur,
@@ -6,6 +7,8 @@ from .core import (W, H, Cache, np2img, img2np, affine, crop169, ease, blur,
 from . import vfx
 from . import motion as MO
 from .vfx import Rain, Sparks, Embers
+
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # 画布 = 素材原生的 16:9 裁切（不做无谓放大，保证锐度）；zoom=1 即完整取景框
 SCALE = 1.0
@@ -38,7 +41,45 @@ class Shot:
                                  cx=W * 0.5, cy=H * 0.48, power=meta.get("spark_power", 1.0))
         self._spark_acc = 0.0
         self.lightning_t = [0.12, 0.58] if "lightning" in self.vfx else []
+        self._build_morph()
         self._build_layers()
+
+    # ------------------------------------------------------------ 双关键帧
+    def _build_morph(self):
+        """同一镜头的"下一姿势"关键帧：两张同场景图做形态插值。
+
+        单帧再怎么形变，主体也是"被钉住的"；两张一致的关键帧之间插值，
+        角色会真的换姿势 —— 这是静止画布上唯一能做出"连续动作"的办法。
+        """
+        self.morph = None
+        kb = self.m.get("key_b")
+        if not kb:
+            return
+        path = os.path.join(ROOT, "assets", "shots", kb if kb.endswith(".jpg") else kb + ".jpg")
+        if not os.path.exists(path):
+            return
+        b = Image.open(path).convert("RGB").resize(self.canvas.size)
+        sw, sh = 640, int(640 * self.canvas.size[1] / self.canvas.size[0])
+        a_s = np.asarray(self.canvas.convert("RGB").resize((sw, sh)), np.float32)
+        b_s = np.asarray(b.resize((sw, sh)), np.float32)
+        fab = MO.horn_schunck(a_s, b_s, iters=42, alpha=0.7)
+        fba = MO.horn_schunck(b_s, a_s, iters=42, alpha=0.7)
+        self.morph = dict(b=b, fab=fab, fba=fba, sw=sw, sh=sh,
+                          hold=self.m.get("key_hold", 1.0))
+
+    def _morph_at(self, t01):
+        """按时间取形态插值的中间帧（canvas 尺寸）。"""
+        m = self.morph
+        hold = m["hold"]
+        s = min(1.0, max(0.0, t01 / max(1e-6, hold)))
+        s = ease(s, "inout")
+        if s <= 0.001:
+            return self.canvas
+        a_s = np.asarray(self.canvas.convert("RGB").resize((m["sw"], m["sh"])), np.float32)
+        b_s = np.asarray(m["b"].resize((m["sw"], m["sh"])), np.float32)
+        mi = MO.flow_morph(a_s, b_s, m["fab"], m["fba"], s)
+        out = Image.fromarray(np.clip(mi, 0, 255).astype(np.uint8))
+        return out.resize(self.canvas.size, Image.BICUBIC)
 
     # ------------------------------------------------------------ 运动层
     def _build_layers(self):
@@ -233,7 +274,8 @@ class Shot:
     def _base_at(self, t):
         """连续时间 t（帧）上的"相机 + 形变"结果，供快门子帧累积复用。"""
         zoom, pan, rot = self.cam(t)
-        im = affine(self.canvas, self.k * zoom, (pan[0] * self.k, pan[1] * self.k), rot,
+        base = self._morph_at(t / max(1e-6, self.n - 1)) if self.morph else self.canvas
+        im = affine(base, self.k * zoom, (pan[0] * self.k, pan[1] * self.k), rot,
                     out_size=(W, H))
         img = img2np(im)
         img = self._layers(img, t, pan)

@@ -79,8 +79,11 @@ ROBE_SPEC = {1: (54, -16), 2: (60, -30), 3: (46, -12), 4: (70, 0), 6: (26, -8),
 MOTION = {}
 for sid, (sky, mid, gnd, extra, sh) in MOTION_SPEC.items():
     warps = []
+    # 天空层位移收敛到 45%：再快就会在羽化边留下可见的"涂抹带"
+    sky = tuple(v * 0.45 for v in sky)
+    gnd = tuple(v * 0.60 for v in gnd)
     if any(abs(v) > 3 for v in sky):
-        warps.append(L(SKY, 5.0, sky, 1.3, 1.2))
+        warps.append(L(SKY, 5.0, sky, 1.3, 1.2, feather=0.16))
     if any(abs(v) > 3 for v in mid):
         warps.append(L(MID, 4.0, mid, 1.0, 1.0, feather=0.14))
     if any(abs(v) > 3 for v in gnd):
