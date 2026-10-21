@@ -1,22 +1,12 @@
 [
  {
-  "file": "original-720p.mp4",
-  "n": 468,
-  "fps_probe": 12,
-  "global_px": 2.24,
-  "local_px": 35.0,
-  "local_mean": 37.67,
-  "local_p90": 68.0,
-  "motion_ratio": 3.21
- },
- {
-  "file": "motion_test.mp4",
-  "n": 43,
+  "file": "v3.mp4",
+  "n": 26,
   "fps_probe": 12,
   "global_px": 1.0,
-  "local_px": 21.5,
-  "local_mean": 22.26,
-  "local_p90": 32.9,
-  "motion_ratio": 8.26
+  "local_px": 25.0,
+  "local_mean": 28.4,
+  "local_p90": 35.6,
+  "motion_ratio": 7.15
  }
 ]
