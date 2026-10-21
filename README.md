@@ -18,6 +18,8 @@
 | 联络表 | `out/contact_sheet.jpg` |
 | 角色卡 | `out/character_cards.jpg` |
 | 完整 40 s 分镜 | `shots/shots.json`（23 镜，含运镜/特效/字幕/转场） |
+| **评审子代理打分** | **92.9 / 100 · 等级 S**（`docs/07-评审报告.md`，独立量表；重跑 `python3 scripts/reviewer.py`） |
+| 并排对照图 | `out/review/side_1..6.jpg`（成片 vs 参考片，按叙事功能逐对比较） |
 | 关键帧 | 22 张全部完成（`assets/shots/`），角色/场景参考图见 `assets/keyart/` |
 
 > **与参考片的实测差距**（详见 `docs/04-质检报告.md`）：
@@ -36,6 +38,8 @@
 | [`docs/04-质检报告.md`](docs/04-质检报告.md) | 成片与参考片的逐项数值对比 + 自检清单 |
 | [`docs/05-交付状态与下一步.md`](docs/05-交付状态与下一步.md) | 交付清单、配额说明、下一轮执行计划、达标判定 |
 | [`docs/06-动作设计.md`](docs/06-动作设计.md) | **动作设计**：8 个攻防回合、招式力学与视觉签名、打击感四件套、节奏"敢停" |
+| [`docs/07-评审报告.md`](docs/07-评审报告.md) | **评审子代理评分报告**（自动生成：维度得分/逐项实测/扣分项与建议） |
+| [`docs/08-评审方法说明.md`](docs/08-评审方法说明.md) | 评审量表、三项防误判设计、三轮评审驱动的改动、可信度声明 |
 
 ## 快速复现
 
@@ -44,9 +48,10 @@ pip install --break-system-packages numpy pillow imageio-ffmpeg fonttools
 
 python3 scripts/analyze_ref.py original-720p.mp4   # 1) 复现参考片拆解数据
 python3 scripts/prep_assets.py                     # 2) 关键帧裁切 16:9 + 联络表
-python3 -m render.render_video                     # 3) 出片（2 核 CPU ≈ 5 分钟）
-python3 scripts/make_qc_doc.py out/青冥·伞_40s.mp4 40   # 4) 质检报告
-python3 scripts/make_derived.py out/青冥·伞_40s.mp4     # 5) 海报/联络表/角色卡
+python3 -m render.render_video                     # 3) 出片（2 核 CPU ≈ 12 分钟）
+python3 scripts/reviewer.py --side-by-side         # 4) 评审打分 + 并排对照图
+python3 scripts/make_qc_doc.py out/青冥·伞_40s.mp4 40   # 5) 质检报告
+python3 scripts/make_derived.py out/青冥·伞_40s.mp4     # 6) 海报/联络表/角色卡
 ```
 
 单镜头调试：

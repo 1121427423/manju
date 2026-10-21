@@ -2,8 +2,8 @@
  "rubric": "漫剧打斗短片评审量表 v1.0",
  "candidate": "青冥·伞_40s.mp4",
  "reference": "original-720p.mp4",
- "total": 89.8,
- "grade": "A",
+ "total": 92.9,
+ "grade": "S",
  "dimensions": [
   {
    "key": "technical",
@@ -16,14 +16,14 @@
    "key": "tone",
    "name": "影调与色彩",
    "weight": 20,
-   "score": 82.72,
+   "score": 85.08,
    "pending": 0
   },
   {
    "key": "rhythm",
    "name": "节奏与剪辑",
    "weight": 20,
-   "score": 81.06,
+   "score": 94.08,
    "pending": 0
   },
   {
@@ -77,9 +77,9 @@
    "metric": "luma_mean",
    "name": "亮度均值",
    "kind": "similarity",
-   "value": 69.031,
+   "value": 67.047,
    "ref": 71.589,
-   "score": 80.801
+   "score": 68.488
   },
   {
    "metric": "luma_p5",
@@ -93,39 +93,39 @@
    "metric": "luma_p95",
    "name": "高光 p95",
    "kind": "similarity",
-   "value": 186.667,
+   "value": 174.333,
    "ref": 174.667,
-   "score": 63.031
+   "score": 98.726
   },
   {
    "metric": "sat",
    "name": "饱和度",
    "kind": "similarity",
-   "value": 37.912,
+   "value": 36.446,
    "ref": 38.882,
-   "score": 91.563
+   "score": 80.136
   },
   {
    "metric": "teal",
    "name": "青绿偏移",
    "kind": "similarity",
-   "value": 66.976,
+   "value": 64.587,
    "ref": 63.393,
-   "score": 84.969
+   "score": 94.72
   },
   {
    "metric": "gold",
    "name": "金色偏移",
    "kind": "similarity",
-   "value": -35.98,
+   "value": -35.155,
    "ref": -41.949,
-   "score": 76.238
+   "score": 73.432
   },
   {
    "metric": "hi_clip",
    "name": "高光溢出比例",
    "kind": "band",
-   "value": 0.002,
+   "value": 0.0,
    "ref": 0.0,
    "score": 100.0
   },
@@ -133,7 +133,7 @@
    "metric": "lo_clip",
    "name": "死黑比例",
    "kind": "band",
-   "value": 0.065,
+   "value": 0.067,
    "ref": 0.045,
    "score": 100.0
   },
@@ -141,23 +141,23 @@
    "metric": "cut_count",
    "name": "切点总数",
    "kind": "similarity",
-   "value": 15,
+   "value": 14,
    "ref": 13,
-   "score": 75.148
+   "score": 86.688
   },
   {
    "metric": "asl",
    "name": "平均镜头长",
    "kind": "similarity",
-   "value": 2.667,
+   "value": 2.857,
    "ref": 2.999,
-   "score": 77.428
+   "score": 89.646
   },
   {
    "metric": "rhythm_corr",
    "name": "节奏曲线相似度",
    "kind": "target",
-   "value": 0.703,
+   "value": 0.735,
    "ref": null,
    "score": 100.0
   },
@@ -165,15 +165,15 @@
    "metric": "intro_cuts",
    "name": "首幕切点密度",
    "kind": "similarity",
-   "value": 3,
+   "value": 2,
    "ref": 2,
-   "score": 71.653
+   "score": 100.0
   },
   {
    "metric": "sharpness_rel",
    "name": "锐度(只罚过软)",
    "kind": "band",
-   "value": 5.086,
+   "value": 4.442,
    "ref": null,
    "score": 100.0
   },
@@ -181,7 +181,7 @@
    "metric": "noise_rel",
    "name": "噪点(相对参考)",
    "kind": "band",
-   "value": 1.226,
+   "value": 1.203,
    "ref": null,
    "score": 100.0
   },
@@ -189,7 +189,7 @@
    "metric": "flicker_rel",
    "name": "亮度闪烁(相对参考)",
    "kind": "band",
-   "value": 0.871,
+   "value": 0.743,
    "ref": null,
    "score": 100.0
   },
@@ -205,7 +205,7 @@
    "metric": "worst_shot_exp",
    "name": "最差镜头过曝",
    "kind": "band",
-   "value": 0.025,
+   "value": 0.0,
    "ref": null,
    "score": 100.0
   },
@@ -245,7 +245,7 @@
    "metric": "onset_hit",
    "name": "音效与切点对齐率",
    "kind": "band",
-   "value": 0.867,
+   "value": 0.857,
    "ref": null,
    "score": 100.0
   },
@@ -294,28 +294,28 @@
   "duration": 40.0,
   "resolution_ok": 1.0,
   "audio_ok": 1.0,
-  "luma_mean": 69.03076934814453,
+  "luma_mean": 67.04683685302734,
   "luma_p5": 6.0,
-  "luma_p95": 186.6666717529297,
-  "sat": 37.91215133666992,
-  "teal": 66.97647857666016,
-  "gold": -35.98005676269531,
-  "hi_clip": 0.0023369791666666665,
-  "lo_clip": 0.06535967881944445,
-  "cut_count": 15,
-  "asl": 2.6666666666666665,
-  "rhythm_corr": 0.7034331299907197,
-  "intro_cuts": 3,
-  "sharpness_rel": 5.085981878896393,
-  "noise_rel": 1.2257088840274148,
-  "flicker_rel": 0.8710291837572017,
+  "luma_p95": 174.3333282470703,
+  "sat": 36.44580841064453,
+  "teal": 64.5865249633789,
+  "gold": -35.15487289428711,
+  "hi_clip": 8.333333333333334e-06,
+  "lo_clip": 0.06654652777777778,
+  "cut_count": 14,
+  "asl": 2.857142857142857,
+  "rhythm_corr": 0.7353594205625626,
+  "intro_cuts": 2,
+  "sharpness_rel": 4.442135027551758,
+  "noise_rel": 1.2025407021679506,
+  "flicker_rel": 0.7431778417891518,
   "border_px": 0.0,
-  "worst_shot_exp": 0.025086805555555557,
+  "worst_shot_exp": 0.0003579059829059829,
   "rms_db": -16.123540611367513,
   "peak_db": -1.9682051865250425,
   "crest_db": 14.155335413947537,
   "centroid_khz": 3.666765641742453,
-  "onset_hit": 0.8666666666666667
+  "onset_hit": 0.8571428571428571
  },
  "reference_metrics": {
   "luma_mean": 71.58895111083984,
@@ -340,9 +340,9 @@
    "art": "A01_feet",
    "t0": 0.0,
    "t1": 3.0,
-   "hi_clip": 0.003779380341880342,
-   "luma": 90.93042755126953,
-   "sharp": 2819.705810546875
+   "hi_clip": 0.0,
+   "luma": 87.02191162109375,
+   "sharp": 2213.758544921875
   },
   {
    "id": 2,
@@ -350,8 +350,8 @@
    "t0": 3.0,
    "t1": 5.6,
    "hi_clip": 0.0,
-   "luma": 69.9979476928711,
-   "sharp": 786.21044921875
+   "luma": 68.73944091796875,
+   "sharp": 683.9981689453125
   },
   {
    "id": 3,
@@ -359,8 +359,8 @@
    "t0": 5.6,
    "t1": 7.6,
    "hi_clip": 0.0,
-   "luma": 49.97764587402344,
-   "sharp": 398.7143859863281
+   "luma": 49.62319564819336,
+   "sharp": 381.21527099609375
   },
   {
    "id": 4,
@@ -368,26 +368,26 @@
    "t0": 7.6,
    "t1": 9.2,
    "hi_clip": 0.0,
-   "luma": 65.75460815429688,
-   "sharp": 1018.066650390625
+   "luma": 65.30191040039062,
+   "sharp": 961.6370239257812
   },
   {
    "id": 5,
    "art": "A05_tower",
    "t0": 9.2,
    "t1": 11.0,
-   "hi_clip": 2.8044871794871795e-05,
-   "luma": 64.60746002197266,
-   "sharp": 603.6801147460938
+   "hi_clip": 0.0,
+   "luma": 63.340885162353516,
+   "sharp": 540.1974487304688
   },
   {
    "id": 6,
    "art": "A06_halfface",
    "t0": 11.0,
    "t1": 12.6,
-   "hi_clip": 0.0002938034188034188,
-   "luma": 60.52200698852539,
-   "sharp": 758.3662109375
+   "hi_clip": 0.0,
+   "luma": 59.65648651123047,
+   "sharp": 714.7623291015625
   },
   {
    "id": 7,
@@ -395,17 +395,17 @@
    "t0": 12.6,
    "t1": 15.6,
    "hi_clip": 0.0,
-   "luma": 63.76873016357422,
-   "sharp": 1052.56591796875
+   "luma": 62.7018928527832,
+   "sharp": 965.6715698242188
   },
   {
    "id": 8,
    "art": "A08_swordswoman",
    "t0": 15.6,
    "t1": 17.0,
-   "hi_clip": 0.0006223290598290598,
-   "luma": 92.51025390625,
-   "sharp": 458.5131530761719
+   "hi_clip": 0.0,
+   "luma": 90.55987548828125,
+   "sharp": 379.2536926269531
   },
   {
    "id": 9,
@@ -413,53 +413,53 @@
    "t0": 17.0,
    "t1": 18.2,
    "hi_clip": 0.0,
-   "luma": 68.34288787841797,
-   "sharp": 489.7170715332031
+   "luma": 67.59139251708984,
+   "sharp": 462.8275146484375
   },
   {
    "id": 10,
    "art": "A10_charge",
    "t0": 18.2,
    "t1": 19.4,
-   "hi_clip": 0.002140758547008547,
-   "luma": 99.25386810302734,
-   "sharp": 1329.252197265625
+   "hi_clip": 0.0,
+   "luma": 95.58617401123047,
+   "sharp": 1103.452880859375
   },
   {
    "id": 11,
    "art": "A11_impact",
    "t0": 19.4,
    "t1": 20.2,
-   "hi_clip": 0.025086805555555557,
-   "luma": 73.63470458984375,
-   "sharp": 829.9843139648438
+   "hi_clip": 0.0,
+   "luma": 70.13068389892578,
+   "sharp": 658.8252563476562
   },
   {
    "id": 12,
    "art": "A12_shield",
    "t0": 20.2,
    "t1": 21.4,
-   "hi_clip": 1.3354700854700855e-06,
-   "luma": 72.61470031738281,
-   "sharp": 601.677490234375
+   "hi_clip": 0.0,
+   "luma": 71.16092681884766,
+   "sharp": 477.38873291015625
   },
   {
    "id": 13,
    "art": "A13_sweep",
    "t0": 21.4,
    "t1": 22.4,
-   "hi_clip": 0.01467681623931624,
-   "luma": 83.65267181396484,
-   "sharp": 962.2811279296875
+   "hi_clip": 0.0,
+   "luma": 79.0218505859375,
+   "sharp": 858.790283203125
   },
   {
    "id": 14,
    "art": "A14_corrupt",
    "t0": 22.4,
    "t1": 23.6,
-   "hi_clip": 2.8044871794871795e-05,
-   "luma": 69.84797668457031,
-   "sharp": 748.2783813476562
+   "hi_clip": 0.0,
+   "luma": 67.95281982421875,
+   "sharp": 618.6497802734375
   },
   {
    "id": 15,
@@ -467,26 +467,26 @@
    "t0": 23.6,
    "t1": 24.8,
    "hi_clip": 0.0,
-   "luma": 66.73719787597656,
-   "sharp": 591.617431640625
+   "luma": 65.26447296142578,
+   "sharp": 535.7861328125
   },
   {
    "id": 16,
    "art": "A16_ice",
    "t0": 24.8,
    "t1": 26.2,
-   "hi_clip": 0.0038261217948717947,
-   "luma": 87.6233139038086,
-   "sharp": 590.7437133789062
+   "hi_clip": 0.0,
+   "luma": 85.4144058227539,
+   "sharp": 547.7682495117188
   },
   {
    "id": 17,
    "art": "A17_clash",
    "t0": 26.2,
    "t1": 27.8,
-   "hi_clip": 0.005861378205128205,
-   "luma": 64.48370361328125,
-   "sharp": 901.4190063476562
+   "hi_clip": 0.0,
+   "luma": 63.52334213256836,
+   "sharp": 894.6619873046875
   },
   {
    "id": 18,
@@ -494,44 +494,44 @@
    "t0": 27.8,
    "t1": 29.4,
    "hi_clip": 0.0,
-   "luma": 135.33872985839844,
-   "sharp": 167.0579833984375
+   "luma": 131.1728057861328,
+   "sharp": 161.99644470214844
   },
   {
    "id": 19,
    "art": "A19_rift",
    "t0": 29.4,
    "t1": 31.2,
-   "hi_clip": 0.00036992521367521365,
-   "luma": 52.803504943847656,
-   "sharp": 947.7093505859375
+   "hi_clip": 0.0,
+   "luma": 51.582218170166016,
+   "sharp": 799.9600219726562
   },
   {
    "id": 20,
    "art": "A20_demon",
    "t0": 31.2,
    "t1": 33.0,
-   "hi_clip": 0.0008346688034188034,
-   "luma": 88.36296844482422,
-   "sharp": 428.0614318847656
+   "hi_clip": 0.0,
+   "luma": 85.43109893798828,
+   "sharp": 347.1884765625
   },
   {
    "id": 21,
    "art": "A21_hand_slam",
    "t0": 33.0,
    "t1": 34.6,
-   "hi_clip": 0.0004407051282051282,
-   "luma": 66.94862365722656,
-   "sharp": 1443.715576171875
+   "hi_clip": 0.0,
+   "luma": 64.8916015625,
+   "sharp": 1275.3702392578125
   },
   {
    "id": 22,
    "art": "A22_gold_eye",
    "t0": 34.6,
    "t1": 36.4,
-   "hi_clip": 6.41025641025641e-05,
-   "luma": 49.85307693481445,
-   "sharp": 1477.738525390625
+   "hi_clip": 0.0,
+   "luma": 48.76646423339844,
+   "sharp": 1189.9168701171875
   },
   {
    "id": 23,
@@ -545,9 +545,9 @@
  ],
  "findings": [
   {
-   "severity": "低",
+   "severity": "中",
    "area": "影调与色彩",
-   "issue": "亮度均值 = 69.03（参考 71.59）",
+   "issue": "亮度均值 = 67.05（参考 71.59）",
    "fix": "见 docs/04 与 docs/06 的对应章节，按偏差方向调参"
   },
   {
@@ -557,33 +557,15 @@
    "fix": "见 docs/04 与 docs/06 的对应章节，按偏差方向调参"
   },
   {
-   "severity": "中",
-   "area": "影调与色彩",
-   "issue": "高光 p95 = 186.67（参考 174.67）",
-   "fix": "见 docs/04 与 docs/06 的对应章节，按偏差方向调参"
-  },
-  {
    "severity": "低",
    "area": "影调与色彩",
-   "issue": "金色偏移 = -35.98（参考 -41.95）",
+   "issue": "饱和度 = 36.45（参考 38.88）",
    "fix": "见 docs/04 与 docs/06 的对应章节，按偏差方向调参"
   },
   {
    "severity": "低",
-   "area": "节奏与剪辑",
-   "issue": "切点总数 = 15（参考 13）",
-   "fix": "见 docs/04 与 docs/06 的对应章节，按偏差方向调参"
-  },
-  {
-   "severity": "低",
-   "area": "节奏与剪辑",
-   "issue": "平均镜头长 = 2.67（参考 3.0）",
-   "fix": "见 docs/04 与 docs/06 的对应章节，按偏差方向调参"
-  },
-  {
-   "severity": "低",
-   "area": "节奏与剪辑",
-   "issue": "首幕切点密度 = 3（参考 2）",
+   "area": "影调与色彩",
+   "issue": "金色偏移 = -35.15（参考 -41.95）",
    "fix": "见 docs/04 与 docs/06 的对应章节，按偏差方向调参"
   },
   {
@@ -594,7 +576,7 @@
   }
  ],
  "probe": {
-  "candidate": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/user/manju/out/青冥·伞_40s.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Duration: 00:00:40.00, start: 0.000000, bitrate: 5017 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 4816 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s (default)\n      Metadata:\n        handler_name    : SoundHandler\n        vendor_id       : [0][0][0][0]\nAt least one output file must be specified\n",
+  "candidate": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/user/manju/out/青冥·伞_40s.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Duration: 00:00:40.00, start: 0.000000, bitrate: 5043 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 4842 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s (default)\n      Metadata:\n        handler_name    : SoundHandler\n        vendor_id       : [0][0][0][0]\nAt least one output file must be specified\n",
   "reference_duration": 38.99
  },
  "visual_comments": {
