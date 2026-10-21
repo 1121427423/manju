@@ -165,8 +165,9 @@ class Shot:
         img = img2np(im)
         # 镜头内的轻微曝光呼吸（让静帧"活"起来）
         fl = 1.0 + 0.012 * np.sin(i / self.fps * 2.3 + self.m["id"])
-        img = img * fl
+        img = img * fl * self.m.get("exp", 1.0)
         img = self.fx(img, i)
+        img = img * self.m.get("exp_post", 1.0)
         return img
 
     # gradient（黑场/白场）由主循环统一处理

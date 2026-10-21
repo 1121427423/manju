@@ -461,16 +461,21 @@
    "rot": 0.0,
    "shake": 4.0,
    "vfx": [
-    "ice",
-    "flash_impact",
-    "grain"
+    "fog",
+    "dust",
+    "embers",
+    "grain",
+    "flash_impact"
    ],
    "caption": null,
    "trans": "cut",
    "lens": "全景",
    "desc": "冰晶阵爆发，冰锥成林炸出，霜雾贴地",
    "move": "快速拉开",
-   "sound": "玻璃碎裂 + 低鸣"
+   "sound": "玻璃碎裂 + 低鸣",
+   "flash_power": 0.3,
+   "flash_t": 0.55,
+   "exp": 0.78
   },
   {
    "id": 17,
@@ -489,10 +494,10 @@
    "shake": 6.0,
    "vfx": [
     "sparks",
-    "blade",
-    "orb",
+    "fog",
     "grain",
-    "shake"
+    "shake",
+    "flash_impact"
    ],
    "caption": null,
    "trans": "cut",
@@ -501,7 +506,10 @@
    "move": "推 + 强抖动",
    "sound": "能量嗡鸣",
    "orb_gain": 0.45,
-   "spark_n": 80
+   "spark_n": 70,
+   "flash_power": 0.32,
+   "flash_t": 0.68,
+   "exp": 0.62
   },
   {
    "id": 18,
