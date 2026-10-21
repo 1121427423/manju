@@ -4,3 +4,4 @@ __pycache__/
 render_tmp/
 *.raw
 assets/keyart/png/
+assets/shots/*_raw.png
