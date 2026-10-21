@@ -28,7 +28,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "fadein"
+   "trans": "fadein",
+   "lens": "极近景·低角",
+   "desc": "赤足踩进石阵积水，绿雾从脚踝往上爬；雨丝、水波扩散",
+   "move": "缓慢推近 + 水波扩散",
+   "sound": "雨、水滴、drone 起"
   },
   {
    "id": 2,
@@ -52,7 +56,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "dissolve"
+   "trans": "dissolve",
+   "lens": "中近景·微俯",
+   "desc": "箓雾如活藤爬上小腿，裙裾化成绿焰飘散",
+   "move": "轻微升摇 + 雾向上蔓延",
+   "sound": "雾、绿烬、低频加厚"
   },
   {
    "id": 3,
@@ -89,7 +97,11 @@
      0.5,
      0.22
     ]
-   ]
+   ],
+   "lens": "全景·仰",
+   "desc": "玄罗坐于断石，罗盘伞在头顶旋转，金铃垂落",
+   "move": "环绕 + 缓升",
+   "sound": "金铃 3 声、弦乐"
   },
   {
    "id": 4,
@@ -126,7 +138,11 @@
      0.72,
      0.58
     ]
-   ]
+   ],
+   "lens": "俯视·顶拍",
+   "desc": "伞面卦象旋转，金穗甩出画面，绿焰从伞骨溢出",
+   "move": "俯拍旋转（旋涡）",
+   "sound": "风、铃、金属泛音"
   },
   {
    "id": 5,
@@ -150,7 +166,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "dissolve"
+   "trans": "dissolve",
+   "lens": "大远景·低地平",
+   "desc": "闪电劈落，远塔光柱冲天，乌云自内发光",
+   "move": "缓慢下摇",
+   "sound": "雷（两次）"
   },
   {
    "id": 6,
@@ -173,7 +193,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "dissolve"
+   "trans": "dissolve",
+   "lens": "中近景·低角",
+   "desc": "伞檐压住上半张脸，只露下颌与含着的笑",
+   "move": "极慢推",
+   "sound": "心跳、铃余响"
   },
   {
    "id": 7,
@@ -196,7 +220,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "dissolve"
+   "trans": "dissolve",
+   "lens": "极特写·微距",
+   "desc": "青绿竖瞳收缩，睫毛挂雨，角膜里有塔与光柱的倒影",
+   "move": "微推 + 瞳缩",
+   "sound": "高频耳鸣"
   },
   {
    "id": 8,
@@ -220,7 +248,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "全景·低角",
+   "desc": "照雪踏水入场，长剑低垂，白衣是画面唯一亮色",
+   "move": "横向跟拍",
+   "sound": "水花、剑鸣（远）"
   },
   {
    "id": 9,
@@ -243,7 +275,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "远景·对称",
+   "desc": "两人隔 8 米对峙，雨幕是中线；白与墨绿对切",
+   "move": "近乎静止 + 微抖",
+   "sound": "音乐骤停 0.3s"
   },
   {
    "id": 10,
@@ -267,7 +303,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "中景·跟拍",
+   "desc": "照雪直线冲刺，水被劈成两半，剑拖出光尾",
+   "move": "强动态模糊跟拍",
+   "sound": "冲刺风声"
   },
   {
    "id": 11,
@@ -291,7 +331,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "近景·冲击",
+   "desc": "剑与伞骨相撞，火花四溅，铜沿被烧红",
+   "move": "冲击变焦 + 抖动",
+   "sound": "撞击（重音）"
   },
   {
    "id": 12,
@@ -314,7 +358,11 @@
     "grain"
    ],
    "caption": "可伞外，是天。",
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "中景·仰",
+   "desc": "罗盘张开成盾，十二根伞骨锁死，卦象亮起",
+   "move": "缓推 + 机械展开",
+   "sound": "金属开合、铃"
   },
   {
    "id": 13,
@@ -337,7 +385,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "中景·横摇",
+   "desc": "剑光横扫，金色光刃切开雨幕，雨滴汽化",
+   "move": "快速横摇 + 拖影",
+   "sound": "剑气尖啸"
   },
   {
    "id": 14,
@@ -360,7 +412,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "近景",
+   "desc": "绿光沿血管在照雪胸口蔓延，她低头看伤",
+   "move": "手持微晃 + 抽帧",
+   "sound": "心跳、耳膜压"
   },
   {
    "id": 15,
@@ -383,7 +439,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "全景·仰",
+   "desc": "照雪跃起穿过石柱，衣袂铺满画面",
+   "move": "垂直上摇",
+   "sound": "破空、衣料"
   },
   {
    "id": 16,
@@ -406,7 +466,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "全景",
+   "desc": "冰晶阵爆发，冰锥成林炸出，霜雾贴地",
+   "move": "快速拉开",
+   "sound": "玻璃碎裂 + 低鸣"
   },
   {
    "id": 17,
@@ -431,7 +495,11 @@
     "shake"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "中景",
+   "desc": "绿光球 vs 剑光正面对撞，碎冰悬空环绕",
+   "move": "推 + 强抖动",
+   "sound": "能量嗡鸣"
   },
   {
    "id": 18,
@@ -453,7 +521,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "全屏",
+   "desc": "白闪吞掉画面，只剩两道剪影与冲击环",
+   "move": "2 帧白闪后急速拉远",
+   "sound": "静音 0.2s → 爆响"
   },
   {
    "id": 19,
@@ -477,7 +549,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "近景·仰",
+   "desc": "空中撕开裂缝，一只黑骨巨手探出，指节咒纹渗绿焰",
+   "move": "缓推 + 边缘暗化",
+   "sound": "撕布、空间低频"
   },
   {
    "id": 20,
@@ -501,7 +577,11 @@
     "grain"
    ],
    "caption": "天，也不是尽头。",
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "大远景·仰视",
+   "desc": "云中浮现骷髅面具魔神，空洞眼燃起绿火",
+   "move": "极慢推 + 云涌",
+   "sound": "骨骼摩擦、轰鸣"
   },
   {
    "id": 21,
@@ -525,7 +605,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "全景·低角",
+   "desc": "巨手砸下撑住地面，石阵崩裂，绿雾吞没一切",
+   "move": "强抖动 + 下压",
+   "sound": "巨响、碎石"
   },
   {
    "id": 22,
@@ -548,7 +632,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "cut",
+   "lens": "极特写·微距",
+   "desc": "黑暗中一只金色竖瞳睁开，瞳孔收缩",
+   "move": "微推 + 瞳缩",
+   "sound": "耳鸣、心跳停"
   },
   {
    "id": 23,
@@ -570,7 +658,11 @@
     "grain"
    ],
    "caption": null,
-   "trans": "fadeout"
+   "trans": "fadeout",
+   "lens": "字幕卡",
+   "desc": "虚化场景 + 旋转金环 + 片名《青冥·伞》",
+   "move": "标题缓慢浮现 + 收黑",
+   "sound": "drone 收、铃一声"
   }
  ]
 }
