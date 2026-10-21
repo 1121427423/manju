@@ -4,6 +4,7 @@ from PIL import Image, ImageFilter
 from .core import (W, H, Cache, np2img, img2np, affine, crop169, ease, blur,
                    TEAL_GLOW, GOLD, GOLD_HOT, COLD_WHITE, radial_mask)
 from . import vfx
+from . import motion as MO
 from .vfx import Rain, Sparks, Embers
 
 # 画布 = 素材原生的 16:9 裁切（不做无谓放大，保证锐度）；zoom=1 即完整取景框
@@ -37,10 +38,32 @@ class Shot:
                                  cx=W * 0.5, cy=H * 0.48, power=meta.get("spark_power", 1.0))
         self._spark_acc = 0.0
         self.lightning_t = [0.12, 0.58] if "lightning" in self.vfx else []
+        self._build_layers()
+
+    # ------------------------------------------------------------ 运动层
+    def _build_layers(self):
+        """把"运动"写进画面内部：分层视差 + 局部有机形变。
+
+        - 视差层：远/中/近三层以不同倍率跟随相机 → 世界是立体的，不是一张皮。
+        - 形变层：雾带、衣袂、能量区各自随时间流动 → 主体周围真的在动。
+        """
+        m = self.m
+        noise = self.cache.fog[:256, :256]
+        self.parallax = m.get("parallax", [])          # [[y0,y1,speed], ...]
+        self.warps = []
+        for spec in m.get("warps", []):
+            kind = spec.get("kind", "band")
+            if kind == "band":
+                mask = MO.soft_band(H, W, spec.get("y0", 0.3), spec.get("y1", 1.0),
+                                    spec.get("x0", 0.0), spec.get("x1", 1.0),
+                                    spec.get("feather", 0.18))
+            else:
+                mask = np.ones((H, W), np.float32)
+            self.warps.append(dict(mask=mask, noise=noise, **spec))
 
     # ---------------------------------------------------------------- 运镜
     def cam(self, i):
-        m, t = self.m, i / max(1, self.n - 1)
+        m, t = self.m, min(1.0, max(0.0, i / max(1, self.n - 1)))
         e = ease(t, m.get("ease", "inout"))
         z0, z1 = m["zoom"]
         # 运镜幅度 ×1.35：参考片的帧差 ≈21，静帧路线需要更强的运动量才不显"僵"
@@ -166,12 +189,52 @@ class Shot:
             img = vfx.whiteout(img, k)
         return img
 
+    # ---------------------------------------------------------------- 运动层合成
+    def _flow(self, tt, pan):
+        """把视差与局部形变合成**一个**速度场，只做一次重采样。"""
+        flow = np.zeros((H, W, 2), np.float32)
+        for (y0, y1, sp) in self.parallax:
+            band = MO.soft_band(H, W, y0, y1, feather=0.22)
+            dx = -pan[0] * (sp - 1.0) * 0.55
+            dy = -pan[1] * (sp - 1.0) * 0.55
+            flow[..., 0] += band * dx
+            flow[..., 1] += band * dy
+        for w in self.warps:
+            amp = w.get("amp", 7.0) * (0.72 + 0.28 * np.sin(tt * w.get("rate", 0.9) + w.get("phase", 0)))
+            drift = w.get("drift", (0, 0))
+            f = MO.organic_flow(H, W, w["noise"], amp=amp, scale=w.get("scale", 1.0),
+                                t=tt * w.get("speed", 1.0),
+                                drift=(drift[0] * tt, drift[1] * tt))
+            m = w["mask"][..., None]
+            flow += f * m
+        return flow
+
+    def _layers(self, img, i, pan=None):
+        tt = i / self.fps
+        if not self.parallax and not self.warps:
+            return img
+        flow = self._flow(tt, pan if pan is not None else self._pan_now)
+        return MO.warp(img, flow)
+
     # ---------------------------------------------------------------- 一帧
-    def frame(self, i):
-        zoom, pan, rot = self.cam(i)
+    def _base_at(self, t):
+        """连续时间 t（帧）上的"相机 + 形变"结果，供快门子帧累积复用。"""
+        zoom, pan, rot = self.cam(t)
         im = affine(self.canvas, self.k * zoom, (pan[0] * self.k, pan[1] * self.k), rot,
                     out_size=(W, H))
         img = img2np(im)
+        img = self._layers(img, t, pan)
+        return img
+
+    def frame(self, i):
+        sh = int(self.m.get("shutter", 2))
+        if sh <= 1:
+            img = self._base_at(i)
+        else:
+            acc = 0.0
+            for k in range(sh):
+                acc = acc + self._base_at(i + (k + 0.5) / sh - 0.5)
+            img = acc / sh
         # 镜头内的轻微曝光呼吸（让静帧"活"起来）
         fl = 1.0 + 0.012 * np.sin(i / self.fps * 2.3 + self.m["id"])
         img = img * fl * self.m.get("exp", 1.0)

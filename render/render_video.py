@@ -188,6 +188,11 @@ def main():
 
     cfg = json.load(open(os.path.join(ROOT, "shots", "shots.json")))
     metas = cfg["shots"]
+    mpath = os.path.join(ROOT, "shots", "motion.json")
+    if os.path.exists(mpath):
+        mtab = json.load(open(mpath, encoding="utf-8"))
+        for m in metas:
+            m.update(mtab.get(str(m["id"]), {}))
     only = set(int(x) for x in args.only.split(",") if x.strip()) if args.only else None
     cache = Cache(W, H)
     rng = np.random.default_rng(2026)
