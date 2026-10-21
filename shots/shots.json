@@ -72,7 +72,6 @@
    "vfx": [
     "rain",
     "fog",
-    "bells",
     "grain"
    ],
    "caption": "她说，伞下无雨。",
@@ -110,7 +109,6 @@
    "vfx": [
     "fog",
     "swirl",
-    "bells",
     "grain"
    ],
    "caption": null,
@@ -313,7 +311,6 @@
    "vfx": [
     "fog",
     "swirl",
-    "bells",
     "grain"
    ],
    "caption": "可伞外，是天。",
