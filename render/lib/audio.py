@@ -367,9 +367,12 @@ def build(dur=DUR):
 
     # 14) 混响 + 母带
     buf = reverb(buf, decay=2.2, wet=0.22)
-    # 高频轻微柔化（参考片偏暗的听感）
+    # 高频搁架：参考片频谱重心 ≈3.2kHz，本片此前 4.3kHz（偏亮、易疲劳）
     for ch in range(2):
-        buf[ch] = lowpass_fast(buf[ch], 16000)
+        b = buf[ch]
+        buf[ch] = b - 0.34 * lowpass_fast(b, 3200) + 0.34 * lowpass_fast(b, 3200) * 0.0 \
+            if False else (0.66 * b) + 0.34 * lowpass_fast(b, 3400)
+        buf[ch] = lowpass_fast(buf[ch], 15000)
     # 动态压缩（软膝 + tanh）
     rms = np.sqrt((buf ** 2).mean())
     buf *= 0.145 / (rms + 1e-9)

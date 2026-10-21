@@ -1,0 +1,265 @@
+{
+ "_meta": {
+  "name": "漫剧打斗短片评审量表 v1.0",
+  "principle": "评审子代理独立实现，不复用渲染端任何指标代码；所有阈值写在这里，改量表即改结论。",
+  "reference": "original-720p.mp4",
+  "grades": {
+   "S": 90,
+   "A": 80,
+   "B": 70,
+   "C": 60
+  },
+  "note": "similarity=与参考片越接近越好；band=落在区间内满分，越界线性扣分；target=绝对质量目标；manual=视觉评审人工打分",
+  "version": "1.1",
+  "changes": "v1.1: 锐度改为单侧判定(只罚过软)；节奏改归一化密度曲线；白闪计入逐镜过曝检查"
+ },
+ "dimensions": [
+  {
+   "key": "technical",
+   "name": "技术规范",
+   "weight": 10,
+   "items": [
+    {
+     "metric": "duration",
+     "name": "时长",
+     "kind": "band",
+     "lo": 39.0,
+     "hi": 41.0,
+     "hard_lo": 37.0,
+     "hard_hi": 43.0
+    },
+    {
+     "metric": "resolution_ok",
+     "name": "分辨率/帧率/编码",
+     "kind": "target",
+     "pass": 1
+    },
+    {
+     "metric": "audio_ok",
+     "name": "音轨存在且为立体声",
+     "kind": "target",
+     "pass": 1
+    }
+   ]
+  },
+  {
+   "key": "tone",
+   "name": "影调与色彩",
+   "weight": 20,
+   "items": [
+    {
+     "metric": "luma_mean",
+     "name": "亮度均值",
+     "kind": "similarity",
+     "tol": 12.0
+    },
+    {
+     "metric": "luma_p5",
+     "name": "暗部 p5",
+     "kind": "similarity",
+     "tol": 7.0
+    },
+    {
+     "metric": "luma_p95",
+     "name": "高光 p95",
+     "kind": "similarity",
+     "tol": 26.0
+    },
+    {
+     "metric": "sat",
+     "name": "饱和度",
+     "kind": "similarity",
+     "tol": 11.0
+    },
+    {
+     "metric": "teal",
+     "name": "青绿偏移",
+     "kind": "similarity",
+     "tol": 22.0
+    },
+    {
+     "metric": "gold",
+     "name": "金色偏移",
+     "kind": "similarity",
+     "tol": 22.0
+    },
+    {
+     "metric": "hi_clip",
+     "name": "高光溢出比例",
+     "kind": "band",
+     "lo": 0.0,
+     "hi": 0.02,
+     "hard_lo": -1,
+     "hard_hi": 0.08
+    },
+    {
+     "metric": "lo_clip",
+     "name": "死黑比例",
+     "kind": "band",
+     "lo": 0.0,
+     "hi": 0.12,
+     "hard_lo": -1,
+     "hard_hi": 0.35
+    }
+   ]
+  },
+  {
+   "key": "rhythm",
+   "name": "节奏与剪辑",
+   "weight": 20,
+   "items": [
+    {
+     "metric": "cut_count",
+     "name": "切点总数",
+     "kind": "similarity",
+     "tol": 7.0
+    },
+    {
+     "metric": "asl",
+     "name": "平均镜头长",
+     "kind": "similarity",
+     "tol": 1.3
+    },
+    {
+     "metric": "rhythm_corr",
+     "name": "节奏曲线相似度",
+     "kind": "target",
+     "pass": 0.55
+    },
+    {
+     "metric": "intro_cuts",
+     "name": "首幕切点密度",
+     "kind": "similarity",
+     "tol": 3.0
+    }
+   ]
+  },
+  {
+   "key": "quality",
+   "name": "画面质量",
+   "weight": 20,
+   "items": [
+    {
+     "metric": "sharpness_rel",
+     "name": "锐度(只罚过软)",
+     "kind": "band",
+     "lo": 0.9,
+     "hi": 8.0,
+     "hard_lo": 0.45,
+     "hard_hi": 16.0
+    },
+    {
+     "metric": "noise_rel",
+     "name": "噪点(相对参考)",
+     "kind": "band",
+     "lo": 0.0,
+     "hi": 1.8,
+     "hard_lo": -1,
+     "hard_hi": 3.5
+    },
+    {
+     "metric": "flicker_rel",
+     "name": "亮度闪烁(相对参考)",
+     "kind": "band",
+     "lo": 0.0,
+     "hi": 1.6,
+     "hard_lo": -1,
+     "hard_hi": 3.2
+    },
+    {
+     "metric": "border_px",
+     "name": "黑边像素",
+     "kind": "target",
+     "pass": 0.5
+    },
+    {
+     "metric": "worst_shot_exp",
+     "name": "最差镜头过曝",
+     "kind": "band",
+     "lo": 0.0,
+     "hi": 0.05,
+     "hard_lo": -1,
+     "hard_hi": 0.2
+    }
+   ]
+  },
+  {
+   "key": "audio",
+   "name": "声音设计",
+   "weight": 15,
+   "items": [
+    {
+     "metric": "rms_db",
+     "name": "响度 RMS",
+     "kind": "similarity",
+     "tol": 3.5
+    },
+    {
+     "metric": "peak_db",
+     "name": "峰值电平",
+     "kind": "band",
+     "lo": -3.0,
+     "hi": -0.1,
+     "hard_lo": -8.0,
+     "hard_hi": 0.0
+    },
+    {
+     "metric": "crest_db",
+     "name": "峰值因数(动态)",
+     "kind": "band",
+     "lo": 7.0,
+     "hi": 22.0,
+     "hard_lo": 3.0,
+     "hard_hi": 30.0
+    },
+    {
+     "metric": "centroid_khz",
+     "name": "频谱重心",
+     "kind": "similarity",
+     "tol": 1.6
+    },
+    {
+     "metric": "onset_hit",
+     "name": "音效与切点对齐率",
+     "kind": "band",
+     "lo": 0.45,
+     "hi": 1.0,
+     "hard_lo": 0.1,
+     "hard_hi": 1.01
+    }
+   ]
+  },
+  {
+   "key": "narrative",
+   "name": "叙事与美术一致性",
+   "weight": 15,
+   "items": [
+    {
+     "metric": "char_consistency",
+     "name": "角色一致性",
+     "kind": "manual"
+    },
+    {
+     "metric": "scene_consistency",
+     "name": "场景一致性",
+     "kind": "manual"
+    },
+    {
+     "metric": "composition",
+     "name": "构图与景别",
+     "kind": "manual"
+    },
+    {
+     "metric": "color_story",
+     "name": "色彩叙事",
+     "kind": "manual"
+    },
+    {
+     "metric": "hook",
+     "name": "钩子与记忆点",
+     "kind": "manual"
+    }
+   ]
+  }
+ ]
+}

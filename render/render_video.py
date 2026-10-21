@@ -25,23 +25,32 @@ FPS = 30
 
 
 # ------------------------------------------------------------------ 后期
-def post(img, cache, rng, i, meta):
+# 影调参数（可由 scripts/tune_grade.py 搜索；正式渲染以这里为准）
+GRADE = dict(bloom_th=0.70, bloom_gain=0.42, lift=0.013, teal_shadow=0.145,
+             contrast=1.11, sat=0.95, warm_hl=0.05, gamma=0.93, floor=0.045,
+             vig=0.82, top_dark=0.86, center=0.075, grain=1.5, hi_roll=0.65,
+             tint=(1.0, 1.0, 1.0), cool=(0.46, 0.56, 0.64))
+
+
+def post(img, cache, rng, i, meta, g=None):
+    g = {**GRADE, **(g or {})}
     v = set(meta.get("vfx", []))
     ani = 0.55 if ("flash_impact" in v or "whiteout" in v) else 0.0
-    img = vfx.bloom(img, th=0.70, gain=0.42, tint=np.array([140, 225, 215], np.float32),
-                    anamorphic=ani * 0.8)
-    # 校准：亮度 65±2 / p5≈8 / sat≈33（对齐参考片 0-15s 段实测值）
-    img = vfx.grade(img, lift=0.013, teal_shadow=0.145, contrast=1.11, sat=0.845, warm_hl=0.05)
+    img = vfx.bloom(img, th=g["bloom_th"], gain=g["bloom_gain"],
+                    tint=np.array([140, 225, 215], np.float32), anamorphic=ani * 0.8)
+    img = vfx.grade(img, lift=g["lift"], teal_shadow=g["teal_shadow"], contrast=g["contrast"],
+                    sat=g["sat"], warm_hl=g["warm_hl"], gamma=g["gamma"], floor=g["floor"],
+                    cool=tuple(g.get("cool", (0.30, 0.55, 0.60))), hi_roll=g.get("hi_roll", 0.0),
+                    tint=tuple(g.get("tint", (1.0, 1.0, 1.0))))
     ca = 1.8 if ("shake" in v or "flash_impact" in v) else 0.6
     img = vfx.chromatic(img, ca)
-    img = vfx.vignette(img, cache, 0.82)
-    # 顶部压暗 + 中心轻微提亮（把视线压到人物上）
+    img = vfx.vignette(img, cache, g["vig"])
     top = np.clip(cache.yy / (H * 0.55), 0, 1)[..., None] ** 0.8
-    img = img * (0.86 + 0.14 * top)
+    img = img * (g["top_dark"] + (1 - g["top_dark"]) * top)
     ctr = np.exp(-((cache.xx - W * 0.5) ** 2 / (2 * (W * 0.30) ** 2)
                    + (cache.yy - H * 0.52) ** 2 / (2 * (H * 0.34) ** 2)))[..., None]
-    img = img * (1 + 0.075 * ctr)
-    img = vfx.grain(img, rng, 1.5)
+    img = img * (1 + g["center"] * ctr)
+    img = vfx.grain(img, rng, g["grain"])
     return img
 
 

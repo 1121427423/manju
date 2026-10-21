@@ -184,11 +184,13 @@ def grain(img, rng, amt=5.0):
 
 
 def grade(img, lift=0.0, teal_shadow=0.30, contrast=1.06, sat=1.05, warm_hl=0.06,
-          gamma=0.98):
+          gamma=0.98, floor=0.045, cool=(0.30, 0.55, 0.60), hi_roll=0.0, tint=(1.0, 1.0, 1.0)):
     a = img / 255.0
     # 亮度曲线
     a = np.clip(a, 0, 1) ** gamma
     a = (a - 0.5) * contrast + 0.5 + lift
+    if hi_roll > 0:                       # 高光软膝：压住镜面溢出，保住 p95
+        a = a - hi_roll * np.clip(a - 0.78, 0, None) ** 1.6
     # 阴影偏青、高光偏暖（经典 teal & gold）
     lum = a.mean(2, keepdims=True)
     sh = (1 - np.clip(lum * 1.8, 0, 1)) ** 1.4
@@ -199,8 +201,10 @@ def grade(img, lift=0.0, teal_shadow=0.30, contrast=1.06, sat=1.05, warm_hl=0.06
     # 饱和度
     g = a.mean(2, keepdims=True)
     a = g + (a - g) * sat
+    if tint != (1.0, 1.0, 1.0):           # 全局通道平衡（冷调/暖调微调）
+        a = a * np.array(tint, np.float32)
     # 提黑：暗部不纯黑
-    a = a * (1 - 0.06) + 0.045 * np.array([0.30, 0.55, 0.60])
+    a = a * (1 - floor - 0.015) + floor * np.array(cool)
     return np.clip(a, 0, 1) * 255
 
 
