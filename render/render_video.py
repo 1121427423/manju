@@ -26,10 +26,10 @@ FPS = 30
 
 # ------------------------------------------------------------------ 后期
 # 影调参数（可由 scripts/tune_grade.py 搜索；正式渲染以这里为准）
-GRADE = dict(bloom_th=0.70, bloom_gain=0.42, lift=0.013, teal_shadow=0.145,
-             contrast=1.11, sat=0.95, warm_hl=0.05, gamma=0.93, floor=0.045,
-             vig=0.82, top_dark=0.86, center=0.075, grain=1.5, hi_roll=0.65,
-             tint=(1.0, 1.0, 1.0), cool=(0.46, 0.56, 0.64))
+GRADE = dict(bloom_th=0.75, bloom_gain=0.40, lift=0.012, teal_shadow=0.145,
+             contrast=1.11, sat=0.97, warm_hl=0.03, gamma=0.93, floor=0.045,
+             vig=0.82, top_dark=0.86, center=0.075, grain=1.5, hi_roll=1.8,
+             tint=(1.0, 1.0, 1.035), cool=(0.46, 0.58, 0.66))
 
 
 def post(img, cache, rng, i, meta, g=None):
@@ -106,7 +106,7 @@ def render_title(meta, base_im, cache, i, n):
     im = im.resize((int(im.width * z), int(im.height * z)), Image.BILINEAR)
     l = (im.width - W) // 2; tp = (im.height - H) // 2
     im = im.crop((l, tp, l + W, tp + H))
-    img = img2np(im) * 0.42
+    img = img2np(im) * 0.50
     # 暗部渐变 + 中央聚光
     img = img * (0.45 + 0.55 * np.exp(-((cache.xx - W / 2) ** 2 + (cache.yy - H * 0.45) ** 2)
                                      / (2 * (W * 0.45) ** 2))[..., None])

@@ -169,7 +169,8 @@
     {
      "metric": "border_px",
      "name": "黑边像素",
-     "kind": "target",
+     "kind": "max",
+     "pass_": 0.5,
      "pass": 0.5
     },
     {
