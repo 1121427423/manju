@@ -53,7 +53,7 @@ def fade(img, k):
 CAP_STYLE = dict(size=27, color=(226, 240, 238), alpha=232, spacing=1.9)
 
 
-def draw_caption(img, text, k, y_frac=0.80, x_frac=0.085, vertical=True):
+def draw_caption(img, text, k, y_frac=0.40, x_frac=0.088, vertical=True):
     """左下竖排小字，逐字浮现。"""
     if k <= 0 or not text:
         return img
@@ -63,7 +63,7 @@ def draw_caption(img, text, k, y_frac=0.80, x_frac=0.085, vertical=True):
     font = ImageFont.truetype(FONT_PATH, CAP_STYLE["size"])
     chars = [c for c in text]
     x = int(W * x_frac)
-    y = int(H * y_frac)
+    y = int(H * y_frac)          # 顶端起点，竖排自上而下
     step = CAP_STYLE["size"] + CAP_STYLE["spacing"] * 3
     n = len(chars)
     for idx, ch in enumerate(chars):
@@ -73,7 +73,7 @@ def draw_caption(img, text, k, y_frac=0.80, x_frac=0.085, vertical=True):
         if aa <= 0:
             continue
         a = int(CAP_STYLE["alpha"] * aa)
-        yy = y - idx * step
+        yy = y + idx * step
         d.text((x, yy), ch, font=font, fill=(*CAP_STYLE["color"], a),
                stroke_width=1, stroke_fill=(10, 20, 22, int(a * 0.55)))
     # 柔和发光
