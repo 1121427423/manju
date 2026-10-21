@@ -127,6 +127,21 @@
      "pass": 0.55
     },
     {
+     "metric": "subject_motion",
+     "name": "主体局部运动量(抗PPT)",
+     "kind": "similarity",
+     "tol": 12.0
+    },
+    {
+     "metric": "motion_purity",
+     "name": "局部/全局运动比",
+     "kind": "band",
+     "lo": 1.6,
+     "hi": 99.0,
+     "hard_lo": 1.0,
+     "hard_hi": 120.0
+    },
+    {
      "metric": "intro_cuts",
      "name": "首幕切点密度",
      "kind": "similarity",

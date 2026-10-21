@@ -132,6 +132,36 @@ def quality_metrics(xf):
                 samples=len(xf))
 
 
+def motion_metrics(x):
+    """把"动"拆成全局位移与主体局部运动。
+
+    静帧 + 推拉：全局位移大、局部≈0 → 观感像 PPT。
+    真动作：配准掉相机运动后仍有明显残差 → 主体在自己动。
+    使用相位相关（FFT）估帧间整体平移，再用整数平移配准求残差中位数。
+    """
+    g = x.mean(3)                                  # (n,h,w) 灰度
+    n, h, w = g.shape
+    if n < 4:
+        return dict(global_px=0.0, local_px=0.0, purity=0.0)
+    win = np.outer(np.hanning(h), np.hanning(w))
+    gs, ls = [], []
+    for i in range(n - 1):
+        a, b = g[i] - g[i].mean(), g[i + 1] - g[i + 1].mean()
+        R = np.fft.rfft2(a * win) * np.conj(np.fft.rfft2(b * win))
+        R /= (np.abs(R) + 1e-9)
+        c = np.fft.irfft2(R, s=(h, w))
+        py, px = np.unravel_index(np.argmax(c), c.shape)
+        dy = py - h if py > h // 2 else py
+        dx = px - w if px > w // 2 else px
+        gs.append(float(np.hypot(dx, dy)))
+        reg = np.roll(np.roll(g[i], -dy, 0), -dx, 1)   # 配准掉全局位移
+        r = np.abs(g[i + 1] - reg)
+        ls.append(float(np.median(r[r > np.percentile(r, 60)])))
+    gmed, lmed = float(np.median(gs)), float(np.median(ls))
+    return dict(global_px=round(gmed, 2), local_px=round(lmed, 2),
+                purity=round(lmed / max(0.6, gmed), 2))
+
+
 def flicker_metric(x):
     m = x.mean(axis=(1, 2, 3))
     d = np.abs(np.diff(m))
@@ -288,6 +318,7 @@ def evaluate(cand_path, ref_path, side_by_side=False):
     fl_c, fl99_c = flicker_metric(xc)
     fl_r, fl99_r = flicker_metric(xr)
     bc = border_metric(cand_path)
+    mo_c, mo_r = motion_metrics(xc), motion_metrics(xr)
     rh_c = rhythm_metrics(cuts_c, pc.get("duration", 0))
     rh_r = rhythm_metrics(cuts_r, pr.get("duration", 0))
 
@@ -318,6 +349,8 @@ def evaluate(cand_path, ref_path, side_by_side=False):
         "flicker_rel": fl_c / max(1e-6, fl_r),
         "border_px": float(bc),
         "worst_shot_exp": worst_exp,
+        "subject_motion": mo_c["local_px"], "motion_purity": mo_c["purity"],
+        "motion_global": mo_c["global_px"],
         "rms_db": ac["rms_db"] if ac else None,
         "peak_db": ac["peak_db"] if ac else None,
         "crest_db": ac["crest_db"] if ac else None,
@@ -329,6 +362,7 @@ def evaluate(cand_path, ref_path, side_by_side=False):
         "sat": mr["sat"], "teal": mr["teal"], "gold": mr["gold"],
         "hi_clip": mr["hi_clip"], "lo_clip": mr["lo_clip"],
         "cut_count": rh_r["cut_count"], "asl": rh_r["asl"], "intro_cuts": rh_r["intro_cuts"],
+        "subject_motion": mo_r["local_px"], "motion_purity": mo_r["purity"],
         "rms_db": ar["rms_db"] if ar else None, "peak_db": ar["peak_db"] if ar else None,
         "crest_db": ar["crest_db"] if ar else None, "centroid_khz": ar["centroid_khz"] if ar else None,
     }
