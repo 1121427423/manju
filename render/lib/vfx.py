@@ -4,6 +4,11 @@
 """
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
+def C(c):
+    """颜色归一化到 0..1，后续都乘"亮度增量(0-255)"。"""
+    return np.asarray(c, np.float32) / 255.0
+
+
 from .core import (np2img, img2np, radial_mask, ease, np as _np, Cache,
                    TEAL_GLOW, TEAL_DEEP, GOLD, GOLD_HOT, COLD_WHITE, blur, screen, lerp)
 
@@ -36,7 +41,7 @@ class Rain:
                 d.line([(x, y), (x - dx * ln, y - dy * ln)], fill=int(a), width=L["wid"])
         img = img.filter(ImageFilter.GaussianBlur(0.6 if self.layers[0] else 0))
         arr = np.asarray(img, np.float32) / 255.0
-        return arr[..., None] * np.array([205, 230, 235], np.float32) * 2.15
+        return arr[..., None] * C([205, 230, 235]) * 210
 
 
 # ============================================================ 雾 / 体积光
@@ -60,7 +65,7 @@ def light_shaft(cache, cx, w, t, gain=1.0, tint=TEAL_GLOW):
     x = (cache.xx - cx + cache.w / 2) / w
     col = np.exp(-x ** 2 * 3.2)
     fl = 0.82 + 0.18 * np.sin(t * 2.7) + 0.08 * np.sin(t * 7.3)
-    return (col * fl * gain)[..., None] * tint
+    return (col * fl * gain)[..., None] * C(tint) * 120
 
 
 # ============================================================ 粒子
@@ -207,7 +212,7 @@ def impact_flash(img, cache, cx, cy, t, dur=0.30, power=1.0, tint=GOLD_HOT):
     k = t / dur
     env = (1 - k) ** 2.2 * power
     m = radial_mask(cache.w, cache.h, cx, cy, 0, 260 + 700 * ease(k, "out"), power=1.9)
-    out = img + m[..., None] ** 1.4 * tint * 900 * env
+    out = img + m[..., None] ** 1.4 * C(tint) * 900 * env
     # 星芒
     ang = 10
     streak = np.zeros((cache.h, cache.w), np.float32)
@@ -219,10 +224,10 @@ def impact_flash(img, cache, cx, cy, t, dur=0.30, power=1.0, tint=GOLD_HOT):
             if 0 <= x < cache.w and 0 <= y < cache.h:
                 streak[y, x] = max(streak[y, x], np.exp(-s / (220 * (1 - k) + 40)))
     st = Image.fromarray((streak * 255).clip(0, 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(2.5))
-    out = out + np.asarray(st, np.float32)[..., None] / 255.0 * tint * 700 * env
+    out = out + np.asarray(st, np.float32)[..., None] / 255.0 * C(tint) * 700 * env
     # 全屏提亮（前 4 帧）
     if k < 0.22:
-        out = out + (1 - k / 0.22) * 42
+        out = out + (1 - k / 0.22) * 38
     return out
 
 
@@ -237,8 +242,8 @@ def energy_orb(img, cache, cx, cy, r, t, tint=TEAL_GLOW, power=1.0):
                                                                          Image.BILINEAR), np.float32) / 255
     swirl = (0.5 + 0.5 * tex) * (core + ring * 0.7)
     g = (core * 1.9 + ring * 0.8 + halo) * power
-    out = img + g[..., None] * tint * 620
-    out = out + swirl[..., None] * np.array([255, 255, 255], np.float32) * 240 * power
+    out = img + g[..., None] * C(tint) * 520
+    out = out + swirl[..., None] * 230 * power
     return out
 
 
@@ -257,7 +262,7 @@ def blade_light(img, cache, p0, p1, t, grow=1.0, tint=np.array([255, 240, 200], 
     core = Image.new("L", (cache.w, cache.h), 0)
     ImageDraw.Draw(core).line([(x0, y0), (x1, y1)], fill=255, width=max(1, int(width * 0.28)))
     c = np.asarray(core.filter(ImageFilter.GaussianBlur(1.2)), np.float32) / 255.0
-    return img + a[..., None] * tint * 420 * power + c[..., None] * np.array([255, 255, 255], np.float32) * 480 * power
+    return img + a[..., None] * C(tint) * 400 * power + c[..., None] * 460 * power
 
 
 def ice_spikes(img, cache, t, seed=3, tint=np.array([190, 240, 255], np.float32), power=1.0):
@@ -285,7 +290,7 @@ def ice_spikes(img, cache, t, seed=3, tint=np.array([190, 240, 255], np.float32)
     soft = np.asarray(layer.filter(ImageFilter.GaussianBlur(1.4)), np.float32) / 255
     hard = np.asarray(layer, np.float32) / 255
     edge = np.clip(hard - soft * 0.55, 0, 1)
-    return img + hard[..., None] * tint * 150 * power + edge[..., None] * np.array([255, 255, 255], np.float32) * 330 * power
+    return img + hard[..., None] * C(tint) * 130 * power + edge[..., None] * 300 * power
 
 
 def rift(img, cache, t, seed=11, cx=None, cy=None):
@@ -310,10 +315,10 @@ def rift(img, cache, t, seed=11, cx=None, cy=None):
     edge = np.clip(edge * 2.4, 0, 1)
     inner = m * (0.10 + 0.25 * cache.fog[:cache.h, :cache.w] if False else 0.12)
     out = img * (1 - m[..., None] * 0.96) + m[..., None] * np.array([4, 10, 12], np.float32)
-    out = out + edge[..., None] * TEAL_GLOW * 520
+    out = out + edge[..., None] * C(TEAL_GLOW) * 480
     # 裂缝内绿焰流动
     n2 = np.roll(cache.fog, int(t * 120) % cache.fog.shape[0], 1)[:cache.h, :cache.w]
-    out = out + (n2 * m)[..., None] * TEAL_GLOW * 190 * (0.5 + 0.5 * np.sin(t * 4))
+    out = out + (n2 * m)[..., None] * C(TEAL_GLOW) * 160 * (0.5 + 0.5 * np.sin(t * 4))
     return out
 
 
@@ -330,7 +335,7 @@ def speed_lines(img, cache, t, angle=0.0, n=90, power=0.6, seed=5):
         x0, y0 = cache.w / 2 + np.cos(a) * r0, cache.h / 2 + np.sin(a) * r0 * 0.62
         d.line([(x0, y0), (x0 + ca * ln, y0 + sa * ln)], fill=int(rng.uniform(40, 110)), width=rng.choice([1, 1, 2]))
     arr = np.asarray(layer.filter(ImageFilter.GaussianBlur(1.1)), np.float32) / 255
-    return img + arr[..., None] * np.array([230, 250, 250], np.float32) * 260 * power
+    return img + arr[..., None] * C([230, 250, 250]) * 230 * power
 
 
 def whiteout(img, k=1.0, tint=np.array([255, 255, 255], np.float32)):
@@ -341,13 +346,15 @@ def whiteout(img, k=1.0, tint=np.array([255, 255, 255], np.float32)):
     g = a.mean(2, keepdims=True)
     a = g + (a - g) * (1 - 0.85 * k)
     a = a * (1 - 0.55 * k) + k * 0.9
-    return np.clip(a, 0, 1) * 255 * (1 - k * 0.0) + k * tint * 0.0
+    return np.clip(a, 0, 1) * 255
 
 
-def pupil_pulse(img, cache, cx, cy, r, k):
-    """瞳孔收缩时的内发光脉冲。"""
-    m = radial_mask(cache.w, cache.h, cx, cy, 0, r, power=2.6)
-    return img + m[..., None] * TEAL_GLOW * 320 * k
+def pupil_pulse(img, cache, cx, cy, r, k, inner=0.30):
+    """瞳孔发光：只给虹膜一圈 + 极弱内芯，避免整块糊白。"""
+    d = np.sqrt((cache.xx - cx) ** 2 + (cache.yy - cy) ** 2)
+    ring = np.exp(-((d - r * 0.62) / (r * 0.30)) ** 2) * 150
+    core = np.exp(-(d / (r * inner)) ** 2) * 55
+    return img + (ring + core)[..., None] * C(TEAL_GLOW) * k
 
 
 def corruption(img, cache, t, k=1.0, seed=13):
@@ -368,4 +375,4 @@ def corruption(img, cache, t, k=1.0, seed=13):
                 d.ellipse([x - r, y - r, x + r, y + r], fill=int(220 * (1 - s / 45)))
     soft = np.asarray(layer.filter(ImageFilter.GaussianBlur(5)), np.float32) / 255
     hard = np.asarray(layer.filter(ImageFilter.GaussianBlur(0.8)), np.float32) / 255
-    return img + (soft * 0.9 + hard * 1.5)[..., None] * TEAL_GLOW * 300 * k
+    return img + (soft * 0.9 + hard * 1.5)[..., None] * C(TEAL_GLOW) * 240 * k
