@@ -1,127 +1,286 @@
 {
-  "_meta": {
-    "note": "每个镜头一条可投喂的提示词。image = 关键帧（文生图），motion = 图生视频的运动描述。refs 里的图必须一起上传作为参考。",
-    "style_block": "cinematic 3D animation still, dark fantasy, rainy night, wet stone octagonal altar, teal volumetric fog, low-key lighting, shallow depth of field, subtle film grain, teal + antique gold palette, ultra detailed, Unreal Engine 5 / Octane render quality, no text, no watermark",
-    "negative": "text, watermark, logo, extra limbs, deformed hands, extra fingers, blurry face, plastic skin, cartoon outline, lowres, jpeg artifacts, oversaturated, flat lighting, split screen, collage",
-    "char_xuanluo": "XUANLUO: 20-year-old chinese swordswoman, silver-white waist-length hair slightly wet, pale cool skin, glowing teal vertical-slit pupils, black-green translucent layered hanfu with torn smoky hem, bronze shoulder plates, gold bell bracelets, bare feet, 1.2m bronze astrolabe umbrella with 12 ribs, bagua runes, eight gold bells with tassels",
-    "char_zhaoxue": "ZHAOXUE: 18-year-old androgynous chinese sword cultivator, black high ponytail with faded grey-blue ribbon, clean black eyes, layered moon-white translucent silk robes with wide sleeves and six long sashes, dark leather belt, white soft boots, 90cm straight cold-white jian sword",
-    "scene": "ancient octagonal stone altar platform in heavy rain, cracked flagstones engraved with glowing bagua, water pooling and reflecting, shattered pillars, teal mist flowing low, floating rock debris, five-tier pagoda tower far in the distance, churning storm clouds lit teal from within"
+ "_meta": {
+  "note": "每个镜头一条可投喂的提示词。image = 关键帧（文生图），motion = 图生视频的运动描述。refs 里的图必须一起上传作为参考。",
+  "style_block": "cinematic 3D animation still, dark fantasy, rainy night, wet stone octagonal altar, teal volumetric fog, low-key lighting, shallow depth of field, subtle film grain, teal + antique gold palette, ultra detailed, Unreal Engine 5 / Octane render quality, no text, no watermark",
+  "negative": "text, watermark, logo, extra limbs, deformed hands, extra fingers, blurry face, plastic skin, cartoon outline, lowres, jpeg artifacts, oversaturated, flat lighting, split screen, collage",
+  "char_xuanluo": "XUANLUO: 20-year-old chinese swordswoman, silver-white waist-length hair slightly wet, pale cool skin, glowing teal vertical-slit pupils, black-green translucent layered hanfu with torn smoky hem, bronze shoulder plates, gold bell bracelets, bare feet, 1.2m bronze astrolabe umbrella with 12 ribs, bagua runes, eight gold bells with tassels",
+  "char_zhaoxue": "ZHAOXUE: 18-year-old androgynous chinese sword cultivator, black high ponytail with faded grey-blue ribbon, clean black eyes, layered moon-white translucent silk robes with wide sleeves and six long sashes, dark leather belt, white soft boots, 90cm straight cold-white jian sword",
+  "scene": "ancient octagonal stone altar platform in heavy rain, cracked flagstones engraved with glowing bagua, water pooling and reflecting, shattered pillars, teal mist flowing low, floating rock debris, five-tier pagoda tower far in the distance, churning storm clouds lit teal from within"
+ },
+ "shots": [
+  {
+   "id": 1,
+   "art": "A01_feet",
+   "dur": 3.0,
+   "lens": "35mm 极近景 低角",
+   "refs": [
+    "SCENE_altar.jpg"
+   ],
+   "image": "Extreme close-up shot, low camera angle at ground level, wide 16:9 cinematic framing. Bare pale female feet stepping into a shallow puddle on cracked dark stone of an ancient octagonal altar, cold water rippling outward in rings, silvery hair falling at the edge of frame, torn translucent black-green hem dissolving into teal mist at ankle level, fine rain drops splashing, wet stone reflecting a faint teal glow, volumetric teal fog creeping low across the ground, low-key moonlight rim light from upper left.",
+   "motion": "slow dolly-in, water ripples expanding, mist drifting right, rain falling; camera low angle, micro handheld drift"
   },
-  "shots": [
-    {
-      "id": 1, "art": "A01_feet", "dur": 3.0, "lens": "35mm 极近景 低角", "refs": ["SCENE_altar.jpg"],
-      "image": "Extreme close-up shot, low camera angle at ground level, wide 16:9 cinematic framing. Bare pale female feet stepping into a shallow puddle on cracked dark stone of an ancient octagonal altar, cold water rippling outward in rings, silvery hair falling at the edge of frame, torn translucent black-green hem dissolving into teal mist at ankle level, fine rain drops splashing, wet stone reflecting a faint teal glow, volumetric teal fog creeping low across the ground, low-key moonlight rim light from upper left.",
-      "motion": "slow dolly-in, water ripples expanding, mist drifting right, rain falling; camera low angle, micro handheld drift"
-    },
-    {
-      "id": 2, "art": "A02_vines", "dur": 2.6, "lens": "40mm 中近景 微俯", "refs": ["SCENE_altar.jpg"],
-      "image": "Medium close-up, slightly high angle. Glowing teal-green spectral mist climbing up a pale bare female ankle and shin like living vines, translucent smoke tendrils wrapping the leg, the black-green tattered hem of a long hanfu dress dissolving into the same mist and floating in the air, cracked wet altar stone beneath, rain falling, strong backlight from a distant teal light column, rim lighting on the smoke.",
-      "motion": "mist tendrils growing upward along the leg, hem lifting in the wind, camera slowly rising"
-    },
-    {
-      "id": 3, "art": "A03_umbrella_wide", "dur": 2.0, "lens": "24mm 全景 仰", "refs": ["CHAR_xuanluo.jpg", "SCENE_altar.jpg"],
-      "image": "Full body wide shot, low camera angle looking up, subject centered. The exact same silver-haired woman from the reference sitting sideways on a broken stone pillar atop an ancient octagonal altar in heavy rain, holding open above her head a 1.2m bronze astrolabe umbrella with engraved bagua runes, eight gold bells with long tassels on the rim, umbrella rotating slowly, teal flame-like mist spilling from the ribs and trailing behind her, dark stormy sky, floating rock debris.",
-      "motion": "slow orbit left to right around her, umbrella rotating, mist trailing, bells swaying, camera slowly rising"
-    },
-    {
-      "id": 4, "art": "A04_umbrella_top", "dur": 1.6, "lens": "35mm 顶拍", "refs": ["CHAR_xuanluo.jpg"],
-      "image": "Top-down overhead view, camera directly above an open 1.2m bronze astrolabe umbrella canopy filling most of the frame, dark aged bronze engraved with concentric bagua trigram rings and crack-like runes, twelve radial ribs, engraved lines glowing faint teal, eight gold bells on long dark tassels hanging beyond the rim frozen mid-swing, glowing teal mist seeping between the ribs, rain streaking toward the lens.",
-      "motion": "the canopy pattern spinning, bells swinging outward, mist venting from the ribs, camera slowly pushing in"
-    },
-    {
-      "id": 5, "art": "A05_tower", "dur": 1.8, "lens": "18mm 大远景", "refs": ["SCENE_altar.jpg"],
-      "image": "Extreme wide establishing shot, low horizon. A colossal five-tier ancient pagoda tower far in the distance on a stone causeway, its top ring spinning, a vertical column of blinding teal-white light erupting from the tower into the storm clouds, boiling black-blue clouds lit from within, a huge lightning bolt branching down beside the tower, shattered pillars in silhouette in the foreground, teal fog flooding the ground, floating rock debris, a tiny lone white-robed figure on the altar steps for scale.",
-      "motion": "lightning flashes twice, light column pulsing, clouds churning, camera slowly tilting down"
-    },
-    {
-      "id": 6, "art": "A06_halfface", "dur": 1.6, "lens": "85mm 中近景 低角", "refs": ["CHAR_xuanluo.jpg"],
-      "image": "Medium close-up from a low front angle. The silver-haired woman's wide bronze umbrella canopy dips down and casts a hard shadow across her eyes and forehead so only her pale lower face, nose tip and lips are visible; her lips curve in a faint three-parts smile, wet silver hair across her cheek, one gold bell hanging into frame near her jaw, blurred teal mist and rain behind, distant lightning silhouetting her shoulder armor, tiny water droplets on her lips.",
-      "motion": "very slow push-in, hair strands swaying, a single blink hidden in shadow, rain falling"
-    },
-    {
-      "id": 7, "art": "A07_eye", "dur": 1.6, "lens": "100mm macro 极特写", "refs": ["CHAR_xuanluo.jpg"],
-      "image": "Extreme macro close-up of a single eye filling the frame: pale cool skin, long wet black lashes, a luminous teal-green vertical slit pupil glowing from inside, iris filled with fine luminous filaments, a faint reflection of a distant pagoda and teal light column in the cornea, tiny droplets on the lashes, faint curse runes under the skin below the eye, razor-thin depth of field, dramatic cool key light from the right.",
-      "motion": "pupil contracts sharply, iris filaments brighten, a slow blink, micro push-in"
-    },
-    {
-      "id": 8, "art": "A08_swordswoman", "dur": 3.0, "lens": "28mm 全景 低角", "refs": ["CHAR_zhaoxue.jpg", "SCENE_altar.jpg"],
-      "image": "Full body low-angle wide shot with motion blur. The white-robed sword cultivator from the reference striding forward through ankle-deep water on the cracked stone altar, water splitting and spraying around her white boots, her 90cm straight cold-white jian sword held low pointing at the ground, gold-white blade light igniting along the edge, sash ends whipping behind her, heavy rain, teal fog, a distant shadowed figure holding an umbrella in the background.",
-      "motion": "she walks toward camera in slow motion, water spraying, sashes trailing, camera tracking backward"
-    },
-    {
-      "id": 9, "art": "A09_standoff", "dur": 1.2, "lens": "35mm 远景 对称", "refs": ["CHAR_xuanluo.jpg", "CHAR_zhaoxue.jpg", "SCENE_altar.jpg"],
-      "image": "Symmetrical wide two-shot: on the right the silver-haired umbrella woman sitting on a broken pillar in black-green robes, on the left the white-robed swordswoman standing with her sword lowered, eight meters apart on the rain-soaked octagonal altar, a curtain of rain forming the midline between them, teal mist hugging the ground, dark storm sky, distant tower silhouette, strong black-white contrast between the two figures.",
-      "motion": "almost static, rain falling, cloth fluttering, slow micro push with slight handheld shake"
-    },
-    {
-      "id": 10, "art": "A10_charge", "dur": 1.2, "lens": "50mm 中景 跟拍", "refs": ["CHAR_zhaoxue.jpg"],
-      "image": "Dynamic medium tracking shot with strong motion blur: the white-robed swordswoman sprinting low and fast, water split into two walls by her passage, sleeves and sashes streaming behind, her jian sword trailing a thin gold-white light streak, face set in a grimace, teal fog torn apart by her speed, heavy rain streaks rendered as long lines.",
-      "motion": "fast lateral tracking, extreme speed lines, water walls rising, 1-2 frame impact zoom at the end"
-    },
-    {
-      "id": 11, "art": "A11_impact", "dur": 0.8, "lens": "50mm 近景 冲击", "refs": ["CHAR_zhaoxue.jpg", "CHAR_xuanluo.jpg"],
-      "image": "Extreme impact close-up at the moment of collision: the cold-white jian blade pressing against the edge of a bronze astrolabe umbrella, a violent burst of white-gold sparks exploding from the contact point, radial shockwave of dust and rain droplets, the bronze rim glowing hot, both figures partially visible as dark silhouettes on either side, teal fog blasted outward.",
-      "motion": "single frame impact freeze then shake, sparks exploding outward, camera shake 6px, punch-in 4%"
-    },
-    {
-      "id": 12, "art": "A12_shield", "dur": 1.2, "lens": "35mm 中景 仰", "refs": ["CHAR_xuanluo.jpg"],
-      "image": "Medium low-angle shot: the bronze astrolabe umbrella has expanded into a floating round shield in front of the silver-haired woman, twelve ribs locked outward, bagua rune rings blazing teal, a translucent teal energy membrane stretching across the canopy, the white-robed swordswoman's gold blade light deflected and scattering across the membrane, wet ground reflecting the green light in long streaks.",
-      "motion": "the umbrella shield unfolds mechanically with a metallic snap, rune rings spin up, deflected sparks slide across the membrane"
-    },
-    {
-      "id": 13, "art": "A13_sweep", "dur": 1.0, "lens": "35mm 中景 横摇", "refs": ["CHAR_zhaoxue.jpg"],
-      "image": "Fast horizontal medium shot: the white-robed swordswoman sweeping her jian blade in a wide arc, a crescent of gold-white sword energy cutting through the rain curtain, rain droplets vaporizing along the arc, her body twisted in follow-through, cloth and hair flung sideways, teal fog sliced into two halves.",
-      "motion": "rapid horizontal whip pan, long light trail behind the blade, rain vaporizing, motion blur heavy"
-    },
-    {
-      "id": 14, "art": "A14_corrupt", "dur": 1.2, "lens": "85mm 近景", "refs": ["CHAR_zhaoxue.jpg"],
-      "image": "Close-up of the white-robed swordswoman looking down at her own chest: glowing teal-green veins of light spreading under the skin from a small wound, radiating like cracks in porcelain, her breath visible, sweat and rain beads on her neck, fingers of one hand hovering over the wound, face half lit by the green glow, dark background with falling rain.",
-      "motion": "the glowing veins slowly spread, she exhales, faint handheld shake, 2-frame stutter"
-    },
-    {
-      "id": 15, "art": "A15_leap", "dur": 1.2, "lens": "24mm 全景 仰", "refs": ["CHAR_zhaoxue.jpg", "SCENE_altar.jpg"],
-      "image": "Dramatic low-angle full body shot: the white-robed swordswoman leaping high between shattered stone pillars, her robes and six sashes spread wide filling the frame like wings, sword raised overhead trailing a gold light, rain and debris frozen around her, teal fog far below, storm clouds and lightning behind.",
-      "motion": "vertical tilt up following her ascent, cloth spread wide, debris and rain rushing past the lens"
-    },
-    {
-      "id": 16, "art": "A16_ice", "dur": 1.4, "lens": "24mm 全景", "refs": ["CHAR_zhaoxue.jpg", "SCENE_altar.jpg"],
-      "image": "Wide dramatic shot: a forest of translucent ice spikes erupting violently from the cracked flagstones of the altar, dozens of jagged blue-white crystal shards growing outward in a ring, frost mist exploding at the base, shattering ice fragments flying, the silver-haired woman's umbrella shield standing at the center deflecting the crystals, cold blue-white light flooding the scene.",
-      "motion": "ice spikes burst upward in sequence from center outward, frost shockwave, camera pulls back fast"
-    },
-    {
-      "id": 17, "art": "A17_clash", "dur": 1.6, "lens": "50mm 中景", "refs": ["CHAR_xuanluo.jpg", "CHAR_zhaoxue.jpg"],
-      "image": "Medium shot of a full-power clash: a swirling teal-green energy sphere the size of a person pressing against a massive crescent of gold-white sword light, both figures straining as dark silhouettes on either side, the collision point white-hot, debris and water lifted off the ground and orbiting the impact, ice shards suspended in the air, extreme contrast.",
-      "motion": "energy orb and blade crescent grinding against each other, debris orbiting, violent camera shake, flare flicker"
-    },
-    {
-      "id": 18, "art": "A18_whiteout", "dur": 1.6, "lens": "35mm 全屏", "refs": ["CHAR_xuanluo.jpg", "CHAR_zhaoxue.jpg"],
-      "image": "Overexposed impact frame: the entire frame flooded with blinding white-gold light from the center of the clash, only the two figures faint as dark silhouettes at the edges, concentric shockwave rings visible inside the glare, ground dust and water vaporized into white mist.",
-      "motion": "hard whiteout for 2-3 frames, then the glare recedes fast while the camera pulls back"
-    },
-    {
-      "id": 19, "art": "A19_rift", "dur": 1.8, "lens": "50mm 近景 仰", "refs": ["SCENE_altar.jpg"],
-      "image": "Close low-angle shot of a tear in space opening in mid-air above the altar: a jagged black fissure with glowing teal edges and dark-matter noise inside, a gigantic black-boned hand with long fingers beginning to push through from within,咒纹 runes carved on its knuckles, green flame leaking from the joints, rain curving away from the fissure, shattered pillars below.",
-      "motion": "the fissure rips open wider, the giant fingers curl and push through, camera slowly pushes in, edges emitting green sparks"
-    },
-    {
-      "id": 20, "art": "A20_demon", "dur": 1.8, "lens": "18mm 大远景 仰视", "refs": ["SCENE_altar.jpg"],
-      "image": "Terrifying low-angle extreme wide shot: a colossal demon skull mask emerging from the storm clouds above the altar, black bone material veined with glowing teal fascia, two hollow eye sockets burning with green fire, three curved black horns sweeping back on each side, exposed jawbone and teeth, green flame dripping from the chin, the tiny altar and tiny white figure below for scale, clouds swirling around it.",
-      "motion": "very slow push-in, clouds churning around the skull, green flames flickering in the sockets, low rumble"
-    },
-    {
-      "id": 21, "art": "A21_hand_slam", "dur": 1.6, "lens": "24mm 全景 低角", "refs": ["SCENE_altar.jpg"],
-      "image": "Low-angle wide shot: a gigantic black-boned hand slamming down onto the octagonal altar, fingers as thick as pillars crushing the stone, huge cracks radiating outward, dust and rubble exploding upward, teal-green mist swallowed by the impact and rolling out in a wall, shattered pillars collapsing, the two small women silhouetted against the dust cloud.",
-      "motion": "the giant hand slams down, massive dust explosion, camera shake 8px, debris flying at the lens"
-    },
-    {
-      "id": 22, "art": "A22_gold_eye", "dur": 1.8, "lens": "100mm macro 极特写", "refs": ["SCENE_altar.jpg"],
-      "image": "Extreme macro close-up of a single glowing golden-amber eye opening in absolute darkness, the pupil a vertical slit, iris made of molten gold rings with tiny reflected flames, ancient dark scales around the eye rim, faint teal mist drifting over it, one tear-like drop of golden light sliding down.",
-      "motion": "the eye snaps open, pupil contracts then dilates, iris rings slowly rotate, micro push-in, dust motes"
-    },
-    {
-      "id": 23, "art": "TITLE", "dur": 3.6, "lens": "图形设计", "refs": ["SCENE_altar.jpg"],
-      "image": "(不生成，程序渲染片名卡：虚化场景 + 旋转金环 + 衬线大字《青冥 · 伞》+ 第一话 · 待续)",
-      "motion": "title fades up with letter spacing expansion, gold ring rotates slowly, fade out to black"
-    }
-  ]
+  {
+   "id": 2,
+   "art": "A02_vines",
+   "dur": 2.6,
+   "lens": "40mm 中近景 微俯",
+   "refs": [
+    "SCENE_altar.jpg"
+   ],
+   "image": "Medium close-up, slightly high angle. Glowing teal-green spectral mist climbing up a pale bare female ankle and shin like living vines, translucent smoke tendrils wrapping the leg, the black-green tattered hem of a long hanfu dress dissolving into the same mist and floating in the air, cracked wet altar stone beneath, rain falling, strong backlight from a distant teal light column, rim lighting on the smoke.",
+   "motion": "mist tendrils growing upward along the leg, hem lifting in the wind, camera slowly rising"
+  },
+  {
+   "id": 3,
+   "art": "A03_umbrella_wide",
+   "dur": 2.0,
+   "lens": "24mm 全景 仰",
+   "refs": [
+    "CHAR_xuanluo.jpg",
+    "SCENE_altar.jpg"
+   ],
+   "image": "Full body wide shot, low camera angle looking up, subject centered. The exact same silver-haired woman from the reference sitting sideways on a broken stone pillar atop an ancient octagonal altar in heavy rain, holding open above her head a 1.2m bronze astrolabe umbrella with engraved bagua runes, eight gold bells with long tassels on the rim, umbrella rotating slowly, teal flame-like mist spilling from the ribs and trailing behind her, dark stormy sky, floating rock debris.",
+   "motion": "slow orbit left to right around her, umbrella rotating, mist trailing, bells swaying, camera slowly rising"
+  },
+  {
+   "id": 4,
+   "art": "A04_umbrella_top",
+   "dur": 1.6,
+   "lens": "35mm 顶拍",
+   "refs": [
+    "CHAR_xuanluo.jpg"
+   ],
+   "image": "Top-down overhead view, camera directly above an open 1.2m bronze astrolabe umbrella canopy filling most of the frame, dark aged bronze engraved with concentric bagua trigram rings and crack-like runes, twelve radial ribs, engraved lines glowing faint teal, eight gold bells on long dark tassels hanging beyond the rim frozen mid-swing, glowing teal mist seeping between the ribs, rain streaking toward the lens.",
+   "motion": "the canopy pattern spinning, bells swinging outward, mist venting from the ribs, camera slowly pushing in"
+  },
+  {
+   "id": 5,
+   "art": "A05_tower",
+   "dur": 1.8,
+   "lens": "18mm 大远景",
+   "refs": [
+    "SCENE_altar.jpg"
+   ],
+   "image": "Extreme wide establishing shot, low horizon. A colossal five-tier ancient pagoda tower far in the distance on a stone causeway, its top ring spinning, a vertical column of blinding teal-white light erupting from the tower into the storm clouds, boiling black-blue clouds lit from within, a huge lightning bolt branching down beside the tower, shattered pillars in silhouette in the foreground, teal fog flooding the ground, floating rock debris, a tiny lone white-robed figure on the altar steps for scale.",
+   "motion": "lightning flashes twice, light column pulsing, clouds churning, camera slowly tilting down"
+  },
+  {
+   "id": 6,
+   "art": "A06_halfface",
+   "dur": 1.6,
+   "lens": "85mm 中近景 低角",
+   "refs": [
+    "CHAR_xuanluo.jpg"
+   ],
+   "image": "Medium close-up from a low front angle. The silver-haired woman's wide bronze umbrella canopy dips down and casts a hard shadow across her eyes and forehead so only her pale lower face, nose tip and lips are visible; her lips curve in a faint three-parts smile, wet silver hair across her cheek, one gold bell hanging into frame near her jaw, blurred teal mist and rain behind, distant lightning silhouetting her shoulder armor, tiny water droplets on her lips.",
+   "motion": "very slow push-in, hair strands swaying, a single blink hidden in shadow, rain falling"
+  },
+  {
+   "id": 7,
+   "art": "A07_eye",
+   "dur": 1.6,
+   "lens": "100mm macro 极特写",
+   "refs": [
+    "CHAR_xuanluo.jpg"
+   ],
+   "image": "Extreme macro close-up of a single eye filling the frame: pale cool skin, long wet black lashes, a luminous teal-green vertical slit pupil glowing from inside, iris filled with fine luminous filaments, a faint reflection of a distant pagoda and teal light column in the cornea, tiny droplets on the lashes, faint curse runes under the skin below the eye, razor-thin depth of field, dramatic cool key light from the right.",
+   "motion": "pupil contracts sharply, iris filaments brighten, a slow blink, micro push-in"
+  },
+  {
+   "id": 8,
+   "art": "A08_swordswoman",
+   "dur": 3.0,
+   "lens": "28mm 全景 低角",
+   "refs": [
+    "CHAR_zhaoxue.jpg",
+    "SCENE_altar.jpg"
+   ],
+   "image": "Full body low-angle wide shot with motion blur. The white-robed sword cultivator from the reference striding forward through ankle-deep water on the cracked stone altar, water splitting and spraying around her white boots, her 90cm straight cold-white jian sword held low pointing at the ground, gold-white blade light igniting along the edge, sash ends whipping behind her, heavy rain, teal fog, a distant shadowed figure holding an umbrella in the background.",
+   "motion": "she walks toward camera in slow motion, water spraying, sashes trailing, camera tracking backward"
+  },
+  {
+   "id": 9,
+   "art": "A09_standoff",
+   "dur": 1.2,
+   "lens": "35mm 远景 对称",
+   "refs": [
+    "CHAR_xuanluo.jpg",
+    "CHAR_zhaoxue.jpg",
+    "SCENE_altar.jpg"
+   ],
+   "image": "Symmetrical wide two-shot: on the right the silver-haired umbrella woman sitting on a broken pillar in black-green robes, on the left the white-robed swordswoman standing with her sword lowered, eight meters apart on the rain-soaked octagonal altar, a curtain of rain forming the midline between them, teal mist hugging the ground, dark storm sky, distant tower silhouette, strong black-white contrast between the two figures.",
+   "motion": "almost static, rain falling, cloth fluttering, slow micro push with slight handheld shake"
+  },
+  {
+   "id": 10,
+   "art": "A10_charge",
+   "dur": 1.2,
+   "lens": "50mm 中景 跟拍",
+   "refs": [
+    "CHAR_zhaoxue.jpg"
+   ],
+   "image": "Dynamic medium tracking shot with strong motion blur: the white-robed swordswoman sprinting low and fast, water split into two walls by her passage, sleeves and sashes streaming behind, her jian sword trailing a thin gold-white light streak, face set in a grimace, teal fog torn apart by her speed, heavy rain streaks rendered as long lines.",
+   "motion": "fast lateral tracking, extreme speed lines, water walls rising, 1-2 frame impact zoom at the end"
+  },
+  {
+   "id": 11,
+   "art": "A11_impact",
+   "dur": 0.8,
+   "lens": "50mm 近景 冲击",
+   "refs": [
+    "CHAR_zhaoxue.jpg",
+    "CHAR_xuanluo.jpg"
+   ],
+   "image": "Extreme impact close-up at the moment of collision: the cold-white jian blade pressing against the edge of a bronze astrolabe umbrella, a violent burst of white-gold sparks exploding from the contact point, radial shockwave of dust and rain droplets, the bronze rim glowing hot, both figures partially visible as dark silhouettes on either side, teal fog blasted outward.",
+   "motion": "single frame impact freeze then shake, sparks exploding outward, camera shake 6px, punch-in 4%"
+  },
+  {
+   "id": 12,
+   "art": "A12_shield",
+   "dur": 1.2,
+   "lens": "35mm 中景 仰",
+   "refs": [
+    "CHAR_xuanluo.jpg"
+   ],
+   "image": "Medium low-angle shot: the bronze astrolabe umbrella has expanded into a floating round shield in front of the silver-haired woman, twelve ribs locked outward, bagua rune rings blazing teal, a translucent teal energy membrane stretching across the canopy, the white-robed swordswoman's gold blade light deflected and scattering across the membrane, wet ground reflecting the green light in long streaks.",
+   "motion": "the umbrella shield unfolds mechanically with a metallic snap, rune rings spin up, deflected sparks slide across the membrane"
+  },
+  {
+   "id": 13,
+   "art": "A13_sweep",
+   "dur": 1.0,
+   "lens": "35mm 中景 横摇",
+   "refs": [
+    "CHAR_zhaoxue.jpg"
+   ],
+   "image": "Fast horizontal medium shot: the white-robed swordswoman sweeping her jian blade in a wide arc, a crescent of gold-white sword energy cutting through the rain curtain, rain droplets vaporizing along the arc, her body twisted in follow-through, cloth and hair flung sideways, teal fog sliced into two halves.",
+   "motion": "rapid horizontal whip pan, long light trail behind the blade, rain vaporizing, motion blur heavy"
+  },
+  {
+   "id": 14,
+   "art": "A14_corrupt",
+   "dur": 1.2,
+   "lens": "85mm 近景",
+   "refs": [
+    "CHAR_zhaoxue.jpg"
+   ],
+   "image": "Close-up of the white-robed swordswoman looking down at her own chest: glowing teal-green veins of light spreading under the skin from a small wound, radiating like cracks in porcelain, her breath visible, sweat and rain beads on her neck, fingers of one hand hovering over the wound, face half lit by the green glow, dark background with falling rain.",
+   "motion": "the glowing veins slowly spread, she exhales, faint handheld shake, 2-frame stutter"
+  },
+  {
+   "id": 15,
+   "art": "A15_leap",
+   "dur": 1.2,
+   "lens": "24mm 全景 仰",
+   "refs": [
+    "CHAR_zhaoxue.jpg",
+    "SCENE_altar.jpg"
+   ],
+   "image": "Dramatic low-angle full body shot: the white-robed swordswoman leaping high between shattered stone pillars, her robes and six sashes spread wide filling the frame like wings, sword raised overhead trailing a gold light, rain and debris frozen around her, teal fog far below, storm clouds and lightning behind.",
+   "motion": "vertical tilt up following her ascent, cloth spread wide, debris and rain rushing past the lens"
+  },
+  {
+   "id": 16,
+   "art": "A16_ice",
+   "dur": 1.4,
+   "lens": "24mm 全景",
+   "refs": [
+    "CHAR_zhaoxue.jpg",
+    "SCENE_altar.jpg"
+   ],
+   "image": "Wide dramatic shot: a forest of translucent ice spikes erupting violently from the cracked flagstones of the altar, dozens of jagged blue-white crystal shards growing outward in a ring, frost mist exploding at the base, shattering ice fragments flying, the silver-haired woman's umbrella shield standing at the center deflecting the crystals, cold blue-white light flooding the scene.",
+   "motion": "ice spikes burst upward in sequence from center outward, frost shockwave, camera pulls back fast"
+  },
+  {
+   "id": 17,
+   "art": "A17_clash",
+   "dur": 1.6,
+   "lens": "50mm 中景",
+   "refs": [
+    "CHAR_xuanluo.jpg",
+    "CHAR_zhaoxue.jpg"
+   ],
+   "image": "Medium shot of a full-power clash: a swirling teal-green energy sphere the size of a person pressing against a massive crescent of gold-white sword light, both figures straining as dark silhouettes on either side, the collision point white-hot, debris and water lifted off the ground and orbiting the impact, ice shards suspended in the air, extreme contrast.",
+   "motion": "energy orb and blade crescent grinding against each other, debris orbiting, violent camera shake, flare flicker"
+  },
+  {
+   "id": 18,
+   "art": "A18_whiteout",
+   "dur": 0.5,
+   "lens": "35mm 全屏",
+   "refs": [
+    "CHAR_xuanluo.jpg",
+    "CHAR_zhaoxue.jpg"
+   ],
+   "image": "Overexposed impact frame: the entire frame flooded with blinding white-gold light from the center of the clash, only the two figures faint as dark silhouettes at the edges, concentric shockwave rings visible inside the glare, ground dust and water vaporized into white mist.",
+   "motion": "hard whiteout 2-3 frames then the glare recedes only slightly, camera holds"
+  },
+  {
+   "id": 19,
+   "art": "A17_clash",
+   "dur": 1.1,
+   "lens": "50mm 中景",
+   "refs": [
+    "CHAR_xuanluo.jpg",
+    "CHAR_zhaoxue.jpg"
+   ],
+   "image": "The same frame as the clash but 0.8 seconds later: thick white-grey smoke and dust filling the frame, the two figures reduced to faint dark silhouettes, embers drifting, the energy sphere dissipating, wet debris settling, teal light returning from the edges.",
+   "motion": "slow pull back, smoke billowing, embers rising, exposure falling back to normal"
+  },
+  {
+   "id": 20,
+   "art": "A19_rift",
+   "dur": 1.8,
+   "lens": "50mm 近景 仰",
+   "refs": [
+    "SCENE_altar.jpg"
+   ],
+   "image": "Close low-angle shot of a tear in space opening in mid-air above the altar: a jagged black fissure with glowing teal edges and dark-matter noise inside, a gigantic black-boned hand with long fingers beginning to push through from within,咒纹 runes carved on its knuckles, green flame leaking from the joints, rain curving away from the fissure, shattered pillars below.",
+   "motion": "the fissure rips open wider, the giant fingers curl and push through, camera slowly pushes in, edges emitting green sparks"
+  },
+  {
+   "id": 21,
+   "art": "A20_demon",
+   "dur": 1.8,
+   "lens": "18mm 大远景 仰视",
+   "refs": [
+    "SCENE_altar.jpg"
+   ],
+   "image": "Terrifying low-angle extreme wide shot: a colossal demon skull mask emerging from the storm clouds above the altar, black bone material veined with glowing teal fascia, two hollow eye sockets burning with green fire, three curved black horns sweeping back on each side, exposed jawbone and teeth, green flame dripping from the chin, the tiny altar and tiny white figure below for scale, clouds swirling around it.",
+   "motion": "very slow push-in, clouds churning around the skull, green flames flickering in the sockets, low rumble"
+  },
+  {
+   "id": 22,
+   "art": "A21_hand_slam",
+   "dur": 1.6,
+   "lens": "24mm 全景 低角",
+   "refs": [
+    "SCENE_altar.jpg"
+   ],
+   "image": "Low-angle wide shot: a gigantic black-boned hand slamming down onto the octagonal altar, fingers as thick as pillars crushing the stone, huge cracks radiating outward, dust and rubble exploding upward, teal-green mist swallowed by the impact and rolling out in a wall, shattered pillars collapsing, the two small women silhouetted against the dust cloud.",
+   "motion": "the giant hand slams down, massive dust explosion, camera shake 8px, debris flying at the lens"
+  },
+  {
+   "id": 23,
+   "art": "A22_gold_eye",
+   "dur": 1.8,
+   "lens": "100mm macro 极特写",
+   "refs": [
+    "SCENE_altar.jpg"
+   ],
+   "image": "Extreme macro close-up of a single glowing golden-amber eye opening in absolute darkness, the pupil a vertical slit, iris made of molten gold rings with tiny reflected flames, ancient dark scales around the eye rim, faint teal mist drifting over it, one tear-like drop of golden light sliding down.",
+   "motion": "the eye snaps open, pupil contracts then dilates, iris rings slowly rotate, micro push-in, dust motes"
+  },
+  {
+   "id": 24,
+   "art": "TITLE",
+   "dur": 3.6,
+   "lens": "图形设计",
+   "refs": [
+    "SCENE_altar.jpg"
+   ],
+   "image": "(不生成，程序渲染片名卡：虚化场景 + 旋转金环 + 衬线大字《青冥 · 伞》+ 第一话 · 待续)",
+   "motion": "title fades up with letter spacing expansion, gold ring rotates slowly, fade out to black"
+  }
+ ]
 }
