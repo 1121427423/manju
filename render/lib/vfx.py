@@ -317,7 +317,9 @@ def rift(img, cache, t, seed=11, cx=None, cy=None):
     out = img * (1 - m[..., None] * 0.96) + m[..., None] * np.array([4, 10, 12], np.float32)
     out = out + edge[..., None] * C(TEAL_GLOW) * 480
     # 裂缝内绿焰流动
-    n2 = np.roll(cache.fog, int(t * 120) % cache.fog.shape[0], 1)[:cache.h, :cache.w]
+    n2 = np.roll(cache.fog, int(t * 120) % cache.fog.shape[0], 1)
+    n2 = np.asarray(Image.fromarray((n2 * 255).astype(np.uint8)).resize((cache.w, cache.h),
+                                                                     Image.BILINEAR), np.float32) / 255
     out = out + (n2 * m)[..., None] * C(TEAL_GLOW) * 160 * (0.5 + 0.5 * np.sin(t * 4))
     return out
 

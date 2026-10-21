@@ -535,7 +535,8 @@
    "lens": "全屏",
    "desc": "白闪吞掉画面，只剩两道剪影与冲击环",
    "move": "2 帧白闪后急速拉远",
-   "sound": "静音 0.2s → 爆响"
+   "sound": "静音 0.2s → 爆响",
+   "exp": 0.86
   },
   {
    "id": 19,
@@ -554,9 +555,9 @@
    "shake": 2.4,
    "vfx": [
     "fog",
-    "rift",
     "embers",
-    "grain"
+    "grain",
+    "light"
    ],
    "caption": null,
    "trans": "cut",
