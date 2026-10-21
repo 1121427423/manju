@@ -372,8 +372,8 @@ def build(dur=DUR):
         buf[ch] = lowpass_fast(buf[ch], 16000)
     # 动态压缩（软膝 + tanh）
     rms = np.sqrt((buf ** 2).mean())
-    buf *= 0.20 / (rms + 1e-9)
-    buf = np.tanh(buf * 1.25) * 0.92
+    buf *= 0.145 / (rms + 1e-9)
+    buf = np.tanh(buf * 1.18) * 0.92
     # 首尾淡入淡出
     fi, fo = int(0.8 * SR), int(1.2 * SR)
     buf[:, :fi] *= np.linspace(0, 1, fi) ** 0.6

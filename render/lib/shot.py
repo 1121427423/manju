@@ -43,10 +43,18 @@ class Shot:
         m, t = self.m, i / max(1, self.n - 1)
         e = ease(t, m.get("ease", "inout"))
         z0, z1 = m["zoom"]
-        zoom = min(1.24, max(0.92, z0 + (z1 - z0) * e))
-        pan = (m.get("pan", (0, 0))[0] * e, m.get("pan", (0, 0))[1] * e)
+        # 运镜幅度 ×1.35：参考片的帧差 ≈21，静帧路线需要更强的运动量才不显"僵"
+        base = z0 + (z1 - z0) * e
+        zoom = min(1.24, max(0.92, 1.0 + (base - 1.0) * 1.35))
+        pan = (m.get("pan", (0, 0))[0] * e * 1.3, m.get("pan", (0, 0))[1] * e * 1.3)
         rot = m.get("rot", 0.0) * t
         sh = m.get("shake", 0.0)
+        # 全镜头轻微手持（0.55px / 0.05°），让静帧路线也有"被拍"的感觉
+        if True:
+            tt0 = i / self.fps
+            pan = (pan[0] + np.sin(tt0 * 1.7 + m["id"]) * 0.55,
+                   pan[1] + np.cos(tt0 * 1.3 + m["id"] * 1.7) * 0.45)
+            rot += np.sin(tt0 * 1.1 + m["id"]) * 0.05
         if sh > 0:
             tt = i / self.fps
             # 两层正弦 + 冲击衰减

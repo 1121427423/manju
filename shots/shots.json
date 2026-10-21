@@ -52,7 +52,7 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "dissolve"
   },
   {
    "id": 3,
@@ -75,7 +75,7 @@
     "grain"
    ],
    "caption": "她说，伞下无雨。",
-   "trans": "cut",
+   "trans": "dissolve",
    "bell_pts": [
     [
      0.3,
@@ -112,7 +112,7 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut",
+   "trans": "dissolve",
    "bell_pts": [
     [
      0.5,
@@ -150,7 +150,7 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "dissolve"
   },
   {
    "id": 6,
@@ -173,7 +173,7 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "dissolve"
   },
   {
    "id": 7,
@@ -196,7 +196,7 @@
     "grain"
    ],
    "caption": null,
-   "trans": "cut"
+   "trans": "dissolve"
   },
   {
    "id": 8,

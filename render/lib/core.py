@@ -118,17 +118,26 @@ class Cache:
 
     @staticmethod
     def _tilenoise(n, rng, octaves=4):
+        """周期性(无缝)格子噪声：多倍频双线性插值，天然可平铺。"""
+        yy, xx = np.mgrid[0:n, 0:n].astype(np.float32)
         acc = np.zeros((n, n), np.float32)
         amp = 1.0
         for o in range(octaves):
-            s = 8 * 2 ** o
-            g = rng.normal(size=(s, s)).astype(np.float32)
-            t = np.asarray(Image.fromarray(((g - g.min()) / (np.ptp(g) + 1e-6) * 255).astype(np.uint8))
-                           .resize((n, n), Image.BICUBIC), np.float32) / 255.0
-            # 环向混合保证可平铺
-            a = t + np.roll(t, n // 2, 0)
-            a = a * 0.5
-            acc += a * amp
+            s = 4 * 2 ** o                       # 每边格子数
+            g = rng.random((s, s)).astype(np.float32)
+            fx = xx / n * s
+            fy = yy / n * s
+            x0 = np.floor(fx).astype(np.int32) % s
+            y0 = np.floor(fy).astype(np.int32) % s
+            x1 = (x0 + 1) % s
+            y1 = (y0 + 1) % s
+            tx = fx - np.floor(fx)
+            ty = fy - np.floor(fy)
+            tx = tx * tx * (3 - 2 * tx)
+            ty = ty * ty * (3 - 2 * ty)
+            a = g[y0, x0] * (1 - tx) + g[y0, x1] * tx
+            b = g[y1, x0] * (1 - tx) + g[y1, x1] * tx
+            acc += (a * (1 - ty) + b * ty) * amp
             amp *= 0.55
         acc -= acc.min()
         acc /= (acc.max() + 1e-6)

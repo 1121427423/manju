@@ -31,13 +31,13 @@ def post(img, cache, rng, i, meta):
     img = vfx.bloom(img, th=0.70, gain=0.42, tint=np.array([140, 225, 215], np.float32),
                     anamorphic=ani * 0.8)
     # 校准：亮度 65±2 / p5≈8 / sat≈33（对齐参考片 0-15s 段实测值）
-    img = vfx.grade(img, lift=0.004, teal_shadow=0.20, contrast=1.10, sat=0.90, warm_hl=0.05)
+    img = vfx.grade(img, lift=0.013, teal_shadow=0.145, contrast=1.11, sat=0.845, warm_hl=0.05)
     ca = 1.8 if ("shake" in v or "flash_impact" in v) else 0.6
     img = vfx.chromatic(img, ca)
-    img = vfx.vignette(img, cache, 0.92)
+    img = vfx.vignette(img, cache, 0.82)
     # 顶部压暗 + 中心轻微提亮（把视线压到人物上）
     top = np.clip(cache.yy / (H * 0.55), 0, 1)[..., None] ** 0.8
-    img = img * (0.82 + 0.18 * top)
+    img = img * (0.86 + 0.14 * top)
     ctr = np.exp(-((cache.xx - W * 0.5) ** 2 / (2 * (W * 0.30) ** 2)
                    + (cache.yy - H * 0.52) ** 2 / (2 * (H * 0.34) ** 2)))[..., None]
     img = img * (1 + 0.075 * ctr)
@@ -209,6 +209,8 @@ def main():
                             stderr=subprocess.DEVNULL)
     t_start = time.time()
     total = 0
+    DIS = 7                      # 叠化帧数（≈0.23s）：用于"软切"，避免第一幕被切成硬切
+    last_frame = None            # 上一镜的最后一帧，供叠化使用
     for m, base in todo:
         n = max(1, int(round((m["t1"] - m["t0"]) * args.fps)))
         is_title = m["art"] == "TITLE"
@@ -226,6 +228,12 @@ def main():
                     img = draw_caption(img, m["caption"], k)
                 if m.get("trans") == "fadein":
                     img = fade(img, ease(i / (args.fps * 0.7), "out"))
+                # ---- 叠化转场 ----
+                if m.get("trans") == "dissolve" and last_frame is not None and i < DIS:
+                    k = ease((i + 1) / (DIS + 1), "inout")
+                    img = last_frame * (1 - k) + img * k
+                if i == n - 1:
+                    last_frame = img.copy()
             proc.stdin.write(np.clip(img, 0, 255).astype(np.uint8).tobytes())
             total += 1
         el = time.time() - t_start
