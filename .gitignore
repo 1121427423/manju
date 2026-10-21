@@ -3,3 +3,4 @@ __pycache__/
 .cache/
 render_tmp/
 *.raw
+assets/keyart/png/
