@@ -123,7 +123,8 @@ class Shot:
         if "orb" in V:
             grow = ease(min(1, p * 2.2), "out")
             img = vfx.energy_orb(img, c, c.w * 0.5, c.h * 0.46,
-                                 c.h * 0.30 * (0.35 + 0.65 * grow), tt, power=0.5 + 0.9 * p)
+                                 c.h * 0.30 * (0.35 + 0.65 * grow), tt,
+                                 power=(0.5 + 0.9 * p) * self.m.get("orb_gain", 1.0))
         if "blade" in V:
             img = vfx.blade_light(img, c, (c.w * 0.12, c.h * 0.72), (c.w * 0.95, c.h * 0.22),
                                   tt, grow=min(1, p * 1.8), power=self.m.get("blade_power", 1.0))

@@ -147,7 +147,7 @@ def bloom(img, th=0.62, gain=0.85, tint=TEAL_GLOW, anamorphic=0.0):
     if anamorphic > 0:
         streak = np2img(g * 255).resize((w, max(2, h // 8)), Image.BILINEAR)
         streak = streak.filter(ImageFilter.GaussianBlur(6)).resize((w, h), Image.BILINEAR)
-        out = out + np.asarray(streak, np.float32)[..., None] / 255.0 * tint * anamorphic * 0.8
+        out = out + np.asarray(streak, np.float32) / 255.0 * tint * anamorphic * 0.8
     return out
 
 
