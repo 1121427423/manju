@@ -152,9 +152,18 @@ class Shot:
                 img = vfx.impact_flash(img, c, c.w * 0.5, c.h * 0.47, dt,
                                        power=self.m.get("flash_power", 1.0))
         if "whiteout" in V:
-            k = np.clip((tt - 0.10) / 0.22, 0, 1)
-            k = k * (1 - np.clip((tt - 1.25) / 0.30, 0, 1))
-            img = vfx.whiteout(img, k ** 0.8)
+            w = self.m.get("whiteout", {})
+            st, rise = w.get("start", 0.02), w.get("rising", 0.06)
+            hold, fall = w.get("hold", 0.12), w.get("fall", 1.0)
+            if tt < st:
+                k = 0.0
+            elif tt < st + rise:
+                k = (tt - st) / rise                     # 起（2帧左右）
+            elif tt < st + rise + hold:
+                k = 1.0                                   # 保持（≈4帧）
+            else:
+                k = max(0.0, 1 - (tt - st - rise - hold) / fall) ** 1.6
+            img = vfx.whiteout(img, k)
         return img
 
     # ---------------------------------------------------------------- 一帧
