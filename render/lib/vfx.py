@@ -348,10 +348,12 @@ def whiteout(img, k=1.0, tint=np.array([255, 255, 255], np.float32)):
     """白光爆：抬亮度 + 降饱和 + 叠加白。"""
     if k <= 0:
         return img
+    # k=1 时必须是"真过曝白"，而不是半透明灰雾（旧版最高只到 0.9×0.45+0.55 ≈ 灰）
     a = img / 255.0
     g = a.mean(2, keepdims=True)
-    a = g + (a - g) * (1 - 0.85 * k)
-    a = a * (1 - 0.55 * k) + k * 0.9
+    a = g + (a - g) * (1 - k)
+    a = a * (1 - k) + k * 1.0
+    # 只有 k 很小（刚起闪/快消隐）时才留一点原画面，中间段直接烧白
     return np.clip(a, 0, 1) * 255
 
 

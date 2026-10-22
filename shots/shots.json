@@ -539,13 +539,14 @@
    "desc": "光爆余波：白光在雾里褪去，两道剪影重新显影，尘与烬上浮",
    "move": "2 帧白闪后急速拉远",
    "sound": "静音 0.2s → 爆响",
-   "exp": 0.7,
+   "exp": 0.95,
    "whiteout": {
-    "start": 0.0,
-    "rising": 0.02,
-    "hold": 0.06,
-    "fall": 0.55
-   }
+    "start": 0.02,
+    "rising": 0.035,
+    "hold": 0.1,
+    "fall": 0.3
+   },
+   "whiteout_in_post": true
   },
   {
    "id": 19,

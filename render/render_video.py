@@ -32,7 +32,23 @@ GRADE = dict(bloom_th=0.75, bloom_gain=0.40, lift=0.012, teal_shadow=0.145,
              tint=(1.0, 1.0, 1.035), cool=(0.46, 0.58, 0.66))
 
 
-def post(img, cache, rng, i, meta, g=None):
+def _whiteout_k(meta, t):
+    """白闪强度：过曝必须发生在调色之后，否则会被 top_dark/vignette/exp 压回灰雾。"""
+    if "whiteout" not in set(meta.get("vfx", [])):
+        return 0.0
+    w = meta.get("whiteout", {})
+    st, rise = w.get("start", 0.02), w.get("rising", 0.035)
+    hold, fall = w.get("hold", 0.10), w.get("fall", 0.30)
+    if t < st:
+        return 0.0
+    if t < st + rise:
+        return (t - st) / max(1e-6, rise)
+    if t < st + rise + hold:
+        return 1.0
+    return max(0.0, 1 - (t - st - rise - hold) / max(1e-6, fall)) ** 1.4
+
+
+def post(img, cache, rng, i, meta, g=None, t=None):
     g = {**GRADE, **(g or {})}
     v = set(meta.get("vfx", []))
     ani = 0.55 if ("flash_impact" in v or "whiteout" in v) else 0.0
@@ -51,6 +67,11 @@ def post(img, cache, rng, i, meta, g=None):
                    + (cache.yy - H * 0.52) ** 2 / (2 * (H * 0.34) ** 2)))[..., None]
     img = img * (1 + g["center"] * ctr)
     img = vfx.grain(img, rng, g["grain"])
+    # 最后一步：白闪。放在 grain 之后，避免颗粒把纯白又拉成灰
+    if t is not None:
+        wk = _whiteout_k(meta, t)
+        if wk > 0:
+            img = vfx.whiteout(img, wk)
     return img
 
 
@@ -235,7 +256,7 @@ def main():
                 img = vfx.grain(img, rng, 1.6)
             else:
                 img = shot.frame(i)
-                img = post(img, cache, rng, i, m)
+                img = post(img, cache, rng, i, m, t=i / args.fps)
                 if m.get("caption"):
                     k = np.clip((i / args.fps - 0.35) / 0.9, 0, 1)
                     k *= 1 - np.clip((i / args.fps - ((m["t1"] - m["t0"]) - 0.6)) / 0.6, 0, 1)

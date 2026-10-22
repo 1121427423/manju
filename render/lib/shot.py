@@ -269,7 +269,7 @@ class Shot:
             if 0 <= dt < 0.34:
                 img = vfx.impact_flash(img, c, c.w * 0.5, c.h * 0.47, dt,
                                        power=self.m.get("flash_power", 1.0))
-        if "whiteout" in V:
+        if "whiteout" in V and self.m.get("whiteout_in_post"):
             w = self.m.get("whiteout", {})
             st, rise = w.get("start", 0.02), w.get("rising", 0.06)
             hold, fall = w.get("hold", 0.12), w.get("fall", 1.0)
