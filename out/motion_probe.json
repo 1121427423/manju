@@ -1,22 +1,12 @@
 [
  {
-  "file": "original-720p.mp4",
-  "n": 468,
+  "file": "chain1011.mp4",
+  "n": 24,
   "fps_probe": 12,
-  "global_px": 2.24,
-  "local_px": 35.0,
-  "local_mean": 37.67,
-  "local_p90": 68.0,
-  "motion_ratio": 3.21
- },
- {
-  "file": "青冥·伞_40s.mp4",
-  "n": 480,
-  "fps_probe": 12,
-  "global_px": 0.0,
-  "local_px": 11.0,
-  "local_mean": 15.16,
-  "local_p90": 26.2,
-  "motion_ratio": 6.45
+  "global_px": 1.0,
+  "local_px": 24.0,
+  "local_mean": 28.78,
+  "local_p90": 34.4,
+  "motion_ratio": 18.89
  }
 ]

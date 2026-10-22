@@ -839,8 +839,12 @@
     "feather": 0.2
    }
   ],
-  "key_b": "A10_charge_b",
-  "key_hold": 1.0
+  "key_hold": 1.0,
+  "key_chain": [
+   "A10_charge_p1",
+   "A10_charge_p2",
+   "A10_charge_p3"
+  ]
  },
  "11": {
   "shutter": 3,
@@ -931,7 +935,14 @@
     "phase": 0.0,
     "feather": 0.2
    }
-  ]
+  ],
+  "key_chain": [
+   "A11_impact_p1",
+   "A11_impact_p2",
+   "A11_impact_p3",
+   "A11_impact_p4"
+  ],
+  "key_hold": 1.0
  },
  "12": {
   "shutter": 2,
@@ -1114,7 +1125,6 @@
     "feather": 0.2
    }
   ],
-  "key_b": "A13_sweep_b",
   "key_hold": 1.0
  },
  "14": {
@@ -1480,7 +1490,6 @@
     "feather": 0.2
    }
   ],
-  "key_b": "A17_clash_b",
   "key_hold": 1.0
  },
  "18": {
