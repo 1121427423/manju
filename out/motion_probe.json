@@ -1,12 +1,12 @@
 [
  {
-  "file": "r1215.mp4",
-  "n": 29,
+  "file": "k3.mp4",
+  "n": 46,
   "fps_probe": 12,
   "global_px": 0.0,
-  "local_px": 11.0,
-  "local_mean": 13.07,
-  "local_p90": 15.3,
-  "motion_ratio": 2.3
+  "local_px": 12.0,
+  "local_mean": 14.2,
+  "local_p90": 17.6,
+  "motion_ratio": 5.41
  }
 ]

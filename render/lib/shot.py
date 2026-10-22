@@ -69,7 +69,13 @@ class Shot:
         # 关键帧在链里的时间位置（0..1）；可用于「慢速前景 → 动作中段 → 冲击」这种非线性节奏
         self.morph_ts = list(self.m.get("key_ts") or
                              [(i + 1) / len(paths) for i in range(len(paths))])
-        imgs = [self.canvas.convert("RGB")] + [Image.open(p).convert("RGB") for p in paths]
+        # 多数动作镜的原始静帧本身就是「结果态」（伞已张开 / 冰已炸开 / 火花已扩散）。
+        # 若把它当作链的起点，镜头开头会从终点倒放回首格 —— 观感是"先回退再前进"。
+        # key_skip_canvas 让链直接从第一格起播。
+        skip = bool(self.m.get("key_skip_canvas"))
+        imgs = ([Image.open(p).convert("RGB") for p in paths] if skip
+                else [self.canvas.convert("RGB")] + [Image.open(p).convert("RGB") for p in paths])
+        self.morph_bounds = ([0.0] + self.morph_ts[1:]) if skip else ([0.0] + self.morph_ts)
         small = [np.asarray(im.resize((sw, sh)), np.float32) for im in imgs]
         segs = []
         for a_s, b_s in zip(small[:-1], small[1:]):
@@ -87,16 +93,17 @@ class Shot:
             return self.canvas
         if s >= 0.999:
             s = 0.999
-        # 找到 s 落在哪一段：段 k 覆盖 [ts[k-1], ts[k]]，ts[0]=0
-        ts = [0.0] + self.morph_ts
+        # 找到 s 落在哪一段
+        bs = self.morph_bounds + [1.0]
         k = 0
         for i in range(len(m["segs"])):
-            if s >= ts[i]:
+            if s >= bs[i]:
                 k = i
-        span = max(1e-6, ts[k + 1] - ts[k])
-        local = (s - ts[k]) / span
+        span = max(1e-6, bs[k + 1] - bs[k])
+        local = (s - bs[k]) / span
         # 段内 ease-out：动作片是"快起慢收"，不是匀速
         local = ease(local, "out")
+        local = min(1.0, max(0.0, local))
         a_s, b_s, fab, fba = m["segs"][k]
         mi = MO.flow_morph(a_s, b_s, fab, fba, local)
         out = Image.fromarray(np.clip(mi, 0, 255).astype(np.uint8))
