@@ -1,12 +1,12 @@
 [
  {
-  "file": "rad.mp4",
-  "n": 31,
+  "file": "r1215.mp4",
+  "n": 29,
   "fps_probe": 12,
   "global_px": 0.0,
-  "local_px": 13.0,
-  "local_mean": 15.6,
-  "local_p90": 22.6,
-  "motion_ratio": 10.78
+  "local_px": 11.0,
+  "local_mean": 13.07,
+  "local_p90": 15.3,
+  "motion_ratio": 2.3
  }
 ]
