@@ -1,12 +1,12 @@
 [
  {
-  "file": "chain1011.mp4",
-  "n": 24,
+  "file": "test6.mp4",
+  "n": 67,
   "fps_probe": 12,
   "global_px": 1.0,
-  "local_px": 24.0,
-  "local_mean": 28.78,
-  "local_p90": 34.4,
-  "motion_ratio": 18.89
+  "local_px": 14.5,
+  "local_mean": 20.35,
+  "local_p90": 33.5,
+  "motion_ratio": 7.73
  }
 ]
