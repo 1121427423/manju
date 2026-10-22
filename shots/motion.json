@@ -1033,7 +1033,16 @@
     "phase": 0.0,
     "feather": 0.2
    }
-  ]
+  ],
+  "key_chain": [
+   "A12_shield_p1",
+   "A12_shield"
+  ],
+  "key_ts": [
+   0.4,
+   0.92
+  ],
+  "key_hold": 1.0
  },
  "13": {
   "shutter": 4,
@@ -1125,7 +1134,17 @@
     "feather": 0.2
    }
   ],
-  "key_hold": 1.0
+  "key_hold": 1.0,
+  "key_chain": [
+   "A13_sweep_p1",
+   "A13_sweep_p2",
+   "A13_sweep_p3"
+  ],
+  "key_ts": [
+   0.34,
+   0.52,
+   0.9
+  ]
  },
  "14": {
   "shutter": 2,
@@ -1307,7 +1326,18 @@
     "phase": 0.0,
     "feather": 0.2
    }
-  ]
+  ],
+  "key_chain": [
+   "A15_leap_p1",
+   "A15_leap_p2",
+   "A15_leap_p3"
+  ],
+  "key_ts": [
+   0.34,
+   0.55,
+   0.94
+  ],
+  "key_hold": 1.0
  },
  "16": {
   "shutter": 3,
@@ -1398,7 +1428,16 @@
     "phase": 0.0,
     "feather": 0.2
    }
-  ]
+  ],
+  "key_chain": [
+   "A16_ice_p1",
+   "A16_ice"
+  ],
+  "key_ts": [
+   0.38,
+   0.92
+  ],
+  "key_hold": 1.0
  },
  "17": {
   "shutter": 4,
@@ -1490,7 +1529,17 @@
     "feather": 0.2
    }
   ],
-  "key_hold": 1.0
+  "key_hold": 1.0,
+  "key_chain": [
+   "A17_clash_p1",
+   "A17_clash_p2",
+   "A17_clash_p3"
+  ],
+  "key_ts": [
+   0.45,
+   0.62,
+   0.86
+  ]
  },
  "18": {
   "shutter": 3,
@@ -1854,7 +1903,18 @@
     "phase": 0.0,
     "feather": 0.2
    }
-  ]
+  ],
+  "key_chain": [
+   "A21_hand_slam_p1",
+   "A21_hand_slam_p2",
+   "A21_hand_slam_p3"
+  ],
+  "key_ts": [
+   0.38,
+   0.6,
+   0.9
+  ],
+  "key_hold": 1.0
  },
  "22": {
   "shutter": 1,

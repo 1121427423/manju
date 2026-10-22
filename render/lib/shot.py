@@ -66,6 +66,9 @@ class Shot:
             return
         sw = 640
         sh = int(sw * self.canvas.size[1] / self.canvas.size[0])
+        # 关键帧在链里的时间位置（0..1）；可用于「慢速前景 → 动作中段 → 冲击」这种非线性节奏
+        self.morph_ts = list(self.m.get("key_ts") or
+                             [(i + 1) / len(paths) for i in range(len(paths))])
         imgs = [self.canvas.convert("RGB")] + [Image.open(p).convert("RGB") for p in paths]
         small = [np.asarray(im.resize((sw, sh)), np.float32) for im in imgs]
         segs = []
@@ -80,15 +83,19 @@ class Shot:
         """按时间取姿势链上的中间帧（canvas 尺寸）。"""
         m = self.morph
         s = min(1.0, max(0.0, t01 / max(1e-6, m["hold"])))
-        n = len(m["segs"])
         if s <= 0.001:
             return self.canvas
         if s >= 0.999:
             s = 0.999
-        pos = s * n
-        k = min(n - 1, int(pos))
-        local = pos - k
-        # 每段内部用 ease-out：动作片是"快起慢收"，不是匀速
+        # 找到 s 落在哪一段：段 k 覆盖 [ts[k-1], ts[k]]，ts[0]=0
+        ts = [0.0] + self.morph_ts
+        k = 0
+        for i in range(len(m["segs"])):
+            if s >= ts[i]:
+                k = i
+        span = max(1e-6, ts[k + 1] - ts[k])
+        local = (s - ts[k]) / span
+        # 段内 ease-out：动作片是"快起慢收"，不是匀速
         local = ease(local, "out")
         a_s, b_s, fab, fba = m["segs"][k]
         mi = MO.flow_morph(a_s, b_s, fab, fba, local)
