@@ -31,7 +31,7 @@ GRADE = dict(bloom_th=0.75, bloom_gain=0.40, lift=0.014, teal_shadow=0.145,
              # gamma 0.93→0.90 抬中间调，floor 0.045→0.058 抬黑位，hi_roll 防高光溢出
              contrast=1.17, sat=0.99, warm_hl=0.03, gamma=0.905, floor=0.030,
              vig=0.82, top_dark=0.93, center=0.075, grain=1.5, hi_roll=1.45,
-             tint=(1.0, 1.0, 1.035), cool=(0.46, 0.58, 0.66))
+             black_lift=0.045, tint=(1.0, 1.0, 1.035), cool=(0.46, 0.58, 0.66))
 
 
 def _whiteout_k(meta, t):
@@ -68,6 +68,12 @@ def post(img, cache, rng, i, meta, g=None, t=None):
     ctr = np.exp(-((cache.xx - W * 0.5) ** 2 / (2 * (W * 0.30) ** 2)
                    + (cache.yy - H * 0.52) ** 2 / (2 * (H * 0.34) ** 2)))[..., None]
     img = img * (1 + g["center"] * ctr)
+    # 抬黑必须在 vignette / top_dark 之后：放在 grade() 里会被随后的压暗重新吃掉，
+    # 这是"改了 floor 但 p5 不动"的原因。
+    bl = g.get("black_lift", 0.0)
+    if bl > 0:
+        cool = np.array(g.get("cool", (0.30, 0.55, 0.60)), np.float32)
+        img = img * (1 - bl) + bl * 255.0 * cool
     img = vfx.grain(img, rng, g["grain"])
     # 最后一步：白闪。放在 grain 之后，避免颗粒把纯白又拉成灰
     if t is not None:
