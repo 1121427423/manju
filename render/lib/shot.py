@@ -46,38 +46,52 @@ class Shot:
 
     # ------------------------------------------------------------ 双关键帧
     def _build_morph(self):
-        """同一镜头的"下一姿势"关键帧：两张同场景图做形态插值。
+        """同一镜头的连续姿势链：A0 → p1 → p2 → p3 → p4 做形态插值。
 
-        单帧再怎么形变，主体也是"被钉住的"；两张一致的关键帧之间插值，
-        角色会真的换姿势 —— 这是静止画布上唯一能做出"连续动作"的办法。
+        单帧再怎么形变，主体也是"被钉住的"；只有让主体真的换姿势，
+        才谈得上"连续动作"。这里预计算每一对相邻姿势的双向光流，
+        播放时按进度落在对应区段里插值。
         """
         self.morph = None
-        kb = self.m.get("key_b")
-        if not kb:
+        chain = list(self.m.get("key_chain") or [])
+        if self.m.get("key_b"):
+            chain = [self.m["key_b"]]
+        paths = []
+        for kb in chain:
+            p = os.path.join(ROOT, "assets", "shots",
+                             kb if kb.endswith(".jpg") else kb + ".jpg")
+            if os.path.exists(p):
+                paths.append(p)
+        if not paths:
             return
-        path = os.path.join(ROOT, "assets", "shots", kb if kb.endswith(".jpg") else kb + ".jpg")
-        if not os.path.exists(path):
-            return
-        b = Image.open(path).convert("RGB").resize(self.canvas.size)
-        sw, sh = 640, int(640 * self.canvas.size[1] / self.canvas.size[0])
-        a_s = np.asarray(self.canvas.convert("RGB").resize((sw, sh)), np.float32)
-        b_s = np.asarray(b.resize((sw, sh)), np.float32)
-        fab = MO.horn_schunck(a_s, b_s, iters=42, alpha=0.7)
-        fba = MO.horn_schunck(b_s, a_s, iters=42, alpha=0.7)
-        self.morph = dict(b=b, fab=fab, fba=fba, sw=sw, sh=sh,
+        sw = 640
+        sh = int(sw * self.canvas.size[1] / self.canvas.size[0])
+        imgs = [self.canvas.convert("RGB")] + [Image.open(p).convert("RGB") for p in paths]
+        small = [np.asarray(im.resize((sw, sh)), np.float32) for im in imgs]
+        segs = []
+        for a_s, b_s in zip(small[:-1], small[1:]):
+            segs.append((a_s, b_s,
+                         MO.horn_schunck(a_s, b_s, iters=42, alpha=0.7),
+                         MO.horn_schunck(b_s, a_s, iters=42, alpha=0.7)))
+        self.morph = dict(segs=segs, sw=sw, sh=sh,
                           hold=self.m.get("key_hold", 1.0))
 
     def _morph_at(self, t01):
-        """按时间取形态插值的中间帧（canvas 尺寸）。"""
+        """按时间取姿势链上的中间帧（canvas 尺寸）。"""
         m = self.morph
-        hold = m["hold"]
-        s = min(1.0, max(0.0, t01 / max(1e-6, hold)))
-        s = ease(s, "inout")
+        s = min(1.0, max(0.0, t01 / max(1e-6, m["hold"])))
+        n = len(m["segs"])
         if s <= 0.001:
             return self.canvas
-        a_s = np.asarray(self.canvas.convert("RGB").resize((m["sw"], m["sh"])), np.float32)
-        b_s = np.asarray(m["b"].resize((m["sw"], m["sh"])), np.float32)
-        mi = MO.flow_morph(a_s, b_s, m["fab"], m["fba"], s)
+        if s >= 0.999:
+            s = 0.999
+        pos = s * n
+        k = min(n - 1, int(pos))
+        local = pos - k
+        # 每段内部用 ease-out：动作片是"快起慢收"，不是匀速
+        local = ease(local, "out")
+        a_s, b_s, fab, fba = m["segs"][k]
+        mi = MO.flow_morph(a_s, b_s, fab, fba, local)
         out = Image.fromarray(np.clip(mi, 0, 255).astype(np.uint8))
         return out.resize(self.canvas.size, Image.BICUBIC)
 
