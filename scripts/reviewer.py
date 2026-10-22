@@ -29,6 +29,30 @@ VISUAL = os.path.join(ROOT, "review", "visual_scores.json")
 OUTDIR = os.path.join(ROOT, "out", "review")
 
 
+# ============================================================ 版本绑定
+def cut_fingerprint(path):
+    """成片指纹：时长 + 字节数 + 前 2MB 的哈希。
+
+    主观分必须绑定到具体的成片版本，否则重渲后旧分会被静默复用 ——
+    那是最隐蔽的一种"自评通胀"。
+    """
+    import hashlib
+    st = os.stat(path)
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        h.update(f.read(2 * 1024 * 1024))
+    dur = 0.0
+    out = subprocess.run([FF, "-hide_banner", "-i", path], capture_output=True, text=True).stderr
+    for tok in out.split():
+        if tok.startswith("Duration:"):
+            continue
+    import re
+    m = re.search(r"Duration: (\d+):(\d+):(\d+\.\d+)", out)
+    if m:
+        dur = int(m.group(1)) * 3600 + int(m.group(2)) * 60 + float(m.group(3))
+    return "%s_%d_%.1fs" % (h.hexdigest()[:12], st.st_size, dur)
+
+
 # ============================================================ 基础探测
 def probe(path):
     p = subprocess.run([FF, "-hide_banner", "-i", path], capture_output=True, text=True)
@@ -301,6 +325,15 @@ def grade_of(score):
 def evaluate(cand_path, ref_path, side_by_side=False):
     rub = json.load(open(RUBRIC, encoding="utf-8"))
     visual = json.load(open(VISUAL, encoding="utf-8")) if os.path.exists(VISUAL) else {}
+    # 主观分是否针对当前这一版成片
+    fp = cut_fingerprint(cand_path)
+    vcut = visual.get("_cut")
+    visual_fresh = (vcut == fp)
+    if not visual_fresh:
+        why = ("未绑定版本（旧格式）" if not vcut
+               else "绑定的是另一版成片 %s" % vcut)
+        print("⚠️ 主观分%s，本次不予采用 → 请对该版重新打分并写入 _cut=%s" % (why, fp))
+        visual = {k: v for k, v in visual.items() if k.startswith("_")}
     shots_cfg = json.load(open(os.path.join(ROOT, "shots", "shots.json")))["shots"]
 
     pc, pr = probe(cand_path), probe(ref_path)
@@ -406,20 +439,58 @@ def evaluate(cand_path, ref_path, side_by_side=False):
     def add(sev, area, msg, fix):
         findings.append(dict(severity=sev, area=area, issue=msg, fix=fix))
 
+    # 指标 → 可执行的动作（方向由实测值与参考值的关系决定）
+    FIX = {
+        "subject_motion": ("动作镜主体位移不足。检查该镜 key_chain 是否覆盖足够的总位移，"
+                           "并确认 key_skip_canvas 已启用（否则开头会倒放）。"),
+        "motion_purity": ("局部/全局比偏低 = 整幅都在平移。把位移收回到环境层（sky/gnd），"
+                          "主体所在中段保持刚性。"),
+        "worst_shot_exp": "在 shots.json 给该镜调低 exp，或减小 flash_power。",
+        "rhythm_corr": "切点分布与参考片不符：按参考片的分段切点密度重排 shots.json 的 t1。",
+        "sharpness_rel": "画面偏软：检查该镜 zoom 是否长期 >1.15（过度放大导致插值变软）。",
+        "noise_rel": "颗粒偏重：调低 render_video.py 的 GRADE['grain']（当前 1.5）。",
+        "flicker_rel": "亮度闪烁：检查闪光/白闪层的时间衰减是否过陡。",
+        "onset_hit": "音效与切点未对齐：把 scripts 里的音效起音点对齐 shots.json 的 t0。",
+        "crest_db": "动态范围偏窄：检查混音是否被限幅器压平。",
+        "centroid_khz": "频谱重心偏移：调整雨声/低频的比例。",
+        "hi_clip": "高光溢出：调低 bloom_gain 或该镜 exp。",
+        "lo_clip": "死黑过多：调高 GRADE['lift']。",
+    }
+
+    def direction(i):
+        """给出"该往哪边调"，而不是笼统的"按偏差方向调参"。"""
+        v, r = i["value"], i["ref"]
+        if v is None or r is None:
+            return ""
+        if i["kind"] == "similarity":
+            return "偏低，需上调" if v < r else "偏高，需下调"
+        if i["kind"] == "band":
+            lo, hi = i.get("lo"), i.get("hi")
+            if lo is not None and v < lo:
+                return "低于区间下限"
+            if hi is not None and v > hi:
+                return "高于区间上限"
+        return ""
+
     for d in dim_results:
         for i in d["items"]:
             if i["score"] is None or i["score"] >= 82:
                 continue
             sev = "高" if i["score"] < 55 else ("中" if i["score"] < 70 else "低")
-            msg = f"{d['name']} · {i['name']}",
-            fix_map = {
-                "motion": "帧间差不足：用图生视频替换静帧（docs/02 的 motion 段）",
-                "worst_shot_exp": "个别镜头过曝：在 shots.json 给该镜加 exp 或调 flash_power",
-                "rhythm_corr": "节奏曲线与参考片对不上：按 docs/00 的切点分布重排",
-            }
-            add(sev, d["name"], f"{i['name']} = {i['value'] if not isinstance(i['value'], float) else round(i['value'], 2)}"
-                f"（参考 {i['ref'] if not isinstance(i['ref'], float) else round(i['ref'], 2) if i['ref'] is not None else '-'}）",
-                fix_map.get(i["metric"], "见 docs/04 与 docs/06 的对应章节，按偏差方向调参"))
+            if i["kind"] == "manual":
+                # 人工项没有实测值，扣分原因以评审意见原文为准，不再编造 "= None"
+                note = (visual.get("_comments") or {}).get(i["name"], "")
+                add(sev, d["name"],
+                    f"{i['name']} 主观评分 {i['score']:.0f}/100" + (f"：{note}" if note else ""),
+                    "见第四节视觉评审意见，按其中列出的具体镜头修改。")
+                continue
+            val = i["value"] if not isinstance(i["value"], float) else round(i["value"], 2)
+            ref = i["ref"] if not isinstance(i["ref"], float) else (
+                round(i["ref"], 2) if i["ref"] is not None else "-")
+            dirn = direction(i)
+            add(sev, d["name"],
+                f"{i['name']} = {val}（参考 {ref}）" + (f"，{dirn}" if dirn else ""),
+                FIX.get(i["metric"], "见 docs/04 质检报告中的同口径数值，按偏差方向调参。"))
 
     if worst_row and worst_row["hi_clip"] > 0.05:
         add("中", "画面质量", f"镜 {worst_row['id']}（{worst_row['art']}）高光溢出 {worst_row['hi_clip']*100:.1f}%",
