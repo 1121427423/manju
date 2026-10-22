@@ -41,8 +41,10 @@ def probe(path, t0, t1):
         dx, dy = phase(F[i], F[i + 1])
         reg = np.roll(np.roll(F[i], -dy, 0), -dx, 1)
         r = np.abs(F[i + 1] - reg)
-        out.append(float(np.median(r[r > np.percentile(r, 60)])))
-    return float(np.median(out))
+        sel = r[r > np.percentile(r, 60)]
+        if sel.size >= 64:
+            out.append(float(np.median(sel)))
+    return float(np.median(out)) if out else 0.0
 
 
 if __name__ == "__main__":

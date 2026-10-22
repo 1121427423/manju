@@ -60,7 +60,12 @@ def probe(path, dur=None):
         # 配准后残差 = 局部运动
         reg = shift_img(a, dx, dy)
         r = np.abs(b - reg)
-        lv = float(np.median(r[r > np.percentile(r, 60)]))
+        sel = r[r > np.percentile(r, 60)]
+        # 纯白/纯黑帧（如白闪）残差全 0，sel 为空 -> 跳过该帧对，避免 nan 污染全片
+        if sel.size < 64:
+            g.append(gv)
+            continue
+        lv = float(np.median(sel))
         g.append(gv); l.append(lv)
     g = np.array(g); l = np.array(l)
     return dict(file=os.path.basename(path), n=len(F), fps_probe=12,
