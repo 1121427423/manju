@@ -119,6 +119,19 @@ class Shot:
                 mask = MO.soft_band(H, W, spec.get("y0", 0.3), spec.get("y1", 1.0),
                                     spec.get("x0", 0.0), spec.get("x1", 1.0),
                                     spec.get("feather", 0.18))
+            elif kind == "radial":
+                # 放射/收缩场：伞骨张开、冰锥炸开这类"从中心向外"的动作，
+                # 光流插值做不出来（关键帧只有首末两格），但它是真实存在的运动。
+                yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+                cx, cy = spec.get("center", (0.5, 0.5))
+                dx = (xx / W - cx)
+                dy = (yy / H - cy) * (H / W)
+                r = np.sqrt(dx * dx + dy * dy) + 1e-6
+                sg = max(1e-4, spec.get("sigma", 0.35))
+                fall = np.exp(-(r / sg) ** 2)
+                mask = (fall * MO.soft_band(H, W, spec.get("y0", 0.0), spec.get("y1", 1.0),
+                                            feather=spec.get("feather", 0.12))).astype(np.float32)
+                spec["_radial"] = dict(dx=dx / r, dy=dy / r, fall=fall)
             elif kind == "bright":
                 # 按亮度挑"白袍 / 发丝 / 光边"：这些是角色身上会飘的部分，
                 # 让它们相对身体有一点自己的位移，人就不会像被钉在画里。
@@ -275,6 +288,14 @@ class Shot:
             flow[..., 0] += band * dx
             flow[..., 1] += band * dy
         for w in self.warps:
+            if w.get("kind") == "radial":
+                rd = w["_radial"]
+                # 随时间推进的放射速度：前半段慢、后半段爆发
+                sp = w.get("strength", 60.0) * (0.35 + 0.65 * ease(min(1.0, max(0.0, tt / w.get("ramp", 1.0))), "in"))
+                m = w["mask"]
+                flow[..., 0] += m * rd["dx"] * sp
+                flow[..., 1] += m * rd["dy"] * sp
+                continue
             amp = w.get("amp", 7.0) * (0.72 + 0.28 * np.sin(tt * w.get("rate", 0.9) + w.get("phase", 0)))
             drift = w.get("drift", (0, 0))
             f = MO.organic_flow(H, W, w["noise"], amp=amp, scale=w.get("scale", 1.0),

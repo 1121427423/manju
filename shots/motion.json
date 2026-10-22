@@ -1032,6 +1032,19 @@
     "rate": 1.1,
     "phase": 0.0,
     "feather": 0.2
+   },
+   {
+    "kind": "radial",
+    "center": [
+     0.5,
+     0.5
+    ],
+    "sigma": 0.3,
+    "strength": 58.9,
+    "ramp": 1.0,
+    "y0": 0.1,
+    "y1": 0.86,
+    "feather": 0.1
    }
   ],
   "key_chain": [
@@ -1132,6 +1145,19 @@
     "rate": 1.1,
     "phase": 0.0,
     "feather": 0.2
+   },
+   {
+    "kind": "radial",
+    "center": [
+     0.55,
+     0.58
+    ],
+    "sigma": 0.38,
+    "strength": 43.4,
+    "ramp": 1.0,
+    "y0": 0.1,
+    "y1": 0.95,
+    "feather": 0.12
    }
   ],
   "key_hold": 1.0,
@@ -1427,6 +1453,19 @@
     "rate": 1.1,
     "phase": 0.0,
     "feather": 0.2
+   },
+   {
+    "kind": "radial",
+    "center": [
+     0.52,
+     0.62
+    ],
+    "sigma": 0.42,
+    "strength": 93.0,
+    "ramp": 1.0,
+    "y0": 0.15,
+    "y1": 1.0,
+    "feather": 0.1
    }
   ],
   "key_chain": [
