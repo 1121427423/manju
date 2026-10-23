@@ -102,11 +102,12 @@ def warp(img, flow, *, edge_fill="reflect"):
     return top * (1 - wy) + bot * wy
 
 
-def flow_morph(img_a, img_b, flow_ab, flow_ba, t, *, consistency=True):
-    """两帧之间按流场做形态学插值（比交叉溶解干净，不会出现鬼影）。
+def flow_morph(img_a, img_b, flow_ab, flow_ba, t, *, consistency=True, low_conf="blend"):
+    """两帧之间按流场做形态学插值。
 
-    t=0 → A，t=1 → B。用 A→B 与 B→A 的流场做前向-后向一致性加权，
-    遮挡区自动偏向"能看得见的那一帧"。
+    t=0 → A，t=1 → B。用 A→B 与 B→A 的流场估算前向-后向一致性；
+    低置信区默认交叉溶解。该近似仍可能产生脸部软化、衣物重影或轮廓拖尾，
+    必须逐帧检查，不能假设一致性加权会自动消除鬼影。
     """
     if t <= 0:
         return img_a
@@ -121,9 +122,13 @@ def flow_morph(img_a, img_b, flow_ab, flow_ba, t, *, consistency=True):
     conf = np.clip(1.0 - back / 6.0, 0, 1)
     wsum = conf * (1 - t) + conf * t + 1e-6
     out = (a * (conf * (1 - t))[..., None] + b * (conf * t)[..., None]) / wsum[..., None]
-    # 低置信度区域退回简单溶解
+    # 低置信度区域默认交叉溶解；nearest 仅供诊断，实际是否减少拖尾须看成片。
     low = (conf < 0.35)[..., None]
-    return np.where(low, a * (1 - t) + b * t, out)
+    if low_conf == "nearest":
+        fallback = a if t < 0.5 else b
+    else:
+        fallback = a * (1 - t) + b * t
+    return np.where(low, fallback, out)
 
 
 def _resize_flow(f, shape):

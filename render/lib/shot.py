@@ -64,7 +64,9 @@ class Shot:
                 paths.append(p)
         if not paths:
             return
-        sw = 640
+        # Morph flow at 640px is cheap but blurs small facial details after upscaling.
+        # Allow a higher diagnostic width; production default stays at 640 until validated.
+        sw = int(self.m.get("morph_width", 640))
         sh = int(sw * self.canvas.size[1] / self.canvas.size[0])
         # 关键帧在链里的时间位置（0..1）；可用于「慢速前景 → 动作中段 → 冲击」这种非线性节奏
         self.morph_ts = list(self.m.get("key_ts") or
@@ -110,7 +112,8 @@ class Shot:
         local = ease(local, "out")
         local = min(1.0, max(0.0, local))
         a_s, b_s, fab, fba = m["segs"][k]
-        mi = MO.flow_morph(a_s, b_s, fab, fba, local)
+        mi = MO.flow_morph(a_s, b_s, fab, fba, local,
+                           low_conf=self.m.get("morph_low_conf", "blend"))
         out = Image.fromarray(np.clip(mi, 0, 255).astype(np.uint8))
         return out.resize(self.canvas.size, Image.BICUBIC)
 

@@ -35,6 +35,10 @@ def main():
     ap.add_argument("--crf", type=int, default=18)
     ap.add_argument("--key-chain", default="", help="临时覆盖关键帧名，逗号分隔；仅用于试验")
     ap.add_argument("--key-ts", default="", help="临时覆盖 key_ts，逗号分隔")
+    ap.add_argument("--morph-width", type=int, default=640,
+                    help="关键帧光流计算宽度，增大可保细节但显著变慢")
+    ap.add_argument("--low-conf", choices=("blend", "nearest"), default="blend",
+                    help="低置信区域使用双帧混合或最近姿势；nearest 是实验项，不保证消除拖尾")
     a = ap.parse_args()
     if a.seconds <= 0 or a.seconds > 2:
         raise SystemExit("测试长度限制为 (0, 2] 秒")
@@ -57,6 +61,8 @@ def main():
     meta["t1"] = meta["t0"] + a.seconds
     meta["warps"] = []
     meta["parallax"] = []
+    meta["morph_width"] = a.morph_width
+    meta["morph_low_conf"] = a.low_conf
     meta["shutter"] = max(1, int(meta.get("shutter", 1)))
     n = int(round(a.seconds * FPS))
     cache = Cache(W, H)
