@@ -90,6 +90,11 @@ class Shot:
         m = self.morph
         s = min(1.0, max(0.0, t01 / max(1e-6, m["hold"])))
         if s <= 0.001:
+            # key_skip_canvas 表示姿势链从第一张关键帧开始，不应在首帧先显示原图
+            # （通常原图是动作结果态），否则会出现“结果态 → 回到蓄势态”的单帧倒跳。
+            if self.m.get("key_skip_canvas") and m["segs"]:
+                first = Image.fromarray(np.clip(m["segs"][0][0], 0, 255).astype(np.uint8))
+                return first.resize(self.canvas.size, Image.BICUBIC)
             return self.canvas
         if s >= 0.999:
             s = 0.999
