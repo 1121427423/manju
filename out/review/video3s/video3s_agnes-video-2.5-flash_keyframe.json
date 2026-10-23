@@ -1,0 +1,30 @@
+{
+ "model": "agnes-video-2.5-flash",
+ "mode": "keyframe",
+ "video_id": "task_pcDfkew54FOddw6HM9VL6h9rdR3fDHny",
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_pcDfkew54FOddw6HM9VL6h9rdR3fDHny.mp4",
+ "seconds_requested": "4",
+ "size": "720P",
+ "aspect_ratio": "16:9",
+ "refs": [
+  "https://raw.githubusercontent.com/1121427423/manju/arena/f4ee7e05-manju/out/review/video3s_refs/00_start.jpg",
+  "https://raw.githubusercontent.com/1121427423/manju/arena/f4ee7e05-manju/out/review/video3s_refs/02_end.jpg"
+ ],
+ "prompt": "生成一段 3 秒、16:9 的电影感连续动作镜头。严格以首帧和尾帧作为画面起止状态；中间参考图只用于约束交锋动作。固定中景广角镜头，机位稳定，不切镜、不变焦。场景始终是雨中的圆形石台与青色风暴遗迹。\n\n动作按时间推进：0–0.5 秒，两人短暂对峙蓄势；0.5–1.4 秒，白衣黑发男剑客向右前方快速踏步刺出；1.4–1.8 秒，剑尖撞上银发女剑客的圆形伞盾，接触点迸出一簇短促、局部的金青火花；1.8–2.4 秒，男剑客受力后撤半步、剑锋下沉，女剑客稳稳持盾；2.4–3.0 秒，两人停在尾帧姿势，火花熄弱，雨势持续。动作有明确的起势、加速、碰撞和回稳，人物身体与武器做连贯的真实运动，不做静帧推拉。\n\n全程保持两位角色与参考图一致：同一张脸、发型、年龄感、身形、服装颜色与结构；男角色只持一把直剑，女角色只持一面圆形伞盾。白衣袖口、衣摆长度和分片保持稳定，不凭空增加长尾或飘带。伞盾结构不变。背景石柱、圆形石台及远处建筑位置稳定；只允许人物、武器、接触火花和少量近身雨水运动。脸部清晰可辨，人体关节自然，动作流畅有重量感，电影级写实奇幻质感。",
+ "negative_prompt_text": "face morphing, identity change, costume change, extra limbs, duplicate person, duplicate sword, duplicate shield, extra weapon, long trailing cloth, extra ribbons, melting body, warped anatomy, flickering, full-frame ripple, background bending, camera shake, zoom, cuts, giant explosion, excessive sparks, text, logo, subtitles",
+ "raw_file": "/Users/king/BigModel/LLM/tools/manju/out/review/video3s/video3s_agnes-video-2.5-flash_keyframe_raw.mp4",
+ "raw_probe": {
+  "size": "1260x720",
+  "fps": "24/1",
+  "frames": "107",
+  "duration": 4.48
+ },
+ "created_at": "2026-10-24 02:06:29",
+ "trimmed_file": "/Users/king/BigModel/LLM/tools/manju/out/review/video3s/video3s_agnes-video-2.5-flash_keyframe_3s.mp4",
+ "trimmed_probe": {
+  "size": "1260x720",
+  "fps": "24/1",
+  "frames": "74",
+  "duration": 3.083008
+ }
+}
