@@ -81,11 +81,25 @@ def main():
              "本片把金色留给剑光与片名，属创作选择。".format(pct('gold')))
     L.append("- 帧间差 {:+.1f}%：**路线差距，不是参数问题**。参考片的运动来自肢体动画+布料解算"
              "+流体解算；本仓库为静帧+2.5D+粒子。补齐须走图生视频（见 docs/02）。".format(pct('motion')))
-    L.append("- 硬切数 {:.0f} vs {:.0f}：本片在 0.5s 量级的爆切段切得更碎；第一幕已用叠化把"
-             "画面切点压到 2 个。".format(a['cuts'], b['cuts']))
+    if a['cuts'] == b['cuts']:
+        L.append("- 硬切数 {:.0f} vs {:.0f}：切点检测已合并\"同一次剪辑的多次触发\""
+                 "（相邻帧重复、硬切紧跟亮闪），去重后与参考片完全一致。"
+                 .format(a['cuts'], b['cuts']))
+    else:
+        L.append("- 硬切数 {:.0f} vs {:.0f}：本片在 0.5s 量级的爆切段切得更碎；第一幕已用叠化把"
+                 "画面切点压到 2 个。".format(a['cuts'], b['cuts']))
     L.append("")
     L.append("> 分类由脚本按实测值自动判定，改数据即改结论。")
     L.append("")
+
+    # 旁白条数从分镜表读，不手填
+    try:
+        import json
+        _sh = json.load(open(os.path.join(ROOT, "shots", "shots.json"), encoding="utf-8"))["shots"]
+        _cap = [z for z in _sh if z.get("caption")]
+        cap_txt = f"{len(_cap)} 条旁白（{' / '.join(z['caption'][:6] + '…' for z in _cap)}）+ 片名卡"
+    except Exception:
+        cap_txt = "见 shots.json 的 caption 字段"
 
     L.append("""## 四、自检清单
 
@@ -96,11 +110,12 @@ def main():
 | 黑边 / 黑帧 | ✅ 运镜预留 1.30 倍画布，角点检测 0 例 |
 | 白屏 / 过曝 | ✅ 已修色彩空间归一化 bug，p95 与参考片一致 |
 | 雾/噪声矩形接缝 | ✅ 改为周期性格子噪声（无缝） |
-| 字幕逐字浮现 | ✅ 4 条文案，位置/节奏按分镜表 |
+| 字幕逐字浮现 | ✅ """ + cap_txt + """，位置/节奏按分镜表 |
 | 片名卡 | ✅ 旋转金环 + 字距拉开 + 收黑 |
 | 音画同步 | ✅ 重音点对齐切点：15.6 / 17.0 / 18.2 / 19.4 / 21.4 / 23.6 / 24.8 / 26.2 / 33.0 |
 | 首尾淡入淡出 | ✅ 0.7s 淡入 / 片名卡 1.0s 收黑 |
 | 字体缺字 | ✅ 字体子集覆盖全部文档字符（1086 字 / 552 KB） |
+| 独立字幕文件 | ✅ `out/青冥·伞_40s.srt`（`scripts/make_srt.py` 从同一份分镜表生成） |
 
 ## 五、下一步（可选项）
 

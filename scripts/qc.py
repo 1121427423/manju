@@ -48,11 +48,47 @@ def video_stats(path, fps=10, w=320, h=180):
                 dur=len(x) / fps)
 
 
+def frame_luma(path, w=192, h=108):
+    """逐帧亮度曲线（全帧率），只用于判断第二次触发是不是闪光。"""
+    raw = tempfile.mktemp(suffix=".raw")
+    subprocess.run([FF, "-v", "error", "-i", path, "-vf", f"scale={w}:{h}",
+                    "-pix_fmt", "rgb24", "-f", "rawvideo", raw, "-y"])
+    a = np.fromfile(raw, dtype=np.uint8)
+    if os.path.exists(raw):
+        os.remove(raw)
+    if a.size < w * h * 3:
+        return None
+    n = a.size // (w * h * 3)
+    return a[: n * w * h * 3].reshape(n, h, w, 3).mean(axis=(1, 2, 3))
+
+
 def cuts_by_scene(path, th=0.30):
+    """场景切点，已合并"同一次剪辑的多次触发"（与 reviewer 同规则、独立实现）。
+
+    1) 间隔 ≤0.07s：同一转场被相邻帧各报一次；
+    2) 间隔 <0.40s 且后一次触发处亮度 ≥ 前次的 1.15 倍：硬切紧跟的亮闪被误判成转场。
+    只压暗的连续快剪不会满足 2)，因此参考片真实的 0.23s 快剪不会被吞。
+    """
     p = subprocess.run([FF, "-hide_banner", "-i", path,
                         "-vf", f"select='gt(scene,{th})',showinfo", "-an", "-f", "null", "-"],
                        capture_output=True, text=True)
-    return [float(t.split(":")[1]) for t in p.stderr.split() if t.startswith("pts_time:")]
+    raw = [float(t.split(":")[1]) for t in p.stderr.split() if t.startswith("pts_time:")]
+    dur = probe(path).get("dur", 0) or 0
+    lum = frame_luma(path)
+    fps = (len(lum) / dur) if (lum is not None and dur > 0) else 30.0
+    kept = []
+    for t in sorted(raw):
+        if kept:
+            gap = t - kept[-1]
+            if gap <= 0.07:
+                continue
+            if gap < 0.40 and lum is not None:
+                i, j = int(round(kept[-1] * fps)), int(round(t * fps))
+                if 0 <= i < len(lum) and 0 <= j < len(lum) and lum[i] > 1:
+                    if lum[j] / lum[i] >= 1.15:
+                        continue
+        kept.append(t)
+    return kept
 
 
 def audio_stats(path):
