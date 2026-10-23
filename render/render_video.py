@@ -26,11 +26,11 @@ FPS = 30
 
 # ------------------------------------------------------------------ 后期
 # 影调参数（可由 scripts/tune_grade.py 搜索；正式渲染以这里为准）
-GRADE = dict(bloom_th=0.75, bloom_gain=0.40, lift=0.014, teal_shadow=0.145,
+GRADE = dict(bloom_th=0.75, bloom_gain=0.40, lift=0.014, teal_shadow=0.130,
              # 亮度 66.6 vs 参考 71.7、暗部 p5 6.0 vs 9.0：
              # gamma 0.93→0.90 抬中间调，floor 0.045→0.058 抬黑位，hi_roll 防高光溢出
              contrast=1.17, sat=0.99, warm_hl=0.03, gamma=0.905, floor=0.030,
-             vig=0.82, top_dark=0.93, center=0.075, grain=1.5, hi_roll=1.45,
+             vig=0.82, top_dark=0.93, center=0.075, grain=1.5, hi_roll=1.62,
              black_lift=0.045, tint=(1.0, 1.0, 1.035), cool=(0.46, 0.58, 0.66))
 
 
