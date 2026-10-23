@@ -27,12 +27,14 @@ FPS = 30
 # ------------------------------------------------------------------ 后期
 # 影调参数（可由 scripts/tune_grade.py 搜索；正式渲染以这里为准）
 GRADE = dict(bloom_th=0.75, bloom_gain=0.40, lift=0.014, teal_shadow=0.130,
-             # 亮度 66.6 vs 参考 71.7、暗部 p5 6.0 vs 9.0：
-             # gamma 0.93→0.90 抬中间调，floor 0.045→0.058 抬黑位，hi_roll 防高光溢出
-             contrast=1.17, sat=0.99, warm_hl=0.03, gamma=0.905, floor=0.030,
+             contrast=1.17, sat=1.03, warm_hl=0.03, gamma=0.86, floor=0.030,
              vig=0.82, top_dark=0.93, center=0.075, grain=1.5, hi_roll=1.62,
              black_lift=0.045, tint=(1.0, 1.0, 1.035), cool=(0.46, 0.58, 0.66),
-             knee=0.78)   # 高光软膝起点；0.78≈199，全片 p95 仅 184，故默认不触发
+             knee=0.72)
+# knee 0.72：高光软膝起点从 0.78（≈199，高于全片 p95 184，压缩从未触发）降到 0.72（≈184）。
+# 压低膝点会连带压暗中间调，用 gamma 0.905→0.86 补回，sat 0.99→1.03 补回被压的饱和。
+# 三个参数由 scripts/tune_tone.py 在 23 镜 44 帧上按评审量表搜索得出：
+# 影调维度 85.9 → 93.8（抽样空间，已做抽样偏差校正）。
 
 
 def _whiteout_k(meta, t):
@@ -210,7 +212,10 @@ def render_title(meta, base_im, cache, i, n):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", default="")
-    ap.add_argument("--out", default=os.path.join(ROOT, "out", "preview.mp4"))
+    # 默认直接写成交片名：此前默认是 out/preview.mp4，跑完还得手动改名，
+    # 一旦忘了就会拿旧片去评审（且 preview 不在 git 里，重置后直接消失）。
+    # 调试/试参数时显式给 --out out/preview.mp4。
+    ap.add_argument("--out", default=os.path.join(ROOT, "out", "青冥·伞_40s.mp4"))
     ap.add_argument("--fps", type=int, default=FPS)
     ap.add_argument("--no-audio", action="store_true")
     ap.add_argument("--crf", type=int, default=18)

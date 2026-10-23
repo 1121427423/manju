@@ -116,6 +116,7 @@ CUT_MIN_GAP = 0.40        # 二次触发的最长合并间隔（秒）
 CUT_SAME_GAP = 0.07       # 同一次转场被相邻两帧各报一次
 CUT_FLASH_RATIO = 1.15    # 第二次触发处亮度 ≥ 前一次 1.15 倍 → 判为闪光伪切点
 CUT_INFO = {}             # path -> 去重明细，供报告引用
+CUTS_LAST = []            # 最近一次候选片的切点，供报告做交叉校验披露
 
 
 def _luma_curve(path, w=192, h=108):
@@ -406,6 +407,8 @@ def evaluate(cand_path, ref_path, side_by_side=False):
     fc = frames_full(cand_path)
     fr_ = frames_full(ref_path)
     cuts_c, cuts_r = scene_cuts(cand_path), scene_cuts(ref_path)
+    global CUTS_LAST
+    CUTS_LAST = list(cuts_c)
     ac, ar = audio_metrics(cand_path), audio_metrics(ref_path)
 
     mc = tone_metrics(xc)
@@ -672,7 +675,7 @@ def make_side_by_side(cand, ref, dur, pairs=None):
 
 
 # ============================================================ 报告
-def write_report(rep):
+def write_report(rep, cuts_snapshot=None):
     L = []
     g = rep["grade"]
     icon = {"S": "🏆", "A": "✅", "B": "🟡", "C": "⚠️", "D": "❌"}[g]
@@ -705,11 +708,31 @@ def write_report(rep):
         L.append(f"| {it['name']} | {it['metric']} | {fmt(v)} | {fmt(r)} | "
                  f"{'待人工' if s is None else f'{s:.1f}'} |")
 
+    cuts_snapshot = cuts_snapshot or []
     cd = rep.get("cut_debug") or {}
     if cd.get("candidate"):
         c, r = cd["candidate"], cd["reference"]
         def _merged_str(m):
             return "、".join(f"{z['t']:.2f}s（{z['reason']}）" for z in m) or "无"
+
+        # 交叉校验：排期表里的硬切点，检测器有没有漏（只披露，不参与打分）
+        try:
+            _sh = json.load(open(os.path.join(ROOT, "shots", "shots.json"), encoding="utf-8"))["shots"]
+            _hard = [z["t0"] for z in _sh if z.get("trans") == "cut"]
+            _got = cuts_snapshot
+            _miss = [t for t in _hard if not any(abs(t - c) <= 0.25 for c in _got)]
+            _extra = [c for c in _got if not any(abs(t - c) <= 0.25 for t in _hard)]
+            L.append(f"\n> 检测器局限（只披露，不参与打分）：排期表中有 **{len(_hard)} 处硬切**、"
+                     f"{len(_sh)-len(_hard)-2} 处叠化/淡入淡出。检测到 {len(_got)} 处，"
+                     f"其中与硬切对得上的 {len(_hard)-len(_miss)} 处；"
+                     f"**漏检 {len(_miss)} 处**（{', '.join(f'{t:.1f}s' for t in _miss) or '无'}）——"
+                     "相邻镜头构图相近时，`scene` 的帧差低于阈值；"
+                     f"**误报 {len(_extra)} 处**（{', '.join(f'{t:.1f}s' for t in _extra) or '无'}）——"
+                     "镜内闪光/爆点被当成转场。"
+                     "因此\"切点总数/ASL\"只能作相对参考：它同时受剪辑选择与调色对比度影响，"
+                     "不要为了这两个数字去改调色或硬加/硬减镜头。\n")
+        except Exception as e:      # 披露失败不该影响评分
+            L.append(f"\n> （切点交叉校验跳过：{e}）\n")
 
         L.append("\n> 切点去重：ffmpeg `scene` 检测对同一剪辑会二次触发 —— 相邻帧重复、"
                  "或硬切紧跟一次亮闪。规则：间隔 ≤ 0.07 s 一律合并；间隔 < 0.4 s 且"
@@ -759,7 +782,7 @@ def main():
     rep = evaluate(a.candidate, a.reference, a.side_by_side)
     os.makedirs(OUTDIR, exist_ok=True)
     json.dump(rep, open(os.path.join(OUTDIR, "report.json"), "w"), ensure_ascii=False, indent=1)
-    write_report(rep)
+    write_report(rep, CUTS_LAST)
     print(f"\n总评 {rep['total']} / 100  等级 {rep['grade']}")
     for d in rep["dimensions"]:
         s = d["score"]
