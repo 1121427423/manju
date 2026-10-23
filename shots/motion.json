@@ -1052,13 +1052,11 @@
   "key_chain": [
    "A12_shield_p1",
    "A12_shield_p2",
-   "A12_shield_p3",
    "A12_shield"
   ],
   "key_ts": [
    0.42,
-   0.62,
-   0.82,
+   0.7,
    0.94
   ],
   "key_hold": 1.0,
@@ -1364,14 +1362,12 @@
   "key_chain": [
    "A15_leap_p1",
    "A15_leap_p2",
-   "A15_leap_p5",
    "A15_leap_p3",
    "A15_leap_p4"
   ],
   "key_ts": [
    0.3,
    0.52,
-   0.63,
    0.74,
    0.96
   ],
@@ -1484,13 +1480,11 @@
   "key_chain": [
    "A16_ice_p1",
    "A16_ice_p2",
-   "A16_ice_p3",
    "A16_ice"
   ],
   "key_ts": [
    0.4,
-   0.62,
-   0.82,
+   0.68,
    0.94
   ],
   "key_hold": 1.0,
