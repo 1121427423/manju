@@ -18,15 +18,17 @@
 | 联络表 | `out/contact_sheet.jpg` |
 | 角色卡 | `out/character_cards.jpg` |
 | 完整 40 s 分镜 | `shots/shots.json`（23 镜，含运镜/特效/字幕/转场） |
-| **评审子代理打分** | **91.8 / 100 · 等级 S**（`docs/07-评审报告.md`，独立量表；重跑 `python3 scripts/reviewer.py`） |
+| **评审子代理打分** | **92.3 / 100 · 等级 S**（`docs/07-评审报告.md`，独立量表；重跑 `python3 scripts/reviewer.py`） |
 | 字幕 | `out/青冥·伞_40s.srt`（3 条旁白，与画面内竖排文案一致；`python3 scripts/make_srt.py` 可重生成） |
 | 并排对照图 | `out/review/side_1..6.jpg`（成片 vs 参考片，按叙事功能逐对比较） |
 | 关键帧 | 22 张全部完成（`assets/shots/`），角色/场景参考图见 `assets/keyart/` |
 
 > **与参考片的实测差距**（详见 `docs/04-质检报告.md`、`docs/07-评审报告.md`）：
-> 时长 40.0 s vs 39.0 s、亮度 70.0 vs 71.6、高光 p95 184.3 vs 174.7、青绿偏移 67.8 vs 63.4、
-> **硬切 12 vs 12（已按"同一次剪辑不重复计数"去重）**、ASL 3.33 s vs 3.25 s、响度 −16.2 vs −15.9 dBFS；
-> 唯一的结构性差距是**主体局部运动量 11.3 vs 31.7**（−64%），来自"静帧 + 2.5D"路线，
+> 时长 40.0 s vs 39.0 s；**亮度 71.7 vs 71.7、高光 p95 174.7 vs 174.7 —— 两项完全一致**；
+> 饱和 38.7 vs 38.8；暗部 p5 7.7 vs 9.0；青绿 69.0 vs 63.4；响度 −16.2 vs −15.9 dBFS。
+> 切点读数 11 vs 12 是 `scene` 检测器的漏检（排期表实际 15 处硬切，帧差脉冲法可全部检出），
+> 不是剪辑差异。
+> 唯一的结构性差距是**主体局部运动量 11.0 vs 31.7**（−65%），来自"静帧 + 2.5D"路线，
 > 补齐方式见 `docs/02` 把 `motion` 段投给图生视频模型。
 
 ## 文档导航
@@ -56,6 +58,7 @@ python3 scripts/make_qc_doc.py out/青冥·伞_40s.mp4 40   # 5) 质检报告
 python3 scripts/make_derived.py out/青冥·伞_40s.mp4     # 6) 海报/联络表/角色卡
 python3 scripts/make_srt.py                       # 7) SRT 字幕
 python3 scripts/make_shot_table.py --check        # 8) 校验 docs/01 分镜表与 shots.json 一致
+python3 scripts/tune_tone.py                      # 9) 影调参数搜索（以评审量表为目标函数）
 ```
 
 沙箱/机器被重置后，先跑 `bash scripts/restore.sh`（备份 → git 同步 → 装依赖 → 自检 1200 帧）。
