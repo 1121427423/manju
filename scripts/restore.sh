@@ -69,7 +69,7 @@ FAIL=0
 need=(
   "render/render_video.py" "shots/shots.json" "scripts/reviewer.py"
   "review/rubric.json" "docs/01-制作圣经.md" "docs/07-评审报告.md"
-  "out/青冥·伞_40s.mp4" "out/score.wav"
+  "out/青冥·伞_40s.mp4" "out/score.wav" "out/青冥·伞_40s.srt"
 )
 for f in "${need[@]}"; do
   if [ -e "$f" ]; then printf '   ✅ %s (%s)\n' "$f" "$(du -h "$f" | cut -f1)"
@@ -77,20 +77,19 @@ for f in "${need[@]}"; do
 done
 if [ -e "out/青冥·伞_40s.mp4" ]; then
   R="$(python3 - <<'PY'
-import json, subprocess, sys
-try:
-    import imageio_ffmpeg
-    ff = imageio_ffmpeg.get_ffmpeg_exe().replace("ffmpeg-", "ffprobe-")
-except Exception:
-    ff = "ffprobe"
-p = subprocess.run([ff, "-v", "error", "-select_streams", "v:0", "-count_frames",
-                    "-show_entries", "stream=nb_read_frames,width,height,r_frame_rate",
-                    "-of", "json", "out/青冥·伞_40s.mp4"], capture_output=True, text=True)
-try:
-    s = json.loads(p.stdout)["streams"][0]
-    print(f'{s["width"]}x{s["height"]} {s["r_frame_rate"]} {s["nb_read_frames"]}帧')
-except Exception:
-    print("ffprobe 不可用，跳过帧数核对")
+import re, subprocess
+import imageio_ffmpeg
+
+ff = imageio_ffmpeg.get_ffmpeg_exe()
+# imageio-ffmpeg 只带 ffmpeg、不带 ffprobe：用 showinfo 数帧（1200 帧约 3 秒）
+p = subprocess.run([ff, "-hide_banner", "-i", "out/青冥·伞_40s.mp4",
+                    "-vf", "showinfo", "-an", "-f", "null", "-"],
+                   capture_output=True, text=True)
+frames = len(re.findall(r"\bn:\s*\d+.*pts_time:", p.stderr))
+size = re.search(r"Video:.*?, (\d{2,5}x\d{2,5})", p.stderr)
+fps = re.search(r"(\d+(?:\.\d+)?) fps", p.stderr)
+print("{} {} {}帧".format(size.group(1) if size else "?",
+                        fps.group(1) + "fps" if fps else "?", frames))
 PY
 )"
   echo "   成片: $R"

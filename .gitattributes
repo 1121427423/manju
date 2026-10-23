@@ -1,0 +1,7 @@
+# 二进制素材：不做行尾转换、不参与文本 diff（否则 git 会把 mp4 当文本处理）
+*.mp4  -text -diff
+*.mov  -text -diff
+*.wav  -text -diff
+*.mp3  -text -diff
+*.jpg  -text -diff
+*.png  -text -diff

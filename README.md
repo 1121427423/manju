@@ -54,7 +54,11 @@ python3 -m render.render_video                     # 3) 出片（2 核 CPU ≈ 1
 python3 scripts/reviewer.py --side-by-side         # 4) 评审打分 + 并排对照图
 python3 scripts/make_qc_doc.py out/青冥·伞_40s.mp4 40   # 5) 质检报告
 python3 scripts/make_derived.py out/青冥·伞_40s.mp4     # 6) 海报/联络表/角色卡
+python3 scripts/make_srt.py                       # 7) SRT 字幕
+python3 scripts/make_shot_table.py --check        # 8) 校验 docs/01 分镜表与 shots.json 一致
 ```
+
+沙箱/机器被重置后，先跑 `bash scripts/restore.sh`（备份 → git 同步 → 装依赖 → 自检 1200 帧）。
 
 单镜头调试：
 
