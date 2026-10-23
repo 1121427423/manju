@@ -31,7 +31,8 @@ GRADE = dict(bloom_th=0.75, bloom_gain=0.40, lift=0.014, teal_shadow=0.130,
              # gamma 0.93→0.90 抬中间调，floor 0.045→0.058 抬黑位，hi_roll 防高光溢出
              contrast=1.17, sat=0.99, warm_hl=0.03, gamma=0.905, floor=0.030,
              vig=0.82, top_dark=0.93, center=0.075, grain=1.5, hi_roll=1.62,
-             black_lift=0.045, tint=(1.0, 1.0, 1.035), cool=(0.46, 0.58, 0.66))
+             black_lift=0.045, tint=(1.0, 1.0, 1.035), cool=(0.46, 0.58, 0.66),
+             knee=0.78)   # 高光软膝起点；0.78≈199，全片 p95 仅 184，故默认不触发
 
 
 def _whiteout_k(meta, t):
@@ -59,7 +60,7 @@ def post(img, cache, rng, i, meta, g=None, t=None):
     img = vfx.grade(img, lift=g["lift"], teal_shadow=g["teal_shadow"], contrast=g["contrast"],
                     sat=g["sat"], warm_hl=g["warm_hl"], gamma=g["gamma"], floor=g["floor"],
                     cool=tuple(g.get("cool", (0.30, 0.55, 0.60))), hi_roll=g.get("hi_roll", 0.0),
-                    tint=tuple(g.get("tint", (1.0, 1.0, 1.0))))
+                    tint=tuple(g.get("tint", (1.0, 1.0, 1.0))), knee=g.get("knee", 0.78))
     ca = 1.8 if ("shake" in v or "flash_impact" in v) else 0.6
     img = vfx.chromatic(img, ca)
     img = vfx.vignette(img, cache, g["vig"])

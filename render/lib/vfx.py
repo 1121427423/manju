@@ -184,13 +184,16 @@ def grain(img, rng, amt=5.0):
 
 
 def grade(img, lift=0.0, teal_shadow=0.30, contrast=1.06, sat=1.05, warm_hl=0.06,
-          gamma=0.98, floor=0.045, cool=(0.30, 0.55, 0.60), hi_roll=0.0, tint=(1.0, 1.0, 1.0)):
+          gamma=0.98, floor=0.045, cool=(0.30, 0.55, 0.60), hi_roll=0.0, tint=(1.0, 1.0, 1.0),
+          knee=0.78):
     a = img / 255.0
     # 亮度曲线
     a = np.clip(a, 0, 1) ** gamma
     a = (a - 0.5) * contrast + 0.5 + lift
     if hi_roll > 0:                       # 高光软膝：压住镜面溢出，保住 p95
-        a = a - hi_roll * np.clip(a - 0.78, 0, None) ** 1.6
+        # knee 是软膝起点（0.78 = 199/255）。此前的 0.78 高于全片 p95（184），
+        # 压缩根本没触发 —— 调 hi_roll 自然无效。提为参数后才可真正压高光。
+        a = a - hi_roll * np.clip(a - knee, 0, None) ** 1.6
     # 阴影偏青、高光偏暖（经典 teal & gold）
     lum = a.mean(2, keepdims=True)
     sh = (1 - np.clip(lum * 1.8, 0, 1)) ** 1.4
