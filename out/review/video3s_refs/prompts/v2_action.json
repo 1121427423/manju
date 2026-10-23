@@ -1,0 +1,10 @@
+{
+  "version": "v2_action",
+  "title": "v2：开场即刻起势 / 女剑客挡击受力 / 碰撞火花克制",
+  "why": "针对 v1 的三处偏差——开场停顿偏长、女方挡击反应弱、碰撞闪光偏强。",
+  "first_frame": "00_start.jpg",
+  "last_frame": "02_end.jpg",
+  "positive": "生成 16:9、24fps 的电影感动作视频。严格匹配首帧中的两位角色、服装、武器、构图与石台场景，并在动作结束时回到尾帧指定姿势。单镜头、固定机位，不切镜、不变焦、不做数字推拉；背景建筑、石柱和圆形石台保持稳定。\n\n动作从开场很快开始，避免长时间静止：0–0.2 秒短暂对峙；0.2–0.85 秒，白衣黑发男剑客蹬地、重心前移，向右前方连续突进并刺剑，身体和剑产生清楚的真实位移；银发女剑客同步追踪来剑，移动伞盾迎击并稳住下盘。0.85–1.25 秒，剑与盾清晰接触，盾面只向后偏转少许，女剑客肩部和躯干短促受力回弹、脚步微调后立稳；接触点出现短暂、局部、克制的金色火花。1.25–2.2 秒，男剑客受力后撤半步，剑锋顺势下沉，重心重新落稳；女剑客恢复防守姿态。2.2–3.0 秒，动作收住并稳定在尾帧姿势，火花熄灭，只留雨水和少量衣料余摆。\n\n整套动作一气呵成，通过脚步、重心、关节和武器惯性完成真实攻防，不瞬移、不像静帧幻灯片。保持人物身份、脸型、发型、身形稳定：男剑客始终是黑色高束发、白色短结构汉服与深色腰带，只持一把直剑；女剑客始终是银色长发、深青黑色金纹护甲，只持同一把圆形伞盾。衣服自然随身体摆动，但衣摆长度和分片不变，不生成长尾、飘带或额外布料。伞盾保持完整圆形与原有纹样，不变形。脸部尽量清晰，四肢结构正确。碰撞光效小而有力，不遮住人物、剑和盾。\n\n【时长约束】本接口固定生成 4 秒：请在前 3 秒内完成上述全部动作并收在尾帧姿势，第 3–4 秒保持结束姿势静止不动，只保留雨水下落与轻微衣料余摆，以便裁取前 3 秒。",
+  "negative": "long static hold, slideshow, pose morphing, teleporting, face drift, identity change, costume change, extra limbs, duplicate person, duplicate sword, duplicate shield, extra weapon, long trailing cloth, extra ribbons, melting body, warped anatomy, shield deformation, full-frame ripple, background bending, camera shake, zoom, cuts, giant flash, giant explosion, overexposed contact, sparks covering faces, text, logo, subtitles",
+  "note": "negative 无独立栏位时只记录进元数据，不上送。"
+}

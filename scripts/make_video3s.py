@@ -63,6 +63,19 @@ NEGATIVE = (
 )
 
 FRAMES = {"start": "00_start.jpg", "clash": "01_clash.jpg", "end": "02_end.jpg"}
+PROMPT_DIR = os.path.join(REFS, "prompts")
+
+
+def load_prompt(path):
+    """读 prompts/*.json → (positive, negative, version, sha256)。
+
+    提示词放文件而不是内嵌, 让"哪一版提示词出了哪条片"可追溯:
+    元数据记 version + sha256, 改提示词就换文件, 不破坏历史产出的可复现性。
+    """
+    raw = open(path, "rb").read()
+    d = json.loads(raw.decode("utf-8"))
+    ver = d.get("version") or os.path.splitext(os.path.basename(path))[0]
+    return d["positive"], d.get("negative", ""), ver, hashlib.sha256(raw).hexdigest()[:16]
 
 
 def log(m):
@@ -245,7 +258,9 @@ def main():
     ap.add_argument("--seconds", default=SECONDS)
     ap.add_argument("--size", default=SIZE)
     ap.add_argument("--model", default=MODEL)
-    ap.add_argument("--tag", default="")
+    ap.add_argument("--tag", default="", help="产出文件名后缀; 不传则用提示词 version")
+    ap.add_argument("--prompt-file", default="",
+                    help="提示词 JSON(positive/negative/version); 缺省用脚本内嵌的 v1")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--no-trim", action="store_true")
     ap.add_argument("--strict-refcheck", action="store_true")
@@ -253,9 +268,23 @@ def main():
 
     model, seconds, size = a.model, a.seconds, a.size
 
+    prompt, negative, prompt_ver, prompt_sha = PROMPT, NEGATIVE, "v1_base", ""
+    prompt_file = a.prompt_file
+    if a.prompt_file:
+        path = a.prompt_file
+        if not os.path.isabs(path) and not os.path.exists(path):
+            path = os.path.join(PROMPT_DIR, a.prompt_file)
+        if not os.path.exists(path):
+            sys.exit(f"提示词文件不存在: {a.prompt_file}")
+        prompt, negative, prompt_ver, prompt_sha = load_prompt(path)
+        prompt_file = os.path.relpath(path, ROOT)
+        log(f"prompt {prompt_ver} sha={prompt_sha}")
+    if not a.tag:
+        a.tag = "" if prompt_ver == "v1_base" else prompt_ver
+
     if a.mode == "keyframe":
         urls = [FRAMES["start"], FRAMES["end"]]
-        payload = {"model": model, "prompt": PROMPT, "mode": "keyframe",
+        payload = {"model": model, "prompt": prompt, "mode": "keyframe",
                    "first_frame": f"{RAW}/{FRAMES['start']}",
                    "last_frame": f"{RAW}/{FRAMES['end']}",
                    "seconds": str(seconds), "size": size, "aspect_ratio": ASPECT}
@@ -263,7 +292,7 @@ def main():
         urls = [FRAMES["start"], FRAMES["end"]] + ([FRAMES["clash"]] if a.with_clash else [])
         refs = "\n".join(f"<Picture {i+1}> 是画面{'起始状态' if i == 0 else '结束状态' if i == 1 else '中间交锋动作'}"
                          for i in range(len(urls)))
-        payload = {"model": model, "prompt": refs + "\n\n" + PROMPT, "mode": "reference",
+        payload = {"model": model, "prompt": refs + "\n\n" + prompt, "mode": "reference",
                    "images": [f"{RAW}/{u}" for u in urls],
                    "seconds": str(seconds), "size": size, "aspect_ratio": ASPECT}
 
@@ -289,7 +318,9 @@ def main():
     info = {"model": model, "mode": a.mode, "video_id": vid, "url": url,
             "seconds_requested": str(seconds), "size": size, "aspect_ratio": ASPECT,
             "refs": [f"{RAW}/{u}" for u in urls], "prompt": payload["prompt"],
-            "negative_prompt_text": NEGATIVE, "raw_file": raw_mp4,
+            "prompt_version": prompt_ver, "prompt_file": prompt_file or None,
+            "prompt_sha256": prompt_sha or None,
+            "negative_prompt_text": negative, "raw_file": raw_mp4,
             "raw_probe": probe(raw_mp4), "created_at": time.strftime("%Y-%m-%d %H:%M:%S")}
 
     if not a.no_trim:
@@ -303,6 +334,17 @@ def main():
         info["trimmed_file"] = trimmed
         info["trimmed_probe"] = probe(trimmed)
         log(f"trimmed -> {trimmed} {info['trimmed_probe']}")
+
+        # 上游按参考图 1376x768 推出 1260x720(非标准 16:9 宽度), 交付要 1280x720。
+        # 不传 -r: 源本来就是 24fps, 强行 -r 24 会把时间戳揉成 77 帧/3.21s(实测)。
+        hd = os.path.join(OUT, stem + "_3s_720p.mp4")
+        r = ff("-i", trimmed, "-vf", "scale=1280:720:flags=lanczos",
+               "-c:v", "libx264", "-crf", "18", "-preset", "medium", "-pix_fmt", "yuv420p",
+               "-an", "-movflags", "+faststart", hd)
+        if r.returncode == 0 and os.path.exists(hd):
+            info["hd_file"] = hd
+            info["hd_probe"] = probe(hd)
+            log(f"720p -> {hd} {info['hd_probe']}")
 
     sheet(raw_mp4, os.path.join(OUT, stem + "_sheet.jpg"), cols=4, rows=3,
           at=[i * 4.0 / 11 for i in range(12)])

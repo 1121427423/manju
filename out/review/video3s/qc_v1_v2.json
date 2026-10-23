@@ -1,0 +1,62 @@
+{
+ "a": {
+  "label": "v1",
+  "file": "out/review/video3s/video3s_agnes-video-2.5-flash_keyframe_raw.mp4",
+  "frames": 96,
+  "duration_s": 4.0,
+  "motion_onset_s": 1.17,
+  "start_static_s": 1.17,
+  "peak_s": 1.5,
+  "peak_diff": 17.6,
+  "mean_diff": 2.8,
+  "flash": {
+   "max_frac": 0.0106,
+   "at_s": 1.58,
+   "frames_over_0.2pct": 23,
+   "gold_max_frac": 0.0007
+  },
+  "bloom": {
+   "max_frac": 0.0479,
+   "at_s": 1.58,
+   "mean_frac_while_on": 0.0172,
+   "frames_over_0.2pct": 75
+  },
+  "motion_energy": {
+   "left": 2.2,
+   "right": 0.5,
+   "window": "0.2-1.3s"
+  },
+  "ncc_first_vs_start": 0.997,
+  "ncc_last_vs_end": 0.863
+ },
+ "b": {
+  "label": "v2",
+  "file": "out/review/video3s/video3s_agnes-video-2.5-flash_keyframe_v2_action_raw.mp4",
+  "frames": 96,
+  "duration_s": 4.0,
+  "motion_onset_s": 0.67,
+  "start_static_s": 0.67,
+  "peak_s": 1.08,
+  "peak_diff": 14.2,
+  "mean_diff": 2.4,
+  "flash": {
+   "max_frac": 0.0018,
+   "at_s": 1.08,
+   "frames_over_0.2pct": 0,
+   "gold_max_frac": 0.0029
+  },
+  "bloom": {
+   "max_frac": 0.0198,
+   "at_s": 1.08,
+   "mean_frac_while_on": 0.0045,
+   "frames_over_0.2pct": 77
+  },
+  "motion_energy": {
+   "left": 5.0,
+   "right": 3.5,
+   "window": "0.2-1.3s"
+  },
+  "ncc_first_vs_start": 0.997,
+  "ncc_last_vs_end": 0.869
+ }
+}
