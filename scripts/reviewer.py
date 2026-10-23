@@ -112,11 +112,75 @@ def frames_full(path, w=640, h=360, step=15):
 
 
 # ============================================================ 各维度指标
+CUT_MIN_GAP = 0.40        # 二次触发的最长合并间隔（秒）
+CUT_SAME_GAP = 0.07       # 同一次转场被相邻两帧各报一次
+CUT_FLASH_RATIO = 1.15    # 第二次触发处亮度 ≥ 前一次 1.15 倍 → 判为闪光伪切点
+CUT_INFO = {}             # path -> 去重明细，供报告引用
+
+
+def _luma_curve(path, w=192, h=108):
+    """逐帧亮度曲线（30 fps 附近），用于判定"第二次触发是不是闪光"。
+
+    只看整帧平均亮度就够：闪光会在 0.1–0.3 s 内把整幅拉亮，而真正的剪辑
+    不会在同一个方向上有这么陡的跃升（切到亮景是有可能的，所以还要配合
+    "间隔很短" 这个前提，见 _dedupe_cuts）。
+    """
+    raw = tempfile.mktemp(suffix=".raw")
+    subprocess.run([FF, "-v", "error", "-i", path, "-vf", f"scale={w}:{h}",
+                    "-pix_fmt", "rgb24", "-f", "rawvideo", raw, "-y"],
+                   capture_output=True)
+    a = np.fromfile(raw, dtype=np.uint8)
+    if os.path.exists(raw):
+        os.remove(raw)
+    if a.size < w * h * 3:
+        return None
+    n = a.size // (w * h * 3)
+    return a[: n * w * h * 3].reshape(n, h, w, 3).mean(axis=(1, 2, 3))
+
+
+def _dedupe_cuts(cuts, luma=None, fps=30.0, min_gap=CUT_MIN_GAP):
+    """合并"同一次剪辑"的多次触发，返回 (保留的切点, 合并明细)。
+
+    ffmpeg 的 `scene` 过滤器有两种误报，都会让同一次剪辑被计两次：
+      a) 同一个转场在相邻两帧各触发一次（间隔 ≤ 0.07 s）；
+      b) 硬切紧跟一次亮闪/白闪，闪光本身又被当成转场（间隔 0.1–0.3 s）。
+    b) 只有在"第二次触发处整帧明显更亮"时才合并 —— 否则像参考片
+    25.57→25.80 那样 0.23 s 的连续两次真剪辑会被误吞（已实测：后者是压暗，
+    不是闪光）。成片与参考片走同一套规则，口径一致。
+    """
+    kept, merged = [], []
+    for t in sorted(cuts):
+        if kept:
+            gap = t - kept[-1]
+            if gap <= CUT_SAME_GAP:
+                merged.append(dict(t=round(t, 2), prev=round(kept[-1], 2),
+                                   gap=round(gap, 2), reason="同一转场重复触发"))
+                continue
+            if gap < min_gap and luma is not None:
+                i, j = int(round(kept[-1] * fps)), int(round(t * fps))
+                if 0 <= i < len(luma) and 0 <= j < len(luma):
+                    a, b = float(luma[i]), float(luma[j])
+                    if a > 1 and b / a >= CUT_FLASH_RATIO:
+                        merged.append(dict(t=round(t, 2), prev=round(kept[-1], 2),
+                                           gap=round(gap, 2), reason="闪光伪切点",
+                                           luma=[round(a, 1), round(b, 1)]))
+                        continue
+        kept.append(t)
+    return kept, merged
+
+
 def scene_cuts(path, th=0.30):
     p = subprocess.run([FF, "-hide_banner", "-i", path, "-vf",
                         f"select='gt(scene,{th})',showinfo", "-an", "-f", "null", "-"],
                        capture_output=True, text=True)
-    return [float(t.split(":")[1]) for t in p.stderr.split() if t.startswith("pts_time:")]
+    raw = [float(t.split(":")[1]) for t in p.stderr.split() if t.startswith("pts_time:")]
+    dur = probe(path).get("duration", 0) or 0
+    luma = _luma_curve(path)
+    fps = (len(luma) / dur) if (luma is not None and dur > 0) else 30.0
+    cuts, merged = _dedupe_cuts(raw, luma, fps)
+    CUT_INFO[path] = dict(raw_cuts=len(raw), cuts=len(cuts), merged=merged,
+                          fps=round(fps, 2))
+    return cuts
 
 
 def tone_metrics(x):
@@ -512,6 +576,9 @@ def evaluate(cand_path, ref_path, side_by_side=False):
         probe=dict(candidate=pc.get("raw", ""), reference_duration=pr.get("duration")),
         visual_comments=visual.get("_comments", {}),
         pending_manual=sum(d["pending"] for d in dim_results),
+        cut_debug=dict(candidate=CUT_INFO.get(cand_path, {}),
+                       reference=CUT_INFO.get(ref_path, {}),
+                       min_gap=CUT_MIN_GAP),
     )
     return report
 
@@ -637,6 +704,18 @@ def write_report(rep):
         s = it["score"]
         L.append(f"| {it['name']} | {it['metric']} | {fmt(v)} | {fmt(r)} | "
                  f"{'待人工' if s is None else f'{s:.1f}'} |")
+
+    cd = rep.get("cut_debug") or {}
+    if cd.get("candidate"):
+        c, r = cd["candidate"], cd["reference"]
+        def _merged_str(m):
+            return "、".join(f"{z['t']:.2f}s（{z['reason']}）" for z in m) or "无"
+
+        L.append("\n> 切点去重：ffmpeg `scene` 检测对同一剪辑会二次触发 —— 相邻帧重复、"
+                 "或硬切紧跟一次亮闪。规则：间隔 ≤ 0.07 s 一律合并；间隔 < 0.4 s 且"
+                 "第二次触发处整帧亮度 ≥ 前次 1.15 倍（闪光特征）才合并，压暗类的连续真剪辑保留。"
+                 f"成片 {c['raw_cuts']} → **{c['cuts']}**（合并 {len(c['merged'])} 次：{_merged_str(c['merged'])}）；"
+                 f"参考片 {r['raw_cuts']} → **{r['cuts']}**（合并 {len(r['merged'])} 次：{_merged_str(r['merged'])}）。\n")
 
     L.append("\n## 三、扣分项与修改建议（自动生成）\n")
     if not rep["findings"]:
