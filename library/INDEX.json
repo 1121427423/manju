@@ -1,0 +1,8114 @@
+[
+ {
+  "category": "01-国漫角色",
+  "subject": "expr",
+  "tier": "I",
+  "path": "01-国漫角色/expr/expr__R28_expr_inkwash.png",
+  "lap": 75.8,
+  "tag": "R28"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "expr",
+  "tier": "I",
+  "path": "01-国漫角色/expr/expr__R28_expr_ghibli.png",
+  "lap": 37.7,
+  "tag": "R28"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "expr",
+  "tier": "I",
+  "path": "01-国漫角色/expr/expr__R28_expr_anime2d.png",
+  "lap": 26.6,
+  "tag": "R28"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "expr",
+  "tier": "I",
+  "path": "01-国漫角色/expr/expr__R28_expr_photo.png",
+  "lap": 18.4,
+  "tag": "R28"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "expr",
+  "tier": "I",
+  "path": "01-国漫角色/expr/expr__R28_expr_vogue.png",
+  "lap": 16.8,
+  "tag": "R28"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "expr",
+  "tier": "I",
+  "path": "01-国漫角色/expr/expr__R28_expr_guoman3d.png",
+  "lap": 14.6,
+  "tag": "R28"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "blueprint",
+  "tier": "D",
+  "path": "11-图示信息图/blueprint/blueprint__R29_blueprint_hand_ink.png",
+  "lap": 60.4,
+  "tag": "R29"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "blueprint",
+  "tier": "D",
+  "path": "11-图示信息图/blueprint/blueprint__R29_blueprint_tech_blue.png",
+  "lap": 46.2,
+  "tag": "R29"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "blueprint",
+  "tier": "D",
+  "path": "11-图示信息图/blueprint/blueprint__R29_blueprint_line_ink.png",
+  "lap": 31.0,
+  "tag": "R29"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "blueprint",
+  "tier": "D",
+  "path": "11-图示信息图/blueprint/blueprint__R29_blueprint_print_design.png",
+  "lap": 27.7,
+  "tag": "R29"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "blueprint",
+  "tier": "D",
+  "path": "11-图示信息图/blueprint/blueprint__R29_blueprint_soft3d.png",
+  "lap": 19.8,
+  "tag": "R29"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "blueprint",
+  "tier": "D",
+  "path": "11-图示信息图/blueprint/blueprint__R29_blueprint_flat_ui.png",
+  "lap": 17.4,
+  "tag": "R29"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "sketch",
+  "tier": "D",
+  "path": "01-国漫角色/sketch/sketch__R29_sketch_hand_ink.png",
+  "lap": 130.9,
+  "tag": "R29"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "sketch",
+  "tier": "D",
+  "path": "01-国漫角色/sketch/sketch__R29_sketch_flat_ui.png",
+  "lap": 121.1,
+  "tag": "R29"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "sketch",
+  "tier": "D",
+  "path": "01-国漫角色/sketch/sketch__R29_sketch_line_ink.png",
+  "lap": 86.8,
+  "tag": "R29"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "sketch",
+  "tier": "D",
+  "path": "01-国漫角色/sketch/sketch__R29_sketch_tech_blue.png",
+  "lap": 84.9,
+  "tag": "R29"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "sketch",
+  "tier": "D",
+  "path": "01-国漫角色/sketch/sketch__R29_sketch_print_design.png",
+  "lap": 82.1,
+  "tag": "R29"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "sketch",
+  "tier": "D",
+  "path": "01-国漫角色/sketch/sketch__R29_sketch_soft3d.png",
+  "lap": 35.8,
+  "tag": "R29"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "flowchart",
+  "tier": "D",
+  "path": "11-图示信息图/flowchart/flowchart__R30_flowchart_2.5.png",
+  "lap": 12.1,
+  "tag": "R30"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "flowchart",
+  "tier": "D",
+  "path": "11-图示信息图/flowchart/flowchart__R30_flowchart_2.1.png",
+  "lap": 10.9,
+  "tag": "R30"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "flowchart",
+  "tier": "D",
+  "path": "11-图示信息图/flowchart/flowchart__R30_flowchart_2.0.png",
+  "lap": 10.4,
+  "tag": "R30"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "piechart",
+  "tier": "P",
+  "path": "11-图示信息图/piechart/piechart__R30_piechart_2.0.png",
+  "lap": 5.7,
+  "tag": "R30"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "piechart",
+  "tier": "P",
+  "path": "11-图示信息图/piechart/piechart__R30_piechart_2.1.png",
+  "lap": 5.5,
+  "tag": "R30"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "piechart",
+  "tier": "P",
+  "path": "11-图示信息图/piechart/piechart__R30_piechart_2.5.png",
+  "lap": 5.1,
+  "tag": "R30"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R36_print_icon_v3.png",
+  "lap": 17.0,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37c_print_icon_v10.png",
+  "lap": 14.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37c_print_icon_v01.png",
+  "lap": 13.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37c_print_icon_v07.png",
+  "lap": 13.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37c_print_icon_v11.png",
+  "lap": 13.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R33_print_icon_v2.png",
+  "lap": 13.0,
+  "tag": "R33"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R33_print_icon_v1.png",
+  "lap": 12.9,
+  "tag": "R33"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R36_print_icon_v1.png",
+  "lap": 12.8,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37c_print_icon_v02.png",
+  "lap": 12.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37c_print_icon_v05.png",
+  "lap": 12.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37c_print_icon_v08.png",
+  "lap": 12.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R36_print_icon_v2.png",
+  "lap": 11.6,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37c_print_icon_v03.png",
+  "lap": 11.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37c_print_icon_v09.png",
+  "lap": 10.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37c_print_icon_v06.png",
+  "lap": 10.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37c_print_icon_v12.png",
+  "lap": 10.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37c_print_icon_v04.png",
+  "lap": 10.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R36_ink_ecom_v1.png",
+  "lap": 34.0,
+  "tag": "R36"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R37c_ink_ecom_v04.png",
+  "lap": 31.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R37c_ink_ecom_v08.png",
+  "lap": 20.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R37c_ink_ecom_v09.png",
+  "lap": 20.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R37c_ink_ecom_v01.png",
+  "lap": 19.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R37c_ink_ecom_v06.png",
+  "lap": 19.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R36_ink_ecom_v3.png",
+  "lap": 16.9,
+  "tag": "R36"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R33_ink_ecom_v2.png",
+  "lap": 4.6,
+  "tag": "R33"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R37c_ink_ecom_v10.png",
+  "lap": 4.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R37c_ink_ecom_v05.png",
+  "lap": 4.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R37c_ink_ecom_v02.png",
+  "lap": 4.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R37c_ink_ecom_v07.png",
+  "lap": 4.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R36_ink_ecom_v2.png",
+  "lap": 3.9,
+  "tag": "R36"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R37c_ink_ecom_v12.png",
+  "lap": 3.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R37c_ink_ecom_v03.png",
+  "lap": 3.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R33_ink_ecom_v1.png",
+  "lap": 3.1,
+  "tag": "R33"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_ecom",
+  "tier": "D",
+  "path": "03-水墨国风/ink_ecom/ink_ecom__R37c_ink_ecom_v11.png",
+  "lap": 2.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R36_ink_pattern_v1.png",
+  "lap": 109.2,
+  "tag": "R36"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37c_ink_pattern_v09.png",
+  "lap": 105.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R33_ink_pattern_v2.png",
+  "lap": 103.4,
+  "tag": "R33"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37c_ink_pattern_v10.png",
+  "lap": 99.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R33_ink_pattern_v1.png",
+  "lap": 98.7,
+  "tag": "R33"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37c_ink_pattern_v08.png",
+  "lap": 96.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37c_ink_pattern_v01.png",
+  "lap": 95.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R36_ink_pattern_v3.png",
+  "lap": 93.3,
+  "tag": "R36"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R36_ink_pattern_v2.png",
+  "lap": 92.6,
+  "tag": "R36"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37c_ink_pattern_v02.png",
+  "lap": 91.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37c_ink_pattern_v04.png",
+  "lap": 90.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37c_ink_pattern_v03.png",
+  "lap": 88.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37c_ink_pattern_v12.png",
+  "lap": 86.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37c_ink_pattern_v11.png",
+  "lap": 83.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37c_ink_pattern_v06.png",
+  "lap": 81.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37c_ink_pattern_v05.png",
+  "lap": 81.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37c_ink_pattern_v07.png",
+  "lap": 71.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37c_flat_web_v03.png",
+  "lap": 36.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37c_flat_web_v06.png",
+  "lap": 34.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R33_flat_web_v2.png",
+  "lap": 30.6,
+  "tag": "R33"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37c_flat_web_v07.png",
+  "lap": 29.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37c_flat_web_v04.png",
+  "lap": 28.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R33_flat_web_v1.png",
+  "lap": 27.4,
+  "tag": "R33"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R36_flat_web_v3.png",
+  "lap": 27.4,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37c_flat_web_v05.png",
+  "lap": 25.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37c_flat_web_v08.png",
+  "lap": 24.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37c_flat_web_v01.png",
+  "lap": 22.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37c_flat_web_v12.png",
+  "lap": 22.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R36_flat_web_v2.png",
+  "lap": 20.9,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37c_flat_web_v11.png",
+  "lap": 19.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37c_flat_web_v02.png",
+  "lap": 18.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R36_flat_web_v1.png",
+  "lap": 16.8,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37c_flat_web_v09.png",
+  "lap": 15.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37c_flat_web_v10.png",
+  "lap": 13.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R36_swiss_grid_v1.png",
+  "lap": 27.4,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R33_swiss_grid_v2.png",
+  "lap": 15.4,
+  "tag": "R33"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R37c_swiss_grid_v09.png",
+  "lap": 10.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R37c_swiss_grid_v05.png",
+  "lap": 8.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R37c_swiss_grid_v10.png",
+  "lap": 6.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R37c_swiss_grid_v01.png",
+  "lap": 6.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R36_swiss_grid_v2.png",
+  "lap": 6.4,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R33_swiss_grid_v1.png",
+  "lap": 6.0,
+  "tag": "R33"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R37c_swiss_grid_v02.png",
+  "lap": 5.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R37c_swiss_grid_v08.png",
+  "lap": 5.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R37c_swiss_grid_v11.png",
+  "lap": 5.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R37c_swiss_grid_v12.png",
+  "lap": 5.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R37c_swiss_grid_v07.png",
+  "lap": 5.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R36_swiss_grid_v3.png",
+  "lap": 4.8,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R37c_swiss_grid_v04.png",
+  "lap": 4.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R37c_swiss_grid_v03.png",
+  "lap": 4.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "swiss_grid",
+  "tier": "P",
+  "path": "08-平面设计/swiss_grid/swiss_grid__R37c_swiss_grid_v06.png",
+  "lap": 4.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R36_flat_mascot_v1.png",
+  "lap": 13.1,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R37c_flat_mascot_v01.png",
+  "lap": 13.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R37c_flat_mascot_v02.png",
+  "lap": 13.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R37c_flat_mascot_v07.png",
+  "lap": 12.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R36_flat_mascot_v2.png",
+  "lap": 12.1,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R37c_flat_mascot_v12.png",
+  "lap": 12.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R37c_flat_mascot_v06.png",
+  "lap": 11.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R37c_flat_mascot_v03.png",
+  "lap": 10.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R36_flat_mascot_v3.png",
+  "lap": 10.5,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R37c_flat_mascot_v08.png",
+  "lap": 10.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R37c_flat_mascot_v10.png",
+  "lap": 10.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R33_flat_mascot_v1.png",
+  "lap": 9.5,
+  "tag": "R33"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R37c_flat_mascot_v09.png",
+  "lap": 9.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R33_flat_mascot_v2.png",
+  "lap": 9.2,
+  "tag": "R33"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R37c_flat_mascot_v05.png",
+  "lap": 9.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R37c_flat_mascot_v04.png",
+  "lap": 8.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_mascot",
+  "tier": "D",
+  "path": "08-平面设计/flat_mascot/flat_mascot__R37c_flat_mascot_v11.png",
+  "lap": 8.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37c_glass_light_v10.png",
+  "lap": 11.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37c_glass_light_v02.png",
+  "lap": 10.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37c_glass_light_v07.png",
+  "lap": 10.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37c_glass_light_v03.png",
+  "lap": 10.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37c_glass_light_v11.png",
+  "lap": 10.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R36_glass_light_v1.png",
+  "lap": 9.9,
+  "tag": "R36"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37c_glass_light_v05.png",
+  "lap": 9.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37c_glass_light_v06.png",
+  "lap": 9.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37c_glass_light_v12.png",
+  "lap": 9.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37c_glass_light_v09.png",
+  "lap": 9.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37c_glass_light_v04.png",
+  "lap": 8.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R36_glass_light_v2.png",
+  "lap": 8.5,
+  "tag": "R36"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R36_glass_light_v3.png",
+  "lap": 8.5,
+  "tag": "R36"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37c_glass_light_v08.png",
+  "lap": 8.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R33_glass_light_v1.png",
+  "lap": 8.2,
+  "tag": "R33"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37c_glass_light_v01.png",
+  "lap": 8.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R33_glass_light_v2.png",
+  "lap": 8.0,
+  "tag": "R33"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R36_neon_runner_v1.png",
+  "lap": 32.5,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R36_neon_runner_v3.png",
+  "lap": 31.9,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R37c_neon_runner_v02.png",
+  "lap": 30.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R37c_neon_runner_v12.png",
+  "lap": 29.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R36_neon_runner_v2.png",
+  "lap": 29.1,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R37c_neon_runner_v07.png",
+  "lap": 27.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R37c_neon_runner_v06.png",
+  "lap": 27.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R33_neon_runner_v2.png",
+  "lap": 27.0,
+  "tag": "R33"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R33_neon_runner_v1.png",
+  "lap": 26.8,
+  "tag": "R33"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R37c_neon_runner_v03.png",
+  "lap": 26.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R37c_neon_runner_v11.png",
+  "lap": 26.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R37c_neon_runner_v08.png",
+  "lap": 25.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R37c_neon_runner_v05.png",
+  "lap": 25.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R37c_neon_runner_v10.png",
+  "lap": 24.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R37c_neon_runner_v01.png",
+  "lap": 24.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R37c_neon_runner_v04.png",
+  "lap": 23.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R37c_neon_runner_v09.png",
+  "lap": 20.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R37c_riso_poster_v11.png",
+  "lap": 23.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R36_riso_poster_v2.png",
+  "lap": 22.9,
+  "tag": "R36"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R37c_riso_poster_v08.png",
+  "lap": 20.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R37c_riso_poster_v01.png",
+  "lap": 18.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R37c_riso_poster_v10.png",
+  "lap": 16.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R33_riso_poster_v1.png",
+  "lap": 14.6,
+  "tag": "R33"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R37c_riso_poster_v07.png",
+  "lap": 14.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R37c_riso_poster_v12.png",
+  "lap": 13.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R36_riso_poster_v1.png",
+  "lap": 12.6,
+  "tag": "R36"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R37c_riso_poster_v05.png",
+  "lap": 12.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R37c_riso_poster_v04.png",
+  "lap": 12.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R37c_riso_poster_v02.png",
+  "lap": 11.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R37c_riso_poster_v09.png",
+  "lap": 11.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R37c_riso_poster_v03.png",
+  "lap": 11.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R36_riso_poster_v3.png",
+  "lap": 10.0,
+  "tag": "R36"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R37c_riso_poster_v06.png",
+  "lap": 9.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "riso_poster",
+  "tier": "D",
+  "path": "09-海报封面/riso_poster/riso_poster__R33_riso_poster_v2.png",
+  "lap": 9.5,
+  "tag": "R33"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R33_line_book_v2.png",
+  "lap": 111.9,
+  "tag": "R33"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R33_line_book_v1.png",
+  "lap": 105.8,
+  "tag": "R33"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R37c_line_book_v07.png",
+  "lap": 102.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R37c_line_book_v06.png",
+  "lap": 95.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R37c_line_book_v11.png",
+  "lap": 93.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R37c_line_book_v01.png",
+  "lap": 90.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R37c_line_book_v08.png",
+  "lap": 89.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R37c_line_book_v10.png",
+  "lap": 85.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R37c_line_book_v09.png",
+  "lap": 82.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R36_line_book_v2.png",
+  "lap": 80.3,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R36_line_book_v1.png",
+  "lap": 79.7,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R37c_line_book_v05.png",
+  "lap": 79.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R36_line_book_v3.png",
+  "lap": 79.2,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R37c_line_book_v04.png",
+  "lap": 78.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R37c_line_book_v02.png",
+  "lap": 75.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R37c_line_book_v12.png",
+  "lap": 75.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_book",
+  "tier": "D",
+  "path": "02-日系动画场景/line_book/line_book__R37c_line_book_v03.png",
+  "lap": 74.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R33_print_info_v2.png",
+  "lap": 41.7,
+  "tag": "R33"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R37c_print_info_v08.png",
+  "lap": 34.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R36_print_info_v2.png",
+  "lap": 29.3,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R37c_print_info_v11.png",
+  "lap": 28.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R37c_print_info_v06.png",
+  "lap": 28.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R36_print_info_v3.png",
+  "lap": 27.0,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R37c_print_info_v12.png",
+  "lap": 26.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R37c_print_info_v05.png",
+  "lap": 25.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R37c_print_info_v03.png",
+  "lap": 25.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R33_print_info_v1.png",
+  "lap": 24.0,
+  "tag": "R33"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R37c_print_info_v02.png",
+  "lap": 23.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R37c_print_info_v01.png",
+  "lap": 23.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R36_print_info_v1.png",
+  "lap": 22.2,
+  "tag": "R36"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R37c_print_info_v07.png",
+  "lap": 21.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R37c_print_info_v09.png",
+  "lap": 20.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R37c_print_info_v10.png",
+  "lap": 17.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_info",
+  "tier": "P",
+  "path": "08-平面设计/print_info/print_info__R37c_print_info_v04.png",
+  "lap": 14.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R37c_line_prop_v05.png",
+  "lap": 54.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R36_line_prop_v2.png",
+  "lap": 35.6,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R37c_line_prop_v08.png",
+  "lap": 30.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R36_line_prop_v3.png",
+  "lap": 28.6,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R37c_line_prop_v11.png",
+  "lap": 24.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R33_line_prop_v2.png",
+  "lap": 24.0,
+  "tag": "R33"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R37c_line_prop_v07.png",
+  "lap": 23.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R36_line_prop_v1.png",
+  "lap": 23.2,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R37c_line_prop_v01.png",
+  "lap": 23.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R37c_line_prop_v10.png",
+  "lap": 23.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R37c_line_prop_v04.png",
+  "lap": 22.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R37c_line_prop_v03.png",
+  "lap": 21.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R37c_line_prop_v06.png",
+  "lap": 21.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R37c_line_prop_v09.png",
+  "lap": 20.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R37c_line_prop_v02.png",
+  "lap": 19.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R37c_line_prop_v12.png",
+  "lap": 18.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "line_prop",
+  "tier": "D",
+  "path": "02-日系动画场景/line_prop/line_prop__R33_line_prop_v1.png",
+  "lap": 15.8,
+  "tag": "R33"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37c_neon_city_v03.png",
+  "lap": 46.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37c_neon_city_v01.png",
+  "lap": 45.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R36_neon_city_v1.png",
+  "lap": 43.6,
+  "tag": "R36"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37c_neon_city_v12.png",
+  "lap": 38.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37c_neon_city_v05.png",
+  "lap": 35.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37c_neon_city_v04.png",
+  "lap": 33.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37c_neon_city_v08.png",
+  "lap": 32.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R33_neon_city_v1.png",
+  "lap": 32.7,
+  "tag": "R33"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R36_neon_city_v3.png",
+  "lap": 32.5,
+  "tag": "R36"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R33_neon_city_v2.png",
+  "lap": 32.4,
+  "tag": "R33"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37c_neon_city_v09.png",
+  "lap": 31.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37c_neon_city_v07.png",
+  "lap": 30.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R36_neon_city_v2.png",
+  "lap": 28.1,
+  "tag": "R36"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37c_neon_city_v02.png",
+  "lap": 27.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37c_neon_city_v10.png",
+  "lap": 26.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37c_neon_city_v06.png",
+  "lap": 23.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37c_neon_city_v11.png",
+  "lap": 23.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37c_ink_expr_v04.png",
+  "lap": 65.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37c_ink_expr_v05.png",
+  "lap": 65.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37c_ink_expr_v10.png",
+  "lap": 60.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R36_ink_expr_v3.png",
+  "lap": 55.0,
+  "tag": "R36"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37c_ink_expr_v09.png",
+  "lap": 53.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R33_ink_expr_v2.png",
+  "lap": 50.7,
+  "tag": "R33"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R33_ink_expr_v1.png",
+  "lap": 49.5,
+  "tag": "R33"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37c_ink_expr_v12.png",
+  "lap": 47.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37c_ink_expr_v06.png",
+  "lap": 46.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37c_ink_expr_v08.png",
+  "lap": 44.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R36_ink_expr_v1.png",
+  "lap": 44.2,
+  "tag": "R36"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37c_ink_expr_v01.png",
+  "lap": 40.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37c_ink_expr_v02.png",
+  "lap": 38.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37c_ink_expr_v11.png",
+  "lap": 32.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37c_ink_expr_v07.png",
+  "lap": 28.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37c_ink_expr_v03.png",
+  "lap": 24.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R36_ink_expr_v2.png",
+  "lap": 24.1,
+  "tag": "R36"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R37c_ukiyoe_girl_v04.png",
+  "lap": 79.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R33_ukiyoe_girl_v2.png",
+  "lap": 77.6,
+  "tag": "R33"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R37c_ukiyoe_girl_v01.png",
+  "lap": 76.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R36_ukiyoe_girl_v3.png",
+  "lap": 75.4,
+  "tag": "R36"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R37c_ukiyoe_girl_v11.png",
+  "lap": 74.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R36_ukiyoe_girl_v2.png",
+  "lap": 72.6,
+  "tag": "R36"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R37c_ukiyoe_girl_v06.png",
+  "lap": 71.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R37c_ukiyoe_girl_v08.png",
+  "lap": 71.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R37c_ukiyoe_girl_v07.png",
+  "lap": 70.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R37c_ukiyoe_girl_v09.png",
+  "lap": 70.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R37c_ukiyoe_girl_v12.png",
+  "lap": 69.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R37c_ukiyoe_girl_v05.png",
+  "lap": 69.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R37c_ukiyoe_girl_v02.png",
+  "lap": 69.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R37c_ukiyoe_girl_v03.png",
+  "lap": 68.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R36_ukiyoe_girl_v1.png",
+  "lap": 63.6,
+  "tag": "R36"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R37c_ukiyoe_girl_v10.png",
+  "lap": 63.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ukiyoe_girl",
+  "tier": "D",
+  "path": "03-水墨国风/ukiyoe_girl/ukiyoe_girl__R33_ukiyoe_girl_v1.png",
+  "lap": 57.6,
+  "tag": "R33"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37c_guoman_dual_v07.png",
+  "lap": 31.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R36_guoman_dual_v1.png",
+  "lap": 31.0,
+  "tag": "R36"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R36_guoman_dual_v2.png",
+  "lap": 30.4,
+  "tag": "R36"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37c_guoman_dual_v03.png",
+  "lap": 30.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R33_guoman_dual_v2.png",
+  "lap": 29.6,
+  "tag": "R33"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R33_guoman_dual_v1.png",
+  "lap": 29.3,
+  "tag": "R33"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37c_guoman_dual_v02.png",
+  "lap": 29.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37c_guoman_dual_v04.png",
+  "lap": 28.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37c_guoman_dual_v11.png",
+  "lap": 28.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37c_guoman_dual_v10.png",
+  "lap": 28.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37c_guoman_dual_v12.png",
+  "lap": 27.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37c_guoman_dual_v05.png",
+  "lap": 27.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37c_guoman_dual_v08.png",
+  "lap": 27.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R36_guoman_dual_v3.png",
+  "lap": 27.0,
+  "tag": "R36"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37c_guoman_dual_v06.png",
+  "lap": 26.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37c_guoman_dual_v01.png",
+  "lap": 25.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37c_guoman_dual_v09.png",
+  "lap": 24.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R37c_ghibli_house_v11.png",
+  "lap": 42.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R37c_ghibli_house_v01.png",
+  "lap": 41.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R33_ghibli_house_v1.png",
+  "lap": 39.6,
+  "tag": "R33"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R33_ghibli_house_v2.png",
+  "lap": 38.9,
+  "tag": "R33"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R37c_ghibli_house_v09.png",
+  "lap": 38.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R36_ghibli_house_v1.png",
+  "lap": 38.3,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R37c_ghibli_house_v07.png",
+  "lap": 36.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R37c_ghibli_house_v10.png",
+  "lap": 35.9,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R36_ghibli_house_v3.png",
+  "lap": 35.7,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R37c_ghibli_house_v06.png",
+  "lap": 35.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R37c_ghibli_house_v04.png",
+  "lap": 34.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R37c_ghibli_house_v08.png",
+  "lap": 34.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R37c_ghibli_house_v02.png",
+  "lap": 33.2,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R37c_ghibli_house_v12.png",
+  "lap": 32.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R37c_ghibli_house_v03.png",
+  "lap": 31.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R36_ghibli_house_v2.png",
+  "lap": 31.3,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "ghibli_house",
+  "tier": "D",
+  "path": "02-日系动画场景/ghibli_house/ghibli_house__R37c_ghibli_house_v05.png",
+  "lap": 29.5,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37c_shinkai_rain_v08.png",
+  "lap": 57.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R36_shinkai_rain_v3.png",
+  "lap": 52.4,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R33_shinkai_rain_v2.png",
+  "lap": 52.2,
+  "tag": "R33"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37c_shinkai_rain_v09.png",
+  "lap": 51.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37c_shinkai_rain_v01.png",
+  "lap": 49.6,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37c_shinkai_rain_v02.png",
+  "lap": 49.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37c_shinkai_rain_v05.png",
+  "lap": 48.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37c_shinkai_rain_v11.png",
+  "lap": 43.8,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37c_shinkai_rain_v07.png",
+  "lap": 42.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37c_shinkai_rain_v04.png",
+  "lap": 41.7,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R36_shinkai_rain_v1.png",
+  "lap": 41.4,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37c_shinkai_rain_v06.png",
+  "lap": 41.4,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R36_shinkai_rain_v2.png",
+  "lap": 37.9,
+  "tag": "R36"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37c_shinkai_rain_v10.png",
+  "lap": 37.3,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37c_shinkai_rain_v03.png",
+  "lap": 35.1,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37c_shinkai_rain_v12.png",
+  "lap": 33.0,
+  "tag": "R37c"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R33_shinkai_rain_v1.png",
+  "lap": 30.6,
+  "tag": "R33"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37a_ink_expr_m1_v2.png",
+  "lap": 30.4,
+  "tag": "R37a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37a_ink_expr_m1_v1.png",
+  "lap": 26.9,
+  "tag": "R37a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37a_ink_expr_m0_v1.png",
+  "lap": 62.8,
+  "tag": "R37a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37a_ink_expr_m0_v2.png",
+  "lap": 44.3,
+  "tag": "R37a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37a_ink_expr_m2_v1.png",
+  "lap": 63.8,
+  "tag": "R37a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R37a_ink_expr_m2_v2.png",
+  "lap": 56.3,
+  "tag": "R37a"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37a_ink_pattern_m0_v1.png",
+  "lap": 103.4,
+  "tag": "R37a"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37a_ink_pattern_m0_v2.png",
+  "lap": 91.9,
+  "tag": "R37a"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37a_ink_pattern_m1_v2.png",
+  "lap": 99.0,
+  "tag": "R37a"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37a_ink_pattern_m1_v1.png",
+  "lap": 82.1,
+  "tag": "R37a"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37a_ink_pattern_m2_v1.png",
+  "lap": 95.2,
+  "tag": "R37a"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "ink_pattern",
+  "tier": "D",
+  "path": "03-水墨国风/ink_pattern/ink_pattern__R37a_ink_pattern_m2_v2.png",
+  "lap": 62.1,
+  "tag": "R37a"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37a_print_icon_m0_v1.png",
+  "lap": 14.4,
+  "tag": "R37a"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37a_print_icon_m0_v2.png",
+  "lap": 13.4,
+  "tag": "R37a"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37a_print_icon_m2_v1.png",
+  "lap": 13.7,
+  "tag": "R37a"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37a_print_icon_m2_v2.png",
+  "lap": 11.9,
+  "tag": "R37a"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37a_print_icon_m1_v1.png",
+  "lap": 13.6,
+  "tag": "R37a"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R37a_print_icon_m1_v2.png",
+  "lap": 13.0,
+  "tag": "R37a"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37a_flat_web_m0_v1.png",
+  "lap": 23.3,
+  "tag": "R37a"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37a_flat_web_m0_v2.png",
+  "lap": 16.8,
+  "tag": "R37a"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37a_flat_web_m2_v2.png",
+  "lap": 30.4,
+  "tag": "R37a"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37a_flat_web_m2_v1.png",
+  "lap": 20.6,
+  "tag": "R37a"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37a_flat_web_m1_v1.png",
+  "lap": 33.3,
+  "tag": "R37a"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "flat_web",
+  "tier": "P",
+  "path": "08-平面设计/flat_web/flat_web__R37a_flat_web_m1_v2.png",
+  "lap": 30.4,
+  "tag": "R37a"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37a_neon_city_m0_v1.png",
+  "lap": 40.6,
+  "tag": "R37a"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37a_neon_city_m0_v2.png",
+  "lap": 30.4,
+  "tag": "R37a"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37a_neon_city_m1_v1.png",
+  "lap": 38.5,
+  "tag": "R37a"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37a_neon_city_m1_v2.png",
+  "lap": 27.1,
+  "tag": "R37a"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37a_neon_city_m2_v2.png",
+  "lap": 30.4,
+  "tag": "R37a"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "neon_city",
+  "tier": "D",
+  "path": "06-风光自然/neon_city/neon_city__R37a_neon_city_m2_v1.png",
+  "lap": 28.0,
+  "tag": "R37a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37a_guoman_dual_m0_v2.png",
+  "lap": 28.6,
+  "tag": "R37a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37a_guoman_dual_m0_v1.png",
+  "lap": 28.1,
+  "tag": "R37a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37a_guoman_dual_m1_v1.png",
+  "lap": 28.0,
+  "tag": "R37a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37a_guoman_dual_m1_v2.png",
+  "lap": 28.0,
+  "tag": "R37a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37a_guoman_dual_m2_v2.png",
+  "lap": 28.1,
+  "tag": "R37a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "guoman_dual",
+  "tier": "D",
+  "path": "01-国漫角色/guoman_dual/guoman_dual__R37a_guoman_dual_m2_v1.png",
+  "lap": 26.3,
+  "tag": "R37a"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37a_shinkai_rain_m0_v1.png",
+  "lap": 45.1,
+  "tag": "R37a"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37a_shinkai_rain_m0_v2.png",
+  "lap": 42.5,
+  "tag": "R37a"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37a_shinkai_rain_m1_v2.png",
+  "lap": 35.9,
+  "tag": "R37a"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37a_shinkai_rain_m1_v1.png",
+  "lap": 34.8,
+  "tag": "R37a"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37a_shinkai_rain_m2_v2.png",
+  "lap": 47.2,
+  "tag": "R37a"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "shinkai_rain",
+  "tier": "D",
+  "path": "02-日系动画场景/shinkai_rain/shinkai_rain__R37a_shinkai_rain_m2_v1.png",
+  "lap": 40.2,
+  "tag": "R37a"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37a_glass_light_m0_v2.png",
+  "lap": 9.0,
+  "tag": "R37a"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37a_glass_light_m0_v1.png",
+  "lap": 8.2,
+  "tag": "R37a"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37a_glass_light_m1_v2.png",
+  "lap": 9.6,
+  "tag": "R37a"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37a_glass_light_m1_v1.png",
+  "lap": 8.7,
+  "tag": "R37a"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37a_glass_light_m2_v1.png",
+  "lap": 10.3,
+  "tag": "R37a"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glass_light",
+  "tier": "D",
+  "path": "04-商品静物/glass_light/glass_light__R37a_glass_light_m2_v2.png",
+  "lap": 9.1,
+  "tag": "R37a"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "cover_novel",
+  "tier": "D",
+  "path": "09-海报封面/cover_novel/cover_novel__R37b_cover_novel_v3.png",
+  "lap": 13.4,
+  "tag": "R37b"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "cover_novel",
+  "tier": "D",
+  "path": "09-海报封面/cover_novel/cover_novel__R37b_cover_novel_v2.png",
+  "lap": 9.4,
+  "tag": "R37b"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "cover_novel",
+  "tier": "D",
+  "path": "09-海报封面/cover_novel/cover_novel__R37b_cover_novel_v1.png",
+  "lap": 8.4,
+  "tag": "R37b"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "package_tea",
+  "tier": "D",
+  "path": "09-海报封面/package_tea/package_tea__R37b_package_tea_v3.png",
+  "lap": 34.0,
+  "tag": "R37b"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "package_tea",
+  "tier": "D",
+  "path": "09-海报封面/package_tea/package_tea__R37b_package_tea_v2.png",
+  "lap": 32.7,
+  "tag": "R37b"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "package_tea",
+  "tier": "D",
+  "path": "09-海报封面/package_tea/package_tea__R37b_package_tea_v1.png",
+  "lap": 24.5,
+  "tag": "R37b"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R37b_storybook_v3.png",
+  "lap": 37.4,
+  "tag": "R37b"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R37b_storybook_v1.png",
+  "lap": 33.0,
+  "tag": "R37b"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R37b_storybook_v2.png",
+  "lap": 30.1,
+  "tag": "R37b"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "editorial_girl",
+  "tier": "P",
+  "path": "01-国漫角色/editorial_girl/editorial_girl__R37b_editorial_girl_v2.png",
+  "lap": 9.9,
+  "tag": "R37b"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "editorial_girl",
+  "tier": "P",
+  "path": "01-国漫角色/editorial_girl/editorial_girl__R37b_editorial_girl_v1.png",
+  "lap": 9.6,
+  "tag": "R37b"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "editorial_girl",
+  "tier": "P",
+  "path": "01-国漫角色/editorial_girl/editorial_girl__R37b_editorial_girl_v3.png",
+  "lap": 8.1,
+  "tag": "R37b"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "menu_board",
+  "tier": "D",
+  "path": "09-海报封面/menu_board/menu_board__R37b_menu_board_v3.png",
+  "lap": 44.1,
+  "tag": "R37b"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "menu_board",
+  "tier": "D",
+  "path": "09-海报封面/menu_board/menu_board__R37b_menu_board_v2.png",
+  "lap": 37.8,
+  "tag": "R37b"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "menu_board",
+  "tier": "D",
+  "path": "09-海报封面/menu_board/menu_board__R37b_menu_board_v1.png",
+  "lap": 36.5,
+  "tag": "R37b"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "sticker_sheet",
+  "tier": "D",
+  "path": "08-平面设计/sticker_sheet/sticker_sheet__R37b_sticker_sheet_v2.png",
+  "lap": 26.1,
+  "tag": "R37b"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "sticker_sheet",
+  "tier": "D",
+  "path": "08-平面设计/sticker_sheet/sticker_sheet__R37b_sticker_sheet_v1.png",
+  "lap": 26.0,
+  "tag": "R37b"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "sticker_sheet",
+  "tier": "D",
+  "path": "08-平面设计/sticker_sheet/sticker_sheet__R37b_sticker_sheet_v3.png",
+  "lap": 24.1,
+  "tag": "R37b"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "wechat_cover",
+  "tier": "D",
+  "path": "08-平面设计/wechat_cover/wechat_cover__R37b_wechat_cover_v3.png",
+  "lap": 6.3,
+  "tag": "R37b"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "wechat_cover",
+  "tier": "D",
+  "path": "08-平面设计/wechat_cover/wechat_cover__R37b_wechat_cover_v1.png",
+  "lap": 4.7,
+  "tag": "R37b"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "wechat_cover",
+  "tier": "D",
+  "path": "08-平面设计/wechat_cover/wechat_cover__R37b_wechat_cover_v2.png",
+  "lap": 3.5,
+  "tag": "R37b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "minimal_interior",
+  "tier": "D",
+  "path": "07-建筑空间/minimal_interior/minimal_interior__R38d_minimal_interior_v3.png",
+  "lap": 14.0,
+  "tag": "R38d"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "minimal_interior",
+  "tier": "D",
+  "path": "07-建筑空间/minimal_interior/minimal_interior__R38d_minimal_interior_v4.png",
+  "lap": 12.6,
+  "tag": "R38d"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "minimal_interior",
+  "tier": "D",
+  "path": "07-建筑空间/minimal_interior/minimal_interior__R38d_minimal_interior_v1.png",
+  "lap": 11.0,
+  "tag": "R38d"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "minimal_interior",
+  "tier": "D",
+  "path": "07-建筑空间/minimal_interior/minimal_interior__R38d_minimal_interior_v2.png",
+  "lap": 10.8,
+  "tag": "R38d"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "concrete_arch",
+  "tier": "D",
+  "path": "07-建筑空间/concrete_arch/concrete_arch__R38d_concrete_arch_v3.png",
+  "lap": 16.3,
+  "tag": "R38d"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "concrete_arch",
+  "tier": "D",
+  "path": "07-建筑空间/concrete_arch/concrete_arch__R38d_concrete_arch_v2.png",
+  "lap": 12.3,
+  "tag": "R38d"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "concrete_arch",
+  "tier": "D",
+  "path": "07-建筑空间/concrete_arch/concrete_arch__R38d_concrete_arch_v4.png",
+  "lap": 11.3,
+  "tag": "R38d"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "concrete_arch",
+  "tier": "D",
+  "path": "07-建筑空间/concrete_arch/concrete_arch__R38d_concrete_arch_v1.png",
+  "lap": 10.9,
+  "tag": "R38d"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "topo_map",
+  "tier": "P",
+  "path": "11-图示信息图/topo_map/topo_map__R38d_topo_map_v3.png",
+  "lap": 73.4,
+  "tag": "R38d"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "topo_map",
+  "tier": "P",
+  "path": "11-图示信息图/topo_map/topo_map__R38d_topo_map_v4.png",
+  "lap": 66.0,
+  "tag": "R38d"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "topo_map",
+  "tier": "P",
+  "path": "11-图示信息图/topo_map/topo_map__R38d_topo_map_v1.png",
+  "lap": 56.4,
+  "tag": "R38d"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "topo_map",
+  "tier": "P",
+  "path": "11-图示信息图/topo_map/topo_map__R38d_topo_map_v2.png",
+  "lap": 40.1,
+  "tag": "R38d"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "metro_map",
+  "tier": "P",
+  "path": "11-图示信息图/metro_map/metro_map__R38d_metro_map_v2.png",
+  "lap": 44.4,
+  "tag": "R38d"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "metro_map",
+  "tier": "P",
+  "path": "11-图示信息图/metro_map/metro_map__R38d_metro_map_v3.png",
+  "lap": 34.3,
+  "tag": "R38d"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "metro_map",
+  "tier": "P",
+  "path": "11-图示信息图/metro_map/metro_map__R38d_metro_map_v1.png",
+  "lap": 31.6,
+  "tag": "R38d"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "metro_map",
+  "tier": "P",
+  "path": "11-图示信息图/metro_map/metro_map__R38d_metro_map_v4.png",
+  "lap": 28.5,
+  "tag": "R38d"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "star_chart",
+  "tier": "P",
+  "path": "11-图示信息图/star_chart/star_chart__R38d_star_chart_v1.png",
+  "lap": 45.7,
+  "tag": "R38d"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "star_chart",
+  "tier": "P",
+  "path": "11-图示信息图/star_chart/star_chart__R38d_star_chart_v4.png",
+  "lap": 42.3,
+  "tag": "R38d"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "star_chart",
+  "tier": "P",
+  "path": "11-图示信息图/star_chart/star_chart__R38d_star_chart_v3.png",
+  "lap": 42.1,
+  "tag": "R38d"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "star_chart",
+  "tier": "P",
+  "path": "11-图示信息图/star_chart/star_chart__R38d_star_chart_v2.png",
+  "lap": 37.8,
+  "tag": "R38d"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R38d_glaze_ceramic_v2.png",
+  "lap": 11.3,
+  "tag": "R38d"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R38d_glaze_ceramic_v4.png",
+  "lap": 9.7,
+  "tag": "R38d"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R38d_glaze_ceramic_v3.png",
+  "lap": 8.5,
+  "tag": "R38d"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R38d_glaze_ceramic_v1.png",
+  "lap": 5.9,
+  "tag": "R38d"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "bookplate",
+  "tier": "D",
+  "path": "08-平面设计/bookplate/bookplate__R38d_bookplate_v3.png",
+  "lap": 120.0,
+  "tag": "R38d"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "bookplate",
+  "tier": "D",
+  "path": "08-平面设计/bookplate/bookplate__R38d_bookplate_v1.png",
+  "lap": 84.2,
+  "tag": "R38d"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "bookplate",
+  "tier": "D",
+  "path": "08-平面设计/bookplate/bookplate__R38d_bookplate_v2.png",
+  "lap": 76.4,
+  "tag": "R38d"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "bookplate",
+  "tier": "D",
+  "path": "08-平面设计/bookplate/bookplate__R38d_bookplate_v4.png",
+  "lap": 54.3,
+  "tag": "R38d"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "badge_design",
+  "tier": "P",
+  "path": "08-平面设计/badge_design/badge_design__R38d_badge_design_v4.png",
+  "lap": 72.6,
+  "tag": "R38d"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "badge_design",
+  "tier": "P",
+  "path": "08-平面设计/badge_design/badge_design__R38d_badge_design_v3.png",
+  "lap": 61.6,
+  "tag": "R38d"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "badge_design",
+  "tier": "P",
+  "path": "08-平面设计/badge_design/badge_design__R38d_badge_design_v2.png",
+  "lap": 38.3,
+  "tag": "R38d"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "badge_design",
+  "tier": "P",
+  "path": "08-平面设计/badge_design/badge_design__R38d_badge_design_v1.png",
+  "lap": 36.1,
+  "tag": "R38d"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R38d_glacier_v2.png",
+  "lap": 50.0,
+  "tag": "R38d"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R38d_glacier_v4.png",
+  "lap": 37.0,
+  "tag": "R38d"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R38d_glacier_v3.png",
+  "lap": 36.5,
+  "tag": "R38d"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R38d_glacier_v1.png",
+  "lap": 33.3,
+  "tag": "R38d"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "aurora",
+  "tier": "D",
+  "path": "06-风光自然/aurora/aurora__R38d_aurora_v3.png",
+  "lap": 9.4,
+  "tag": "R38d"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "aurora",
+  "tier": "D",
+  "path": "06-风光自然/aurora/aurora__R38d_aurora_v4.png",
+  "lap": 8.1,
+  "tag": "R38d"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "aurora",
+  "tier": "D",
+  "path": "06-风光自然/aurora/aurora__R38d_aurora_v2.png",
+  "lap": 7.9,
+  "tag": "R38d"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "aurora",
+  "tier": "D",
+  "path": "06-风光自然/aurora/aurora__R38d_aurora_v1.png",
+  "lap": 7.8,
+  "tag": "R38d"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "night_market",
+  "tier": "D",
+  "path": "06-风光自然/night_market/night_market__R38d_night_market_v1.png",
+  "lap": 42.8,
+  "tag": "R38d"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "night_market",
+  "tier": "D",
+  "path": "06-风光自然/night_market/night_market__R38d_night_market_v3.png",
+  "lap": 42.0,
+  "tag": "R38d"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "night_market",
+  "tier": "D",
+  "path": "06-风光自然/night_market/night_market__R38d_night_market_v2.png",
+  "lap": 33.1,
+  "tag": "R38d"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "night_market",
+  "tier": "D",
+  "path": "06-风光自然/night_market/night_market__R38d_night_market_v4.png",
+  "lap": 27.0,
+  "tag": "R38d"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "greeting_card",
+  "tier": "D",
+  "path": "08-平面设计/greeting_card/greeting_card__R38e_greeting_card_v1.png",
+  "lap": 13.0,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "greeting_card",
+  "tier": "D",
+  "path": "08-平面设计/greeting_card/greeting_card__R38e_greeting_card_v4.png",
+  "lap": 12.7,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "greeting_card",
+  "tier": "D",
+  "path": "08-平面设计/greeting_card/greeting_card__R38e_greeting_card_v3.png",
+  "lap": 10.3,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "greeting_card",
+  "tier": "D",
+  "path": "08-平面设计/greeting_card/greeting_card__R38e_greeting_card_v2.png",
+  "lap": 10.2,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "packaging_flat",
+  "tier": "D",
+  "path": "08-平面设计/packaging_flat/packaging_flat__R38e_packaging_flat_v2.png",
+  "lap": 25.6,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "packaging_flat",
+  "tier": "D",
+  "path": "08-平面设计/packaging_flat/packaging_flat__R38e_packaging_flat_v4.png",
+  "lap": 25.2,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "packaging_flat",
+  "tier": "D",
+  "path": "08-平面设计/packaging_flat/packaging_flat__R38e_packaging_flat_v1.png",
+  "lap": 24.0,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "packaging_flat",
+  "tier": "D",
+  "path": "08-平面设计/packaging_flat/packaging_flat__R38e_packaging_flat_v3.png",
+  "lap": 18.2,
+  "tag": "R38e"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "booth_design",
+  "tier": "D",
+  "path": "07-建筑空间/booth_design/booth_design__R38e_booth_design_v3.png",
+  "lap": 20.9,
+  "tag": "R38e"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "booth_design",
+  "tier": "D",
+  "path": "07-建筑空间/booth_design/booth_design__R38e_booth_design_v2.png",
+  "lap": 14.1,
+  "tag": "R38e"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "booth_design",
+  "tier": "D",
+  "path": "07-建筑空间/booth_design/booth_design__R38e_booth_design_v4.png",
+  "lap": 11.7,
+  "tag": "R38e"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "booth_design",
+  "tier": "D",
+  "path": "07-建筑空间/booth_design/booth_design__R38e_booth_design_v1.png",
+  "lap": 10.4,
+  "tag": "R38e"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "album_cover",
+  "tier": "P",
+  "path": "09-海报封面/album_cover/album_cover__R38e_album_cover_v2.png",
+  "lap": 61.8,
+  "tag": "R38e"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "album_cover",
+  "tier": "P",
+  "path": "09-海报封面/album_cover/album_cover__R38e_album_cover_v4.png",
+  "lap": 54.3,
+  "tag": "R38e"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "album_cover",
+  "tier": "P",
+  "path": "09-海报封面/album_cover/album_cover__R38e_album_cover_v3.png",
+  "lap": 39.1,
+  "tag": "R38e"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "album_cover",
+  "tier": "P",
+  "path": "09-海报封面/album_cover/album_cover__R38e_album_cover_v1.png",
+  "lap": 38.2,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "mug_wrap",
+  "tier": "D",
+  "path": "08-平面设计/mug_wrap/mug_wrap__R38e_mug_wrap_v2.png",
+  "lap": 11.7,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "mug_wrap",
+  "tier": "D",
+  "path": "08-平面设计/mug_wrap/mug_wrap__R38e_mug_wrap_v3.png",
+  "lap": 11.6,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "mug_wrap",
+  "tier": "D",
+  "path": "08-平面设计/mug_wrap/mug_wrap__R38e_mug_wrap_v4.png",
+  "lap": 11.2,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "mug_wrap",
+  "tier": "D",
+  "path": "08-平面设计/mug_wrap/mug_wrap__R38e_mug_wrap_v1.png",
+  "lap": 9.1,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "tote_pattern",
+  "tier": "D",
+  "path": "08-平面设计/tote_pattern/tote_pattern__R38e_tote_pattern_v4.png",
+  "lap": 174.5,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "tote_pattern",
+  "tier": "D",
+  "path": "08-平面设计/tote_pattern/tote_pattern__R38e_tote_pattern_v3.png",
+  "lap": 131.9,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "tote_pattern",
+  "tier": "D",
+  "path": "08-平面设计/tote_pattern/tote_pattern__R38e_tote_pattern_v1.png",
+  "lap": 114.4,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "tote_pattern",
+  "tier": "D",
+  "path": "08-平面设计/tote_pattern/tote_pattern__R38e_tote_pattern_v2.png",
+  "lap": 84.7,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "tshirt_graphic",
+  "tier": "D",
+  "path": "08-平面设计/tshirt_graphic/tshirt_graphic__R38e_tshirt_graphic_v3.png",
+  "lap": 75.1,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "tshirt_graphic",
+  "tier": "D",
+  "path": "08-平面设计/tshirt_graphic/tshirt_graphic__R38e_tshirt_graphic_v1.png",
+  "lap": 59.0,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "tshirt_graphic",
+  "tier": "D",
+  "path": "08-平面设计/tshirt_graphic/tshirt_graphic__R38e_tshirt_graphic_v4.png",
+  "lap": 49.9,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "tshirt_graphic",
+  "tier": "D",
+  "path": "08-平面设计/tshirt_graphic/tshirt_graphic__R38e_tshirt_graphic_v2.png",
+  "lap": 25.0,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "notebook_cover",
+  "tier": "D",
+  "path": "08-平面设计/notebook_cover/notebook_cover__R38e_notebook_cover_v2.png",
+  "lap": 10.0,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "notebook_cover",
+  "tier": "D",
+  "path": "08-平面设计/notebook_cover/notebook_cover__R38e_notebook_cover_v4.png",
+  "lap": 8.2,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "notebook_cover",
+  "tier": "D",
+  "path": "08-平面设计/notebook_cover/notebook_cover__R38e_notebook_cover_v3.png",
+  "lap": 6.1,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "notebook_cover",
+  "tier": "D",
+  "path": "08-平面设计/notebook_cover/notebook_cover__R38e_notebook_cover_v1.png",
+  "lap": 4.4,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "phone_wallpaper",
+  "tier": "D",
+  "path": "08-平面设计/phone_wallpaper/phone_wallpaper__R38e_phone_wallpaper_v4.png",
+  "lap": 4.1,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "phone_wallpaper",
+  "tier": "D",
+  "path": "08-平面设计/phone_wallpaper/phone_wallpaper__R38e_phone_wallpaper_v2.png",
+  "lap": 4.0,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "phone_wallpaper",
+  "tier": "D",
+  "path": "08-平面设计/phone_wallpaper/phone_wallpaper__R38e_phone_wallpaper_v3.png",
+  "lap": 3.2,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "phone_wallpaper",
+  "tier": "D",
+  "path": "08-平面设计/phone_wallpaper/phone_wallpaper__R38e_phone_wallpaper_v1.png",
+  "lap": 2.6,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "avatar_set",
+  "tier": "D",
+  "path": "08-平面设计/avatar_set/avatar_set__R38e_avatar_set_v1.png",
+  "lap": 17.1,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "avatar_set",
+  "tier": "D",
+  "path": "08-平面设计/avatar_set/avatar_set__R38e_avatar_set_v3.png",
+  "lap": 12.7,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "avatar_set",
+  "tier": "D",
+  "path": "08-平面设计/avatar_set/avatar_set__R38e_avatar_set_v4.png",
+  "lap": 12.6,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "avatar_set",
+  "tier": "D",
+  "path": "08-平面设计/avatar_set/avatar_set__R38e_avatar_set_v2.png",
+  "lap": 12.0,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "meme_set",
+  "tier": "D",
+  "path": "08-平面设计/meme_set/meme_set__R38e_meme_set_v2.png",
+  "lap": 31.0,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "meme_set",
+  "tier": "D",
+  "path": "08-平面设计/meme_set/meme_set__R38e_meme_set_v1.png",
+  "lap": 25.3,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "meme_set",
+  "tier": "D",
+  "path": "08-平面设计/meme_set/meme_set__R38e_meme_set_v4.png",
+  "lap": 24.2,
+  "tag": "R38e"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "meme_set",
+  "tier": "D",
+  "path": "08-平面设计/meme_set/meme_set__R38e_meme_set_v3.png",
+  "lap": 15.1,
+  "tag": "R38e"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dashboard_ui",
+  "tier": "P",
+  "path": "11-图示信息图/dashboard_ui/dashboard_ui__R38e_dashboard_ui_v1.png",
+  "lap": 44.5,
+  "tag": "R38e"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dashboard_ui",
+  "tier": "P",
+  "path": "11-图示信息图/dashboard_ui/dashboard_ui__R38e_dashboard_ui_v2.png",
+  "lap": 31.7,
+  "tag": "R38e"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dashboard_ui",
+  "tier": "P",
+  "path": "11-图示信息图/dashboard_ui/dashboard_ui__R38e_dashboard_ui_v4.png",
+  "lap": 24.1,
+  "tag": "R38e"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dashboard_ui",
+  "tier": "P",
+  "path": "11-图示信息图/dashboard_ui/dashboard_ui__R38e_dashboard_ui_v3.png",
+  "lap": 22.1,
+  "tag": "R38e"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "comic_panel",
+  "tier": "P",
+  "path": "09-海报封面/comic_panel/comic_panel__R38e_comic_panel_v1.png",
+  "lap": 122.3,
+  "tag": "R38e"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "comic_panel",
+  "tier": "P",
+  "path": "09-海报封面/comic_panel/comic_panel__R38e_comic_panel_v3.png",
+  "lap": 108.3,
+  "tag": "R38e"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "comic_panel",
+  "tier": "P",
+  "path": "09-海报封面/comic_panel/comic_panel__R38e_comic_panel_v2.png",
+  "lap": 102.9,
+  "tag": "R38e"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "comic_panel",
+  "tier": "P",
+  "path": "09-海报封面/comic_panel/comic_panel__R38e_comic_panel_v4.png",
+  "lap": 80.4,
+  "tag": "R38e"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_styleonly_v3.png",
+  "lap": 34.0,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_styleonly_v1.png",
+  "lap": 27.1,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_styleonly_v2.png",
+  "lap": 24.5,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_full_v2.png",
+  "lap": 64.1,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_full_v1.png",
+  "lap": 52.6,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_full_v3.png",
+  "lap": 35.4,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_contentonly_v2.png",
+  "lap": 17.9,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_contentonly_v1.png",
+  "lap": 17.0,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_contentonly_v3.png",
+  "lap": 13.3,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_nosstyle_v3.png",
+  "lap": 15.8,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_nosstyle_v2.png",
+  "lap": 15.5,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_nosstyle_v1.png",
+  "lap": 14.7,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_noconstraint_v1.png",
+  "lap": 48.4,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_noconstraint_v3.png",
+  "lap": 36.3,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "ink_expr",
+  "tier": "D",
+  "path": "01-国漫角色/ink_expr/ink_expr__R39_ink_expr_noconstraint_v2.png",
+  "lap": 35.5,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_full_v2.png",
+  "lap": 27.7,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_full_v1.png",
+  "lap": 26.9,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_full_v3.png",
+  "lap": 25.0,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_styleonly_v1.png",
+  "lap": 36.0,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_styleonly_v2.png",
+  "lap": 32.5,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_styleonly_v3.png",
+  "lap": 8.6,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_contentonly_v2.png",
+  "lap": 40.1,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_contentonly_v1.png",
+  "lap": 34.7,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_contentonly_v3.png",
+  "lap": 33.3,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_nosstyle_v3.png",
+  "lap": 39.3,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_nosstyle_v1.png",
+  "lap": 36.5,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_nosstyle_v2.png",
+  "lap": 33.4,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_noconstraint_v1.png",
+  "lap": 34.1,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_noconstraint_v3.png",
+  "lap": 27.7,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "neon_runner",
+  "tier": "P",
+  "path": "02-日系动画场景/neon_runner/neon_runner__R39_neon_runner_noconstraint_v2.png",
+  "lap": 25.0,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_full_v3.png",
+  "lap": 15.3,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_full_v2.png",
+  "lap": 12.4,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_full_v1.png",
+  "lap": 9.6,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_styleonly_v2.png",
+  "lap": 18.3,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_styleonly_v1.png",
+  "lap": 14.2,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_styleonly_v3.png",
+  "lap": 8.6,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_contentonly_v2.png",
+  "lap": 9.3,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_contentonly_v3.png",
+  "lap": 6.6,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_contentonly_v1.png",
+  "lap": 5.8,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_nosstyle_v3.png",
+  "lap": 14.8,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_nosstyle_v2.png",
+  "lap": 14.3,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_nosstyle_v1.png",
+  "lap": 11.6,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_noconstraint_v2.png",
+  "lap": 12.8,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_noconstraint_v1.png",
+  "lap": 10.4,
+  "tag": "R39"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "print_icon",
+  "tier": "D",
+  "path": "08-平面设计/print_icon/print_icon__R39_print_icon_noconstraint_v3.png",
+  "lap": 10.3,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_full_v3.png",
+  "lap": 10.3,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_full_v2.png",
+  "lap": 9.6,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_full_v1.png",
+  "lap": 7.2,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_styleonly_v1.png",
+  "lap": 22.2,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_styleonly_v3.png",
+  "lap": 18.8,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_styleonly_v2.png",
+  "lap": 18.5,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_contentonly_v3.png",
+  "lap": 8.7,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_contentonly_v1.png",
+  "lap": 5.3,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_contentonly_v2.png",
+  "lap": 5.2,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_nosstyle_v2.png",
+  "lap": 10.9,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_nosstyle_v1.png",
+  "lap": 8.4,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_nosstyle_v3.png",
+  "lap": 8.2,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_noconstraint_v1.png",
+  "lap": 10.5,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_noconstraint_v2.png",
+  "lap": 9.2,
+  "tag": "R39"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "glaze_ceramic",
+  "tier": "D",
+  "path": "04-商品静物/glaze_ceramic/glaze_ceramic__R39_glaze_ceramic_noconstraint_v3.png",
+  "lap": 7.2,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_full_v3.png",
+  "lap": 54.2,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_full_v2.png",
+  "lap": 33.7,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_full_v1.png",
+  "lap": 31.8,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_styleonly_v2.png",
+  "lap": 31.2,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_styleonly_v1.png",
+  "lap": 30.7,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_styleonly_v3.png",
+  "lap": 25.9,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_contentonly_v2.png",
+  "lap": 25.7,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_contentonly_v1.png",
+  "lap": 24.9,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_contentonly_v3.png",
+  "lap": 20.2,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_nosstyle_v3.png",
+  "lap": 27.1,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_nosstyle_v2.png",
+  "lap": 23.9,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_nosstyle_v1.png",
+  "lap": 19.2,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_noconstraint_v3.png",
+  "lap": 43.9,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_noconstraint_v1.png",
+  "lap": 33.8,
+  "tag": "R39"
+ },
+ {
+  "category": "02-日系动画场景",
+  "subject": "storybook",
+  "tier": "D",
+  "path": "02-日系动画场景/storybook/storybook__R39_storybook_noconstraint_v2.png",
+  "lap": 33.2,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_full_v2.png",
+  "lap": 52.4,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_full_v1.png",
+  "lap": 42.6,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_full_v3.png",
+  "lap": 33.5,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_styleonly_v1.png",
+  "lap": 31.3,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_styleonly_v3.png",
+  "lap": 28.7,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_styleonly_v2.png",
+  "lap": 19.1,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_contentonly_v2.png",
+  "lap": 37.9,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_contentonly_v3.png",
+  "lap": 25.4,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_contentonly_v1.png",
+  "lap": 19.8,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_nosstyle_v2.png",
+  "lap": 42.5,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_nosstyle_v1.png",
+  "lap": 36.4,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_nosstyle_v3.png",
+  "lap": 34.3,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_noconstraint_v3.png",
+  "lap": 37.7,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_noconstraint_v2.png",
+  "lap": 31.2,
+  "tag": "R39"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "glacier",
+  "tier": "D",
+  "path": "06-风光自然/glacier/glacier__R39_glacier_noconstraint_v1.png",
+  "lap": 25.7,
+  "tag": "R39"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "identity::rain_street",
+  "tier": "I",
+  "path": "01-国漫角色/identity_rain_street/identity::rain_street__R40a_rain_street_v1.png",
+  "lap": 38.7,
+  "tag": "R40a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "identity::rain_street",
+  "tier": "I",
+  "path": "01-国漫角色/identity_rain_street/identity::rain_street__R40a_rain_street_v2.png",
+  "lap": 38.2,
+  "tag": "R40a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "identity::rain_street",
+  "tier": "I",
+  "path": "01-国漫角色/identity_rain_street/identity::rain_street__R40a_rain_street_v3.png",
+  "lap": 29.3,
+  "tag": "R40a"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "fashion_editorial",
+  "tier": "P",
+  "path": "01-国漫角色/fashion_editorial/fashion_editorial__R40b_fashion_editorial_v1.png",
+  "lap": 13.6,
+  "tag": "R40b"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "fashion_editorial",
+  "tier": "P",
+  "path": "01-国漫角色/fashion_editorial/fashion_editorial__R40b_fashion_editorial_v2.png",
+  "lap": 12.9,
+  "tag": "R40b"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "fashion_editorial",
+  "tier": "P",
+  "path": "01-国漫角色/fashion_editorial/fashion_editorial__R40b_fashion_editorial_v3.png",
+  "lap": 9.7,
+  "tag": "R40b"
+ },
+ {
+  "category": "05-美食",
+  "subject": "food_hotpot",
+  "tier": "D",
+  "path": "05-美食/food_hotpot/food_hotpot__R40b_food_hotpot_v2.png",
+  "lap": 43.1,
+  "tag": "R40b"
+ },
+ {
+  "category": "05-美食",
+  "subject": "food_hotpot",
+  "tier": "D",
+  "path": "05-美食/food_hotpot/food_hotpot__R40b_food_hotpot_v3.png",
+  "lap": 36.2,
+  "tag": "R40b"
+ },
+ {
+  "category": "05-美食",
+  "subject": "food_hotpot",
+  "tier": "D",
+  "path": "05-美食/food_hotpot/food_hotpot__R40b_food_hotpot_v1.png",
+  "lap": 24.2,
+  "tag": "R40b"
+ },
+ {
+  "category": "05-美食",
+  "subject": "food_ramen",
+  "tier": "D",
+  "path": "05-美食/food_ramen/food_ramen__R40b_food_ramen_v2.png",
+  "lap": 22.0,
+  "tag": "R40b"
+ },
+ {
+  "category": "05-美食",
+  "subject": "food_ramen",
+  "tier": "D",
+  "path": "05-美食/food_ramen/food_ramen__R40b_food_ramen_v1.png",
+  "lap": 18.6,
+  "tag": "R40b"
+ },
+ {
+  "category": "05-美食",
+  "subject": "food_ramen",
+  "tier": "D",
+  "path": "05-美食/food_ramen/food_ramen__R40b_food_ramen_v3.png",
+  "lap": 14.4,
+  "tag": "R40b"
+ },
+ {
+  "category": "05-美食",
+  "subject": "food_pastry",
+  "tier": "D",
+  "path": "05-美食/food_pastry/food_pastry__R40b_food_pastry_v1.png",
+  "lap": 30.2,
+  "tag": "R40b"
+ },
+ {
+  "category": "05-美食",
+  "subject": "food_pastry",
+  "tier": "D",
+  "path": "05-美食/food_pastry/food_pastry__R40b_food_pastry_v2.png",
+  "lap": 25.9,
+  "tag": "R40b"
+ },
+ {
+  "category": "05-美食",
+  "subject": "food_pastry",
+  "tier": "D",
+  "path": "05-美食/food_pastry/food_pastry__R40b_food_pastry_v3.png",
+  "lap": 18.1,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "industrial_factory",
+  "tier": "D",
+  "path": "07-建筑空间/industrial_factory/industrial_factory__R40b_industrial_factory_v1.png",
+  "lap": 51.9,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "industrial_factory",
+  "tier": "D",
+  "path": "07-建筑空间/industrial_factory/industrial_factory__R40b_industrial_factory_v2.png",
+  "lap": 44.1,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "industrial_factory",
+  "tier": "D",
+  "path": "07-建筑空间/industrial_factory/industrial_factory__R40b_industrial_factory_v3.png",
+  "lap": 43.7,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "industrial_port",
+  "tier": "D",
+  "path": "07-建筑空间/industrial_port/industrial_port__R40b_industrial_port_v1.png",
+  "lap": 47.1,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "industrial_port",
+  "tier": "D",
+  "path": "07-建筑空间/industrial_port/industrial_port__R40b_industrial_port_v3.png",
+  "lap": 33.7,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "industrial_port",
+  "tier": "D",
+  "path": "07-建筑空间/industrial_port/industrial_port__R40b_industrial_port_v2.png",
+  "lap": 31.0,
+  "tag": "R40b"
+ },
+ {
+  "category": "12-游戏概念",
+  "subject": "figure_toy",
+  "tier": "D",
+  "path": "12-游戏概念/figure_toy/figure_toy__R40b_figure_toy_v3.png",
+  "lap": 15.9,
+  "tag": "R40b"
+ },
+ {
+  "category": "12-游戏概念",
+  "subject": "figure_toy",
+  "tier": "D",
+  "path": "12-游戏概念/figure_toy/figure_toy__R40b_figure_toy_v1.png",
+  "lap": 13.8,
+  "tag": "R40b"
+ },
+ {
+  "category": "12-游戏概念",
+  "subject": "figure_toy",
+  "tier": "D",
+  "path": "12-游戏概念/figure_toy/figure_toy__R40b_figure_toy_v2.png",
+  "lap": 8.7,
+  "tag": "R40b"
+ },
+ {
+  "category": "12-游戏概念",
+  "subject": "game_character",
+  "tier": "D",
+  "path": "12-游戏概念/game_character/game_character__R40b_game_character_v2.png",
+  "lap": 67.3,
+  "tag": "R40b"
+ },
+ {
+  "category": "12-游戏概念",
+  "subject": "game_character",
+  "tier": "D",
+  "path": "12-游戏概念/game_character/game_character__R40b_game_character_v1.png",
+  "lap": 60.3,
+  "tag": "R40b"
+ },
+ {
+  "category": "12-游戏概念",
+  "subject": "game_character",
+  "tier": "D",
+  "path": "12-游戏概念/game_character/game_character__R40b_game_character_v3.png",
+  "lap": 48.8,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "bridge_architecture",
+  "tier": "D",
+  "path": "07-建筑空间/bridge_architecture/bridge_architecture__R40b_bridge_architecture_v1.png",
+  "lap": 38.9,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "bridge_architecture",
+  "tier": "D",
+  "path": "07-建筑空间/bridge_architecture/bridge_architecture__R40b_bridge_architecture_v2.png",
+  "lap": 31.2,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "bridge_architecture",
+  "tier": "D",
+  "path": "07-建筑空间/bridge_architecture/bridge_architecture__R40b_bridge_architecture_v3.png",
+  "lap": 30.9,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "museum_interior",
+  "tier": "D",
+  "path": "07-建筑空间/museum_interior/museum_interior__R40b_museum_interior_v1.png",
+  "lap": 15.5,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "museum_interior",
+  "tier": "D",
+  "path": "07-建筑空间/museum_interior/museum_interior__R40b_museum_interior_v2.png",
+  "lap": 14.7,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "museum_interior",
+  "tier": "D",
+  "path": "07-建筑空间/museum_interior/museum_interior__R40b_museum_interior_v3.png",
+  "lap": 12.5,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "staircase",
+  "tier": "D",
+  "path": "07-建筑空间/staircase/staircase__R40b_staircase_v1.png",
+  "lap": 9.6,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "staircase",
+  "tier": "D",
+  "path": "07-建筑空间/staircase/staircase__R40b_staircase_v2.png",
+  "lap": 7.4,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "staircase",
+  "tier": "D",
+  "path": "07-建筑空间/staircase/staircase__R40b_staircase_v3.png",
+  "lap": 6.3,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "lab_science",
+  "tier": "D",
+  "path": "07-建筑空间/lab_science/lab_science__R40b_lab_science_v1.png",
+  "lap": 52.5,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "lab_science",
+  "tier": "D",
+  "path": "07-建筑空间/lab_science/lab_science__R40b_lab_science_v3.png",
+  "lap": 49.3,
+  "tag": "R40b"
+ },
+ {
+  "category": "07-建筑空间",
+  "subject": "lab_science",
+  "tier": "D",
+  "path": "07-建筑空间/lab_science/lab_science__R40b_lab_science_v2.png",
+  "lap": 39.2,
+  "tag": "R40b"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "altar",
+  "tier": "I",
+  "path": "01-国漫角色/altar/altar__R41_altar_prompt_only_v2.png",
+  "lap": 39.2,
+  "tag": "R41"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "altar",
+  "tier": "I",
+  "path": "01-国漫角色/altar/altar__R41_altar_prompt_only_v3.png",
+  "lap": 32.6,
+  "tag": "R41"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "altar",
+  "tier": "I",
+  "path": "01-国漫角色/altar/altar__R41_altar_prompt_only_v1.png",
+  "lap": 30.0,
+  "tag": "R41"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "altar",
+  "tier": "I",
+  "path": "01-国漫角色/altar/altar__R41_altar_i2i_single_v2.png",
+  "lap": 24.0,
+  "tag": "R41"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "altar",
+  "tier": "I",
+  "path": "01-国漫角色/altar/altar__R41_altar_i2i_single_v1.png",
+  "lap": 23.5,
+  "tag": "R41"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "altar",
+  "tier": "I",
+  "path": "01-国漫角色/altar/altar__R41_altar_i2i_single_v3.png",
+  "lap": 20.6,
+  "tag": "R41"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "altar",
+  "tier": "I",
+  "path": "01-国漫角色/altar/altar__R41_altar_i2i_pair_v2.png",
+  "lap": 22.6,
+  "tag": "R41"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "altar",
+  "tier": "I",
+  "path": "01-国漫角色/altar/altar__R41_altar_i2i_pair_v3.png",
+  "lap": 21.2,
+  "tag": "R41"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "altar",
+  "tier": "I",
+  "path": "01-国漫角色/altar/altar__R41_altar_i2i_pair_v1.png",
+  "lap": 19.6,
+  "tag": "R41"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "altar",
+  "tier": "I",
+  "path": "01-国漫角色/altar/altar__R41_altar_i2i_single_nocolor_v2.png",
+  "lap": 23.3,
+  "tag": "R41"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "altar",
+  "tier": "I",
+  "path": "01-国漫角色/altar/altar__R41_altar_i2i_single_nocolor_v3.png",
+  "lap": 22.5,
+  "tag": "R41"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "altar",
+  "tier": "I",
+  "path": "01-国漫角色/altar/altar__R41_altar_i2i_single_nocolor_v1.png",
+  "lap": 22.3,
+  "tag": "R41"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "shoe_design",
+  "tier": "D",
+  "path": "04-商品静物/shoe_design/shoe_design__R42_shoe_design_v2.png",
+  "lap": 7.3,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "shoe_design",
+  "tier": "D",
+  "path": "04-商品静物/shoe_design/shoe_design__R42_shoe_design_v3.png",
+  "lap": 6.5,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "shoe_design",
+  "tier": "D",
+  "path": "04-商品静物/shoe_design/shoe_design__R42_shoe_design_v1.png",
+  "lap": 5.7,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "uniform_design",
+  "tier": "D",
+  "path": "04-商品静物/uniform_design/uniform_design__R42_uniform_design_v1.png",
+  "lap": 20.5,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "uniform_design",
+  "tier": "D",
+  "path": "04-商品静物/uniform_design/uniform_design__R42_uniform_design_v2.png",
+  "lap": 19.0,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "uniform_design",
+  "tier": "D",
+  "path": "04-商品静物/uniform_design/uniform_design__R42_uniform_design_v3.png",
+  "lap": 12.0,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "jewelry_macro",
+  "tier": "D",
+  "path": "04-商品静物/jewelry_macro/jewelry_macro__R42_jewelry_macro_v1.png",
+  "lap": 7.4,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "jewelry_macro",
+  "tier": "D",
+  "path": "04-商品静物/jewelry_macro/jewelry_macro__R42_jewelry_macro_v3.png",
+  "lap": 5.1,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "jewelry_macro",
+  "tier": "D",
+  "path": "04-商品静物/jewelry_macro/jewelry_macro__R42_jewelry_macro_v2.png",
+  "lap": 3.3,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "watch_macro",
+  "tier": "D",
+  "path": "04-商品静物/watch_macro/watch_macro__R42_watch_macro_v1.png",
+  "lap": 23.8,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "watch_macro",
+  "tier": "D",
+  "path": "04-商品静物/watch_macro/watch_macro__R42_watch_macro_v2.png",
+  "lap": 21.4,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "watch_macro",
+  "tier": "D",
+  "path": "04-商品静物/watch_macro/watch_macro__R42_watch_macro_v3.png",
+  "lap": 19.6,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "speaker_product",
+  "tier": "D",
+  "path": "04-商品静物/speaker_product/speaker_product__R42_speaker_product_v3.png",
+  "lap": 72.4,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "speaker_product",
+  "tier": "D",
+  "path": "04-商品静物/speaker_product/speaker_product__R42_speaker_product_v1.png",
+  "lap": 64.3,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "speaker_product",
+  "tier": "D",
+  "path": "04-商品静物/speaker_product/speaker_product__R42_speaker_product_v2.png",
+  "lap": 53.3,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "headphone_product",
+  "tier": "D",
+  "path": "04-商品静物/headphone_product/headphone_product__R42_headphone_product_v3.png",
+  "lap": 12.5,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "headphone_product",
+  "tier": "D",
+  "path": "04-商品静物/headphone_product/headphone_product__R42_headphone_product_v1.png",
+  "lap": 11.6,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "headphone_product",
+  "tier": "D",
+  "path": "04-商品静物/headphone_product/headphone_product__R42_headphone_product_v2.png",
+  "lap": 10.3,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "camera_product",
+  "tier": "D",
+  "path": "04-商品静物/camera_product/camera_product__R42_camera_product_v3.png",
+  "lap": 27.4,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "camera_product",
+  "tier": "D",
+  "path": "04-商品静物/camera_product/camera_product__R42_camera_product_v1.png",
+  "lap": 22.4,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "camera_product",
+  "tier": "D",
+  "path": "04-商品静物/camera_product/camera_product__R42_camera_product_v2.png",
+  "lap": 16.2,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "laptop_product",
+  "tier": "D",
+  "path": "04-商品静物/laptop_product/laptop_product__R42_laptop_product_v1.png",
+  "lap": 11.1,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "laptop_product",
+  "tier": "D",
+  "path": "04-商品静物/laptop_product/laptop_product__R42_laptop_product_v2.png",
+  "lap": 10.6,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "laptop_product",
+  "tier": "D",
+  "path": "04-商品静物/laptop_product/laptop_product__R42_laptop_product_v3.png",
+  "lap": 8.0,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "furniture_render",
+  "tier": "D",
+  "path": "04-商品静物/furniture_render/furniture_render__R42_furniture_render_v2.png",
+  "lap": 37.9,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "furniture_render",
+  "tier": "D",
+  "path": "04-商品静物/furniture_render/furniture_render__R42_furniture_render_v3.png",
+  "lap": 26.1,
+  "tag": "R42"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "furniture_render",
+  "tier": "D",
+  "path": "04-商品静物/furniture_render/furniture_render__R42_furniture_render_v1.png",
+  "lap": 24.1,
+  "tag": "R42"
+ },
+ {
+  "category": "12-游戏概念",
+  "subject": "game_scene",
+  "tier": "D",
+  "path": "12-游戏概念/game_scene/game_scene__R42_game_scene_v3.png",
+  "lap": 32.2,
+  "tag": "R42"
+ },
+ {
+  "category": "12-游戏概念",
+  "subject": "game_scene",
+  "tier": "D",
+  "path": "12-游戏概念/game_scene/game_scene__R42_game_scene_v2.png",
+  "lap": 26.0,
+  "tag": "R42"
+ },
+ {
+  "category": "12-游戏概念",
+  "subject": "game_scene",
+  "tier": "D",
+  "path": "12-游戏概念/game_scene/game_scene__R42_game_scene_v1.png",
+  "lap": 18.6,
+  "tag": "R42"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "game_ui",
+  "tier": "P",
+  "path": "11-图示信息图/game_ui/game_ui__R42_game_ui_v2.png",
+  "lap": 24.3,
+  "tag": "R42"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "game_ui",
+  "tier": "P",
+  "path": "11-图示信息图/game_ui/game_ui__R42_game_ui_v1.png",
+  "lap": 21.4,
+  "tag": "R42"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "game_ui",
+  "tier": "P",
+  "path": "11-图示信息图/game_ui/game_ui__R42_game_ui_v3.png",
+  "lap": 16.7,
+  "tag": "R42"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "chess_puzzle",
+  "tier": "D",
+  "path": "09-海报封面/chess_puzzle/chess_puzzle__R42_chess_puzzle_v2.png",
+  "lap": 129.0,
+  "tag": "R42"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "chess_puzzle",
+  "tier": "D",
+  "path": "09-海报封面/chess_puzzle/chess_puzzle__R42_chess_puzzle_v1.png",
+  "lap": 109.7,
+  "tag": "R42"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "chess_puzzle",
+  "tier": "D",
+  "path": "09-海报封面/chess_puzzle/chess_puzzle__R42_chess_puzzle_v3.png",
+  "lap": 106.2,
+  "tag": "R42"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "tarot_card",
+  "tier": "D",
+  "path": "09-海报封面/tarot_card/tarot_card__R42_tarot_card_v3.png",
+  "lap": 73.7,
+  "tag": "R42"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "tarot_card",
+  "tier": "D",
+  "path": "09-海报封面/tarot_card/tarot_card__R42_tarot_card_v1.png",
+  "lap": 70.2,
+  "tag": "R42"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "tarot_card",
+  "tier": "D",
+  "path": "09-海报封面/tarot_card/tarot_card__R42_tarot_card_v2.png",
+  "lap": 54.7,
+  "tag": "R42"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "poster_expression",
+  "tier": "D",
+  "path": "09-海报封面/poster_expression/poster_expression__R42_poster_expression_v3.png",
+  "lap": 9.4,
+  "tag": "R42"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "poster_expression",
+  "tier": "D",
+  "path": "09-海报封面/poster_expression/poster_expression__R42_poster_expression_v2.png",
+  "lap": 9.2,
+  "tag": "R42"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "poster_expression",
+  "tier": "D",
+  "path": "09-海报封面/poster_expression/poster_expression__R42_poster_expression_v1.png",
+  "lap": 8.9,
+  "tag": "R42"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "plakat_poster",
+  "tier": "D",
+  "path": "09-海报封面/plakat_poster/plakat_poster__R42_plakat_poster_v2.png",
+  "lap": 11.7,
+  "tag": "R42"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "plakat_poster",
+  "tier": "D",
+  "path": "09-海报封面/plakat_poster/plakat_poster__R42_plakat_poster_v1.png",
+  "lap": 9.8,
+  "tag": "R42"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "plakat_poster",
+  "tier": "D",
+  "path": "09-海报封面/plakat_poster/plakat_poster__R42_plakat_poster_v3.png",
+  "lap": 7.5,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "bento_box",
+  "tier": "D",
+  "path": "05-美食/bento_box/bento_box__R42_bento_box_v1.png",
+  "lap": 35.6,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "bento_box",
+  "tier": "D",
+  "path": "05-美食/bento_box/bento_box__R42_bento_box_v3.png",
+  "lap": 29.3,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "bento_box",
+  "tier": "D",
+  "path": "05-美食/bento_box/bento_box__R42_bento_box_v2.png",
+  "lap": 22.4,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "dim_sum",
+  "tier": "D",
+  "path": "05-美食/dim_sum/dim_sum__R42_dim_sum_v1.png",
+  "lap": 21.0,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "dim_sum",
+  "tier": "D",
+  "path": "05-美食/dim_sum/dim_sum__R42_dim_sum_v3.png",
+  "lap": 16.4,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "dim_sum",
+  "tier": "D",
+  "path": "05-美食/dim_sum/dim_sum__R42_dim_sum_v2.png",
+  "lap": 10.5,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "tea_ceremony",
+  "tier": "D",
+  "path": "05-美食/tea_ceremony/tea_ceremony__R42_tea_ceremony_v2.png",
+  "lap": 28.8,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "tea_ceremony",
+  "tier": "D",
+  "path": "05-美食/tea_ceremony/tea_ceremony__R42_tea_ceremony_v1.png",
+  "lap": 7.5,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "tea_ceremony",
+  "tier": "D",
+  "path": "05-美食/tea_ceremony/tea_ceremony__R42_tea_ceremony_v3.png",
+  "lap": 4.5,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "matcha",
+  "tier": "D",
+  "path": "05-美食/matcha/matcha__R42_matcha_v3.png",
+  "lap": 15.7,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "matcha",
+  "tier": "D",
+  "path": "05-美食/matcha/matcha__R42_matcha_v1.png",
+  "lap": 14.3,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "matcha",
+  "tier": "D",
+  "path": "05-美食/matcha/matcha__R42_matcha_v2.png",
+  "lap": 11.2,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "chocolate",
+  "tier": "D",
+  "path": "05-美食/chocolate/chocolate__R42_chocolate_v3.png",
+  "lap": 11.0,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "chocolate",
+  "tier": "D",
+  "path": "05-美食/chocolate/chocolate__R42_chocolate_v1.png",
+  "lap": 9.3,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "chocolate",
+  "tier": "D",
+  "path": "05-美食/chocolate/chocolate__R42_chocolate_v2.png",
+  "lap": 8.7,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "ice_cream",
+  "tier": "D",
+  "path": "05-美食/ice_cream/ice_cream__R42_ice_cream_v1.png",
+  "lap": 13.8,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "ice_cream",
+  "tier": "D",
+  "path": "05-美食/ice_cream/ice_cream__R42_ice_cream_v3.png",
+  "lap": 13.3,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "ice_cream",
+  "tier": "D",
+  "path": "05-美食/ice_cream/ice_cream__R42_ice_cream_v2.png",
+  "lap": 12.7,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "sushi_platter",
+  "tier": "D",
+  "path": "05-美食/sushi_platter/sushi_platter__R42_sushi_platter_v3.png",
+  "lap": 33.8,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "sushi_platter",
+  "tier": "D",
+  "path": "05-美食/sushi_platter/sushi_platter__R42_sushi_platter_v2.png",
+  "lap": 28.3,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "sushi_platter",
+  "tier": "D",
+  "path": "05-美食/sushi_platter/sushi_platter__R42_sushi_platter_v1.png",
+  "lap": 23.2,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "street_food",
+  "tier": "D",
+  "path": "05-美食/street_food/street_food__R42_street_food_v1.png",
+  "lap": 21.3,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "street_food",
+  "tier": "D",
+  "path": "05-美食/street_food/street_food__R42_street_food_v2.png",
+  "lap": 18.8,
+  "tag": "R42"
+ },
+ {
+  "category": "05-美食",
+  "subject": "street_food",
+  "tier": "D",
+  "path": "05-美食/street_food/street_food__R42_street_food_v3.png",
+  "lap": 13.9,
+  "tag": "R42"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "mountain_view",
+  "tier": "D",
+  "path": "06-风光自然/mountain_view/mountain_view__R42_mountain_view_v2.png",
+  "lap": 12.1,
+  "tag": "R42"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "mountain_view",
+  "tier": "D",
+  "path": "06-风光自然/mountain_view/mountain_view__R42_mountain_view_v1.png",
+  "lap": 9.3,
+  "tag": "R42"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "mountain_view",
+  "tier": "D",
+  "path": "06-风光自然/mountain_view/mountain_view__R42_mountain_view_v3.png",
+  "lap": 6.8,
+  "tag": "R42"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "coast_cliff",
+  "tier": "D",
+  "path": "06-风光自然/coast_cliff/coast_cliff__R42_coast_cliff_v3.png",
+  "lap": 26.2,
+  "tag": "R42"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "coast_cliff",
+  "tier": "D",
+  "path": "06-风光自然/coast_cliff/coast_cliff__R42_coast_cliff_v1.png",
+  "lap": 15.9,
+  "tag": "R42"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "coast_cliff",
+  "tier": "D",
+  "path": "06-风光自然/coast_cliff/coast_cliff__R42_coast_cliff_v2.png",
+  "lap": 15.4,
+  "tag": "R42"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "fog_forest",
+  "tier": "D",
+  "path": "06-风光自然/fog_forest/fog_forest__R42_fog_forest_v3.png",
+  "lap": 34.5,
+  "tag": "R42"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "fog_forest",
+  "tier": "D",
+  "path": "06-风光自然/fog_forest/fog_forest__R42_fog_forest_v2.png",
+  "lap": 33.6,
+  "tag": "R42"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "fog_forest",
+  "tier": "D",
+  "path": "06-风光自然/fog_forest/fog_forest__R42_fog_forest_v1.png",
+  "lap": 32.9,
+  "tag": "R42"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "snow_cabin",
+  "tier": "D",
+  "path": "06-风光自然/snow_cabin/snow_cabin__R42_snow_cabin_v1.png",
+  "lap": 14.6,
+  "tag": "R42"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "snow_cabin",
+  "tier": "D",
+  "path": "06-风光自然/snow_cabin/snow_cabin__R42_snow_cabin_v2.png",
+  "lap": 8.8,
+  "tag": "R42"
+ },
+ {
+  "category": "06-风光自然",
+  "subject": "snow_cabin",
+  "tier": "D",
+  "path": "06-风光自然/snow_cabin/snow_cabin__R42_snow_cabin_v3.png",
+  "lap": 8.0,
+  "tag": "R42"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "text::cn_2char_vertical",
+  "tier": "D",
+  "path": "10-中文排版/text_cn_2char_vertical/text::cn_2char_vertical__R43c_cn_2char_vertical_v2.png",
+  "lap": 7.3,
+  "tag": "R43c"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "text::cn_2char_vertical",
+  "tier": "D",
+  "path": "10-中文排版/text_cn_2char_vertical/text::cn_2char_vertical__R43c_cn_2char_vertical_v1.png",
+  "lap": 6.3,
+  "tag": "R43c"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "text::cn_4char_vertical",
+  "tier": "D",
+  "path": "10-中文排版/text_cn_4char_vertical/text::cn_4char_vertical__R43c_cn_4char_vertical_v2.png",
+  "lap": 9.3,
+  "tag": "R43c"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "text::cn_4char_vertical",
+  "tier": "D",
+  "path": "10-中文排版/text_cn_4char_vertical/text::cn_4char_vertical__R43c_cn_4char_vertical_v1.png",
+  "lap": 7.1,
+  "tag": "R43c"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "text::cn_2char_brush",
+  "tier": "D",
+  "path": "10-中文排版/text_cn_2char_brush/text::cn_2char_brush__R43c_cn_2char_brush_v2.png",
+  "lap": 5.4,
+  "tag": "R43c"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "text::cn_2char_brush",
+  "tier": "D",
+  "path": "10-中文排版/text_cn_2char_brush/text::cn_2char_brush__R43c_cn_2char_brush_v1.png",
+  "lap": 4.4,
+  "tag": "R43c"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "text::cn_seal_red",
+  "tier": "P",
+  "path": "10-中文排版/text_cn_seal_red/text::cn_seal_red__R43c_cn_seal_red_v2.png",
+  "lap": 9.5,
+  "tag": "R43c"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "text::cn_seal_red",
+  "tier": "P",
+  "path": "10-中文排版/text_cn_seal_red/text::cn_seal_red__R43c_cn_seal_red_v1.png",
+  "lap": 4.5,
+  "tag": "R43c"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "text::num_single",
+  "tier": "P",
+  "path": "10-中文排版/text_num_single/text::num_single__R43c_num_single_v1.png",
+  "lap": 6.7,
+  "tag": "R43c"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "text::num_single",
+  "tier": "P",
+  "path": "10-中文排版/text_num_single/text::num_single__R43c_num_single_v2.png",
+  "lap": 2.9,
+  "tag": "R43c"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "min_bottle",
+  "tier": "D",
+  "path": "04-商品静物/min_bottle/min_bottle__R46_min_bottle_none_v2.png",
+  "lap": 9.3,
+  "tag": "R46"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "min_bottle",
+  "tier": "D",
+  "path": "04-商品静物/min_bottle/min_bottle__R46_min_bottle_none_v1.png",
+  "lap": 5.3,
+  "tag": "R46"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "min_bottle",
+  "tier": "D",
+  "path": "04-商品静物/min_bottle/min_bottle__R46_min_bottle_explicit_v2.png",
+  "lap": 8.0,
+  "tag": "R46"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "min_bottle",
+  "tier": "D",
+  "path": "04-商品静物/min_bottle/min_bottle__R46_min_bottle_explicit_v1.png",
+  "lap": 6.9,
+  "tag": "R46"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "min_bottle",
+  "tier": "D",
+  "path": "04-商品静物/min_bottle/min_bottle__R46_min_bottle_term_v1.png",
+  "lap": 11.9,
+  "tag": "R46"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "min_bottle",
+  "tier": "D",
+  "path": "04-商品静物/min_bottle/min_bottle__R46_min_bottle_term_v2.png",
+  "lap": 5.8,
+  "tag": "R46"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "min_cat",
+  "tier": "D",
+  "path": "03-水墨国风/min_cat/min_cat__R46_min_cat_explicit_v2.png",
+  "lap": 14.3,
+  "tag": "R46"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "min_cat",
+  "tier": "D",
+  "path": "03-水墨国风/min_cat/min_cat__R46_min_cat_explicit_v1.png",
+  "lap": 6.9,
+  "tag": "R46"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "min_cat",
+  "tier": "D",
+  "path": "03-水墨国风/min_cat/min_cat__R46_min_cat_none_v2.png",
+  "lap": 15.0,
+  "tag": "R46"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "min_cat",
+  "tier": "D",
+  "path": "03-水墨国风/min_cat/min_cat__R46_min_cat_none_v1.png",
+  "lap": 14.9,
+  "tag": "R46"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "min_cat",
+  "tier": "D",
+  "path": "03-水墨国风/min_cat/min_cat__R46_min_cat_term_v1.png",
+  "lap": 3.4,
+  "tag": "R46"
+ },
+ {
+  "category": "03-水墨国风",
+  "subject": "min_cat",
+  "tier": "D",
+  "path": "03-水墨国风/min_cat/min_cat__R46_min_cat_term_v2.png",
+  "lap": 2.9,
+  "tag": "R46"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "min_product",
+  "tier": "D",
+  "path": "04-商品静物/min_product/min_product__R46_min_product_explicit_v1.png",
+  "lap": 1.2,
+  "tag": "R46"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "min_product",
+  "tier": "D",
+  "path": "04-商品静物/min_product/min_product__R46_min_product_explicit_v2.png",
+  "lap": 1.2,
+  "tag": "R46"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "min_product",
+  "tier": "D",
+  "path": "04-商品静物/min_product/min_product__R46_min_product_none_v1.png",
+  "lap": 1.2,
+  "tag": "R46"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "min_product",
+  "tier": "D",
+  "path": "04-商品静物/min_product/min_product__R46_min_product_none_v2.png",
+  "lap": 1.2,
+  "tag": "R46"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "min_product",
+  "tier": "D",
+  "path": "04-商品静物/min_product/min_product__R46_min_product_term_v1.png",
+  "lap": 0.9,
+  "tag": "R46"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "min_product",
+  "tier": "D",
+  "path": "04-商品静物/min_product/min_product__R46_min_product_term_v2.png",
+  "lap": 0.9,
+  "tag": "R46"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "icon_family#1",
+  "tier": "P",
+  "path": "08-平面设计/icon_family_1/icon_family#1__R47_icon_family_i1_v2.png",
+  "lap": 12.4,
+  "tag": "R47"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "icon_family#1",
+  "tier": "P",
+  "path": "08-平面设计/icon_family_1/icon_family#1__R47_icon_family_i1_v1.png",
+  "lap": 8.5,
+  "tag": "R47"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "packaging_series#1",
+  "tier": "D",
+  "path": "08-平面设计/packaging_series_1/packaging_series#1__R47_packaging_series_i1_v2.png",
+  "lap": 7.9,
+  "tag": "R47"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "packaging_series#1",
+  "tier": "D",
+  "path": "08-平面设计/packaging_series_1/packaging_series#1__R47_packaging_series_i1_v1.png",
+  "lap": 7.1,
+  "tag": "R47"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "character_set#1",
+  "tier": "I",
+  "path": "01-国漫角色/character_set_1/character_set#1__R47_character_set_i1_v2.png",
+  "lap": 51.0,
+  "tag": "R47"
+ },
+ {
+  "category": "01-国漫角色",
+  "subject": "character_set#1",
+  "tier": "I",
+  "path": "01-国漫角色/character_set_1/character_set#1__R47_character_set_i1_v1.png",
+  "lap": 30.7,
+  "tag": "R47"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_1char_brush",
+  "tier": "D",
+  "path": "10-中文排版/cn_1char_brush/cn_1char_brush__R48_cn_1char_brush_v2.png",
+  "lap": 14.2,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_1char_brush",
+  "tier": "D",
+  "path": "10-中文排版/cn_1char_brush/cn_1char_brush__R48_cn_1char_brush_v3.png",
+  "lap": 12.8,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_1char_brush",
+  "tier": "D",
+  "path": "10-中文排版/cn_1char_brush/cn_1char_brush__R48_cn_1char_brush_v1.png",
+  "lap": 12.4,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_1char_brush",
+  "tier": "D",
+  "path": "10-中文排版/cn_1char_brush/cn_1char_brush__R48_cn_1char_brush_v4.png",
+  "lap": 10.5,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_1char_seal",
+  "tier": "P",
+  "path": "10-中文排版/cn_1char_seal/cn_1char_seal__R48_cn_1char_seal_v1.png",
+  "lap": 36.9,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_1char_seal",
+  "tier": "P",
+  "path": "10-中文排版/cn_1char_seal/cn_1char_seal__R48_cn_1char_seal_v3.png",
+  "lap": 28.4,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_1char_seal",
+  "tier": "P",
+  "path": "10-中文排版/cn_1char_seal/cn_1char_seal__R48_cn_1char_seal_v2.png",
+  "lap": 23.9,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_1char_seal",
+  "tier": "P",
+  "path": "10-中文排版/cn_1char_seal/cn_1char_seal__R48_cn_1char_seal_v4.png",
+  "lap": 20.4,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_2char_horizontal",
+  "tier": "D",
+  "path": "10-中文排版/cn_2char_horizontal/cn_2char_horizontal__R48_cn_2char_horizontal_v2.png",
+  "lap": 30.1,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_2char_horizontal",
+  "tier": "D",
+  "path": "10-中文排版/cn_2char_horizontal/cn_2char_horizontal__R48_cn_2char_horizontal_v4.png",
+  "lap": 25.4,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_2char_horizontal",
+  "tier": "D",
+  "path": "10-中文排版/cn_2char_horizontal/cn_2char_horizontal__R48_cn_2char_horizontal_v3.png",
+  "lap": 24.6,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_2char_horizontal",
+  "tier": "D",
+  "path": "10-中文排版/cn_2char_horizontal/cn_2char_horizontal__R48_cn_2char_horizontal_v1.png",
+  "lap": 24.2,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_2char_vertical",
+  "tier": "D",
+  "path": "10-中文排版/cn_2char_vertical/cn_2char_vertical__R48_cn_2char_vertical_v2.png",
+  "lap": 21.6,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_2char_vertical",
+  "tier": "D",
+  "path": "10-中文排版/cn_2char_vertical/cn_2char_vertical__R48_cn_2char_vertical_v3.png",
+  "lap": 19.4,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_2char_vertical",
+  "tier": "D",
+  "path": "10-中文排版/cn_2char_vertical/cn_2char_vertical__R48_cn_2char_vertical_v4.png",
+  "lap": 18.3,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_2char_vertical",
+  "tier": "D",
+  "path": "10-中文排版/cn_2char_vertical/cn_2char_vertical__R48_cn_2char_vertical_v1.png",
+  "lap": 16.9,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_4char_vertical",
+  "tier": "D",
+  "path": "10-中文排版/cn_4char_vertical/cn_4char_vertical__R48_cn_4char_vertical_v1.png",
+  "lap": 23.0,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_4char_vertical",
+  "tier": "D",
+  "path": "10-中文排版/cn_4char_vertical/cn_4char_vertical__R48_cn_4char_vertical_v2.png",
+  "lap": 21.6,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_4char_vertical",
+  "tier": "D",
+  "path": "10-中文排版/cn_4char_vertical/cn_4char_vertical__R48_cn_4char_vertical_v4.png",
+  "lap": 21.6,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_4char_vertical",
+  "tier": "D",
+  "path": "10-中文排版/cn_4char_vertical/cn_4char_vertical__R48_cn_4char_vertical_v3.png",
+  "lap": 18.6,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_2char_brush_circle",
+  "tier": "D",
+  "path": "10-中文排版/cn_2char_brush_circle/cn_2char_brush_circle__R48_cn_2char_brush_circle_v4.png",
+  "lap": 21.7,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_2char_brush_circle",
+  "tier": "D",
+  "path": "10-中文排版/cn_2char_brush_circle/cn_2char_brush_circle__R48_cn_2char_brush_circle_v2.png",
+  "lap": 21.0,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_2char_brush_circle",
+  "tier": "D",
+  "path": "10-中文排版/cn_2char_brush_circle/cn_2char_brush_circle__R48_cn_2char_brush_circle_v3.png",
+  "lap": 20.0,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_2char_brush_circle",
+  "tier": "D",
+  "path": "10-中文排版/cn_2char_brush_circle/cn_2char_brush_circle__R48_cn_2char_brush_circle_v1.png",
+  "lap": 19.6,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_3char_banner",
+  "tier": "P",
+  "path": "10-中文排版/cn_3char_banner/cn_3char_banner__R48_cn_3char_banner_v3.png",
+  "lap": 31.0,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_3char_banner",
+  "tier": "P",
+  "path": "10-中文排版/cn_3char_banner/cn_3char_banner__R48_cn_3char_banner_v4.png",
+  "lap": 29.5,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_3char_banner",
+  "tier": "P",
+  "path": "10-中文排版/cn_3char_banner/cn_3char_banner__R48_cn_3char_banner_v1.png",
+  "lap": 25.1,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_3char_banner",
+  "tier": "P",
+  "path": "10-中文排版/cn_3char_banner/cn_3char_banner__R48_cn_3char_banner_v2.png",
+  "lap": 23.5,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_song_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_song_title/cn_song_title__R48_cn_song_title_v1.png",
+  "lap": 14.3,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_song_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_song_title/cn_song_title__R48_cn_song_title_v2.png",
+  "lap": 12.4,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_song_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_song_title/cn_song_title__R48_cn_song_title_v3.png",
+  "lap": 10.9,
+  "tag": "R48"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_song_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_song_title/cn_song_title__R48_cn_song_title_v4.png",
+  "lap": 10.8,
+  "tag": "R48"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "vi_set_hand",
+  "tier": "P",
+  "path": "08-平面设计/vi_set_hand/vi_set_hand__R49_vi_set_hand_v2.png",
+  "lap": 27.3,
+  "tag": "R49"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "vi_set_hand",
+  "tier": "P",
+  "path": "08-平面设计/vi_set_hand/vi_set_hand__R49_vi_set_hand_v1.png",
+  "lap": 22.5,
+  "tag": "R49"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "vi_set_hand",
+  "tier": "P",
+  "path": "08-平面设计/vi_set_hand/vi_set_hand__R49_vi_set_hand_v3.png",
+  "lap": 20.7,
+  "tag": "R49"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "social_card_hand",
+  "tier": "P",
+  "path": "08-平面设计/social_card_hand/social_card_hand__R49_social_card_hand_v3.png",
+  "lap": 22.6,
+  "tag": "R49"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "social_card_hand",
+  "tier": "P",
+  "path": "08-平面设计/social_card_hand/social_card_hand__R49_social_card_hand_v2.png",
+  "lap": 21.7,
+  "tag": "R49"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "social_card_hand",
+  "tier": "P",
+  "path": "08-平面设计/social_card_hand/social_card_hand__R49_social_card_hand_v1.png",
+  "lap": 6.9,
+  "tag": "R49"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dashboard_hand",
+  "tier": "P",
+  "path": "11-图示信息图/dashboard_hand/dashboard_hand__R49_dashboard_hand_v1.png",
+  "lap": 36.2,
+  "tag": "R49"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dashboard_hand",
+  "tier": "P",
+  "path": "11-图示信息图/dashboard_hand/dashboard_hand__R49_dashboard_hand_v2.png",
+  "lap": 35.3,
+  "tag": "R49"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dashboard_hand",
+  "tier": "P",
+  "path": "11-图示信息图/dashboard_hand/dashboard_hand__R49_dashboard_hand_v3.png",
+  "lap": 31.0,
+  "tag": "R49"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "album_hand",
+  "tier": "P",
+  "path": "09-海报封面/album_hand/album_hand__R49_album_hand_v1.png",
+  "lap": 48.2,
+  "tag": "R49"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "album_hand",
+  "tier": "P",
+  "path": "09-海报封面/album_hand/album_hand__R49_album_hand_v2.png",
+  "lap": 24.4,
+  "tag": "R49"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "album_hand",
+  "tier": "P",
+  "path": "09-海报封面/album_hand/album_hand__R49_album_hand_v3.png",
+  "lap": 22.3,
+  "tag": "R49"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "icon_family_hand",
+  "tier": "D",
+  "path": "08-平面设计/icon_family_hand/icon_family_hand__R49_icon_family_hand_v2.png",
+  "lap": 25.6,
+  "tag": "R49"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "icon_family_hand",
+  "tier": "D",
+  "path": "08-平面设计/icon_family_hand/icon_family_hand__R49_icon_family_hand_v3.png",
+  "lap": 25.6,
+  "tag": "R49"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "icon_family_hand",
+  "tier": "D",
+  "path": "08-平面设计/icon_family_hand/icon_family_hand__R49_icon_family_hand_v1.png",
+  "lap": 23.9,
+  "tag": "R49"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_song_brush",
+  "tier": "D",
+  "path": "10-中文排版/cn_song_brush/cn_song_brush__R49_cn_song_brush_v3.png",
+  "lap": 20.5,
+  "tag": "R49"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_song_brush",
+  "tier": "D",
+  "path": "10-中文排版/cn_song_brush/cn_song_brush__R49_cn_song_brush_v2.png",
+  "lap": 20.4,
+  "tag": "R49"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_song_brush",
+  "tier": "D",
+  "path": "10-中文排版/cn_song_brush/cn_song_brush__R49_cn_song_brush_v1.png",
+  "lap": 19.5,
+  "tag": "R49"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_banner_wide",
+  "tier": "P",
+  "path": "10-中文排版/cn_banner_wide/cn_banner_wide__R49_cn_banner_wide_v1.png",
+  "lap": 26.8,
+  "tag": "R49"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_banner_wide",
+  "tier": "P",
+  "path": "10-中文排版/cn_banner_wide/cn_banner_wide__R49_cn_banner_wide_v2.png",
+  "lap": 26.1,
+  "tag": "R49"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_banner_wide",
+  "tier": "P",
+  "path": "10-中文排版/cn_banner_wide/cn_banner_wide__R49_cn_banner_wide_v3.png",
+  "lap": 21.1,
+  "tag": "R49"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_ink_v2.png",
+  "lap": 49.2,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_ink_v1.png",
+  "lap": 31.8,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_brush_v2.png",
+  "lap": 22.8,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_brush_v1.png",
+  "lap": 20.8,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_hand_v1.png",
+  "lap": 30.7,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_hand_v2.png",
+  "lap": 21.7,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_flat_v1.png",
+  "lap": 22.6,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_flat_v2.png",
+  "lap": 20.2,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_swiss_v1.png",
+  "lap": 22.2,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_swiss_v2.png",
+  "lap": 22.0,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_print_v2.png",
+  "lap": 26.8,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_print_v1.png",
+  "lap": 18.0,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_print2_v1.png",
+  "lap": 83.1,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_print2_v2.png",
+  "lap": 60.0,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_stain_v2.png",
+  "lap": 28.7,
+  "tag": "R50"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "cn_title",
+  "tier": "D",
+  "path": "10-中文排版/cn_title/cn_title__R50_cn_title_stain_v1.png",
+  "lap": 23.9,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_brush_v2.png",
+  "lap": 62.5,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_brush_v1.png",
+  "lap": 61.9,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_flat_v1.png",
+  "lap": 34.8,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_flat_v2.png",
+  "lap": 26.4,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_ink_v2.png",
+  "lap": 52.0,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_ink_v1.png",
+  "lap": 44.9,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_hand_v2.png",
+  "lap": 51.0,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_hand_v1.png",
+  "lap": 31.4,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_print_v1.png",
+  "lap": 66.2,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_print_v2.png",
+  "lap": 56.2,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_swiss_v2.png",
+  "lap": 42.4,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_swiss_v1.png",
+  "lap": 25.4,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_print2_v1.png",
+  "lap": 81.7,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_print2_v2.png",
+  "lap": 61.1,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_stain_v1.png",
+  "lap": 51.0,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "chart",
+  "tier": "D",
+  "path": "11-图示信息图/chart/chart__R50_chart_stain_v2.png",
+  "lap": 43.6,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_brush_v2.png",
+  "lap": 42.6,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_brush_v1.png",
+  "lap": 37.3,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_ink_v2.png",
+  "lap": 37.4,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_ink_v1.png",
+  "lap": 28.0,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_hand_v1.png",
+  "lap": 33.1,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_hand_v2.png",
+  "lap": 21.9,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_flat_v1.png",
+  "lap": 16.1,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_flat_v2.png",
+  "lap": 14.1,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_print_v1.png",
+  "lap": 26.9,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_print_v2.png",
+  "lap": 24.9,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_swiss_v2.png",
+  "lap": 16.1,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_swiss_v1.png",
+  "lap": 7.0,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_print2_v2.png",
+  "lap": 58.3,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_print2_v1.png",
+  "lap": 50.2,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_stain_v2.png",
+  "lap": 31.6,
+  "tag": "R50"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "diagram",
+  "tier": "D",
+  "path": "11-图示信息图/diagram/diagram__R50_diagram_stain_v1.png",
+  "lap": 31.5,
+  "tag": "R50"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "fix_poster_swiss",
+  "tier": "D",
+  "path": "09-海报封面/fix_poster_swiss/fix_poster_swiss__R53_fix_poster_swiss_v2.png",
+  "lap": 24.2,
+  "tag": "R53"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "fix_poster_swiss",
+  "tier": "D",
+  "path": "09-海报封面/fix_poster_swiss/fix_poster_swiss__R53_fix_poster_swiss_v3.png",
+  "lap": 21.6,
+  "tag": "R53"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "fix_poster_swiss",
+  "tier": "D",
+  "path": "09-海报封面/fix_poster_swiss/fix_poster_swiss__R53_fix_poster_swiss_v1.png",
+  "lap": 15.5,
+  "tag": "R53"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "fix_poster_cn",
+  "tier": "D",
+  "path": "09-海报封面/fix_poster_cn/fix_poster_cn__R53_fix_poster_cn_v2.png",
+  "lap": 18.2,
+  "tag": "R53"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "fix_poster_cn",
+  "tier": "D",
+  "path": "09-海报封面/fix_poster_cn/fix_poster_cn__R53_fix_poster_cn_v3.png",
+  "lap": 16.0,
+  "tag": "R53"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "fix_poster_cn",
+  "tier": "D",
+  "path": "09-海报封面/fix_poster_cn/fix_poster_cn__R53_fix_poster_cn_v1.png",
+  "lap": 13.6,
+  "tag": "R53"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "fix_poster_print",
+  "tier": "P",
+  "path": "09-海报封面/fix_poster_print/fix_poster_print__R53_fix_poster_print_v1.png",
+  "lap": 12.4,
+  "tag": "R53"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "fix_poster_print",
+  "tier": "P",
+  "path": "09-海报封面/fix_poster_print/fix_poster_print__R53_fix_poster_print_v3.png",
+  "lap": 10.5,
+  "tag": "R53"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "fix_poster_print",
+  "tier": "P",
+  "path": "09-海报封面/fix_poster_print/fix_poster_print__R53_fix_poster_print_v2.png",
+  "lap": 9.8,
+  "tag": "R53"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "fix_social_cn",
+  "tier": "D",
+  "path": "08-平面设计/fix_social_cn/fix_social_cn__R53_fix_social_cn_v2.png",
+  "lap": 23.9,
+  "tag": "R53"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "fix_social_cn",
+  "tier": "D",
+  "path": "08-平面设计/fix_social_cn/fix_social_cn__R53_fix_social_cn_v1.png",
+  "lap": 22.8,
+  "tag": "R53"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "fix_social_cn",
+  "tier": "D",
+  "path": "08-平面设计/fix_social_cn/fix_social_cn__R53_fix_social_cn_v3.png",
+  "lap": 13.0,
+  "tag": "R53"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "fix_dash_cn",
+  "tier": "D",
+  "path": "11-图示信息图/fix_dash_cn/fix_dash_cn__R53_fix_dash_cn_v3.png",
+  "lap": 34.9,
+  "tag": "R53"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "fix_dash_cn",
+  "tier": "D",
+  "path": "11-图示信息图/fix_dash_cn/fix_dash_cn__R53_fix_dash_cn_v1.png",
+  "lap": 34.8,
+  "tag": "R53"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "fix_dash_cn",
+  "tier": "D",
+  "path": "11-图示信息图/fix_dash_cn/fix_dash_cn__R53_fix_dash_cn_v2.png",
+  "lap": 22.7,
+  "tag": "R53"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "fix_vi_cn",
+  "tier": "D",
+  "path": "08-平面设计/fix_vi_cn/fix_vi_cn__R53_fix_vi_cn_v1.png",
+  "lap": 42.1,
+  "tag": "R53"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "fix_vi_cn",
+  "tier": "D",
+  "path": "08-平面设计/fix_vi_cn/fix_vi_cn__R53_fix_vi_cn_v3.png",
+  "lap": 29.9,
+  "tag": "R53"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "fix_vi_cn",
+  "tier": "D",
+  "path": "08-平面设计/fix_vi_cn/fix_vi_cn__R53_fix_vi_cn_v2.png",
+  "lap": 18.7,
+  "tag": "R53"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "fix_album_cn",
+  "tier": "D",
+  "path": "09-海报封面/fix_album_cn/fix_album_cn__R53_fix_album_cn_v1.png",
+  "lap": 59.9,
+  "tag": "R53"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "fix_album_cn",
+  "tier": "D",
+  "path": "09-海报封面/fix_album_cn/fix_album_cn__R53_fix_album_cn_v3.png",
+  "lap": 44.4,
+  "tag": "R53"
+ },
+ {
+  "category": "09-海报封面",
+  "subject": "fix_album_cn",
+  "tier": "D",
+  "path": "09-海报封面/fix_album_cn/fix_album_cn__R53_fix_album_cn_v2.png",
+  "lap": 44.0,
+  "tag": "R53"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "fix_icon_cn",
+  "tier": "D",
+  "path": "08-平面设计/fix_icon_cn/fix_icon_cn__R53_fix_icon_cn_v3.png",
+  "lap": 30.2,
+  "tag": "R53"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "fix_icon_cn",
+  "tier": "D",
+  "path": "08-平面设计/fix_icon_cn/fix_icon_cn__R53_fix_icon_cn_v1.png",
+  "lap": 27.0,
+  "tag": "R53"
+ },
+ {
+  "category": "08-平面设计",
+  "subject": "fix_icon_cn",
+  "tier": "D",
+  "path": "08-平面设计/fix_icon_cn/fix_icon_cn__R53_fix_icon_cn_v2.png",
+  "lap": 24.9,
+  "tag": "R53"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_banner2",
+  "tier": "D",
+  "path": "10-中文排版/edge_banner2/edge_banner2__R54_edge_banner2_v2.png",
+  "lap": 23.9,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_banner2",
+  "tier": "D",
+  "path": "10-中文排版/edge_banner2/edge_banner2__R54_edge_banner2_v3.png",
+  "lap": 20.2,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_banner2",
+  "tier": "D",
+  "path": "10-中文排版/edge_banner2/edge_banner2__R54_edge_banner2_v1.png",
+  "lap": 15.6,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_6char",
+  "tier": "D",
+  "path": "10-中文排版/edge_6char/edge_6char__R54_edge_6char_v1.png",
+  "lap": 29.4,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_6char",
+  "tier": "D",
+  "path": "10-中文排版/edge_6char/edge_6char__R54_edge_6char_v2.png",
+  "lap": 28.8,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_6char",
+  "tier": "D",
+  "path": "10-中文排版/edge_6char/edge_6char__R54_edge_6char_v3.png",
+  "lap": 24.1,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_5char",
+  "tier": "D",
+  "path": "10-中文排版/edge_5char/edge_5char__R54_edge_5char_v3.png",
+  "lap": 20.0,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_5char",
+  "tier": "D",
+  "path": "10-中文排版/edge_5char/edge_5char__R54_edge_5char_v1.png",
+  "lap": 16.7,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_5char",
+  "tier": "D",
+  "path": "10-中文排版/edge_5char/edge_5char__R54_edge_5char_v2.png",
+  "lap": 15.1,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_en_quote",
+  "tier": "D",
+  "path": "10-中文排版/edge_en_quote/edge_en_quote__R54_edge_en_quote_v1.png",
+  "lap": 19.8,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_en_quote",
+  "tier": "D",
+  "path": "10-中文排版/edge_en_quote/edge_en_quote__R54_edge_en_quote_v3.png",
+  "lap": 19.2,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_en_quote",
+  "tier": "D",
+  "path": "10-中文排版/edge_en_quote/edge_en_quote__R54_edge_en_quote_v2.png",
+  "lap": 19.1,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_num_quote",
+  "tier": "D",
+  "path": "10-中文排版/edge_num_quote/edge_num_quote__R54_edge_num_quote_v2.png",
+  "lap": 21.3,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_num_quote",
+  "tier": "D",
+  "path": "10-中文排版/edge_num_quote/edge_num_quote__R54_edge_num_quote_v3.png",
+  "lap": 16.3,
+  "tag": "R54"
+ },
+ {
+  "category": "10-中文排版",
+  "subject": "edge_num_quote",
+  "tier": "D",
+  "path": "10-中文排版/edge_num_quote/edge_num_quote__R54_edge_num_quote_v1.png",
+  "lap": 9.9,
+  "tag": "R54"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "edge_complex",
+  "tier": "P",
+  "path": "11-图示信息图/edge_complex/edge_complex__R54_edge_complex_v2.png",
+  "lap": 31.7,
+  "tag": "R54"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "edge_complex",
+  "tier": "P",
+  "path": "11-图示信息图/edge_complex/edge_complex__R54_edge_complex_v3.png",
+  "lap": 30.4,
+  "tag": "R54"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "edge_complex",
+  "tier": "P",
+  "path": "11-图示信息图/edge_complex/edge_complex__R54_edge_complex_v1.png",
+  "lap": 22.7,
+  "tag": "R54"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_flow",
+  "tier": "D",
+  "path": "11-图示信息图/dg_flow/dg_flow__R55_dg_flow_v2.png",
+  "lap": 29.5,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_flow",
+  "tier": "D",
+  "path": "11-图示信息图/dg_flow/dg_flow__R55_dg_flow_v1.png",
+  "lap": 29.3,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_flow",
+  "tier": "D",
+  "path": "11-图示信息图/dg_flow/dg_flow__R55_dg_flow_v3.png",
+  "lap": 28.5,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_org",
+  "tier": "D",
+  "path": "11-图示信息图/dg_org/dg_org__R55_dg_org_v2.png",
+  "lap": 27.6,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_org",
+  "tier": "D",
+  "path": "11-图示信息图/dg_org/dg_org__R55_dg_org_v1.png",
+  "lap": 26.5,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_org",
+  "tier": "D",
+  "path": "11-图示信息图/dg_org/dg_org__R55_dg_org_v3.png",
+  "lap": 23.8,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_floorplan",
+  "tier": "D",
+  "path": "11-图示信息图/dg_floorplan/dg_floorplan__R55_dg_floorplan_v1.png",
+  "lap": 46.5,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_floorplan",
+  "tier": "D",
+  "path": "11-图示信息图/dg_floorplan/dg_floorplan__R55_dg_floorplan_v2.png",
+  "lap": 39.7,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_floorplan",
+  "tier": "D",
+  "path": "11-图示信息图/dg_floorplan/dg_floorplan__R55_dg_floorplan_v3.png",
+  "lap": 37.9,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_wireframe",
+  "tier": "P",
+  "path": "11-图示信息图/dg_wireframe/dg_wireframe__R55_dg_wireframe_v2.png",
+  "lap": 44.6,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_wireframe",
+  "tier": "P",
+  "path": "11-图示信息图/dg_wireframe/dg_wireframe__R55_dg_wireframe_v3.png",
+  "lap": 37.0,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_wireframe",
+  "tier": "P",
+  "path": "11-图示信息图/dg_wireframe/dg_wireframe__R55_dg_wireframe_v1.png",
+  "lap": 29.4,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_timeline",
+  "tier": "D",
+  "path": "11-图示信息图/dg_timeline/dg_timeline__R55_dg_timeline_v1.png",
+  "lap": 43.9,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_timeline",
+  "tier": "D",
+  "path": "11-图示信息图/dg_timeline/dg_timeline__R55_dg_timeline_v3.png",
+  "lap": 19.0,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_timeline",
+  "tier": "D",
+  "path": "11-图示信息图/dg_timeline/dg_timeline__R55_dg_timeline_v2.png",
+  "lap": 13.0,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_funnel",
+  "tier": "D",
+  "path": "11-图示信息图/dg_funnel/dg_funnel__R55_dg_funnel_v2.png",
+  "lap": 28.6,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_funnel",
+  "tier": "D",
+  "path": "11-图示信息图/dg_funnel/dg_funnel__R55_dg_funnel_v1.png",
+  "lap": 18.3,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_funnel",
+  "tier": "D",
+  "path": "11-图示信息图/dg_funnel/dg_funnel__R55_dg_funnel_v3.png",
+  "lap": 17.8,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_donut",
+  "tier": "P",
+  "path": "11-图示信息图/dg_donut/dg_donut__R55_dg_donut_v2.png",
+  "lap": 31.1,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_donut",
+  "tier": "P",
+  "path": "11-图示信息图/dg_donut/dg_donut__R55_dg_donut_v3.png",
+  "lap": 23.7,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_donut",
+  "tier": "P",
+  "path": "11-图示信息图/dg_donut/dg_donut__R55_dg_donut_v1.png",
+  "lap": 19.2,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_calendar",
+  "tier": "P",
+  "path": "11-图示信息图/dg_calendar/dg_calendar__R55_dg_calendar_v3.png",
+  "lap": 87.6,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_calendar",
+  "tier": "P",
+  "path": "11-图示信息图/dg_calendar/dg_calendar__R55_dg_calendar_v2.png",
+  "lap": 81.0,
+  "tag": "R55"
+ },
+ {
+  "category": "11-图示信息图",
+  "subject": "dg_calendar",
+  "tier": "P",
+  "path": "11-图示信息图/dg_calendar/dg_calendar__R55_dg_calendar_v1.png",
+  "lap": 34.2,
+  "tag": "R55"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_porcelain_vase",
+  "tier": "D",
+  "path": "04-商品静物/good_porcelain_vase/good_porcelain_vase__R58_good_porcelain_vase_v3.png",
+  "lap": 18.7,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_porcelain_vase",
+  "tier": "D",
+  "path": "04-商品静物/good_porcelain_vase/good_porcelain_vase__R58_good_porcelain_vase_v1.png",
+  "lap": 18.5,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_porcelain_vase",
+  "tier": "D",
+  "path": "04-商品静物/good_porcelain_vase/good_porcelain_vase__R58_good_porcelain_vase_v2.png",
+  "lap": 16.5,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_tea_canister",
+  "tier": "D",
+  "path": "04-商品静物/good_tea_canister/good_tea_canister__R58_good_tea_canister_v1.png",
+  "lap": 45.1,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_tea_canister",
+  "tier": "D",
+  "path": "04-商品静物/good_tea_canister/good_tea_canister__R58_good_tea_canister_v3.png",
+  "lap": 32.8,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_tea_canister",
+  "tier": "D",
+  "path": "04-商品静物/good_tea_canister/good_tea_canister__R58_good_tea_canister_v2.png",
+  "lap": 16.5,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_bronze_vessel",
+  "tier": "D",
+  "path": "04-商品静物/good_bronze_vessel/good_bronze_vessel__R58_good_bronze_vessel_v1.png",
+  "lap": 21.0,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_bronze_vessel",
+  "tier": "D",
+  "path": "04-商品静物/good_bronze_vessel/good_bronze_vessel__R58_good_bronze_vessel_v3.png",
+  "lap": 15.5,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_bronze_vessel",
+  "tier": "D",
+  "path": "04-商品静物/good_bronze_vessel/good_bronze_vessel__R58_good_bronze_vessel_v2.png",
+  "lap": 15.5,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_lacquer_box",
+  "tier": "D",
+  "path": "04-商品静物/good_lacquer_box/good_lacquer_box__R58_good_lacquer_box_v1.png",
+  "lap": 24.6,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_lacquer_box",
+  "tier": "D",
+  "path": "04-商品静物/good_lacquer_box/good_lacquer_box__R58_good_lacquer_box_v3.png",
+  "lap": 22.1,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_lacquer_box",
+  "tier": "D",
+  "path": "04-商品静物/good_lacquer_box/good_lacquer_box__R58_good_lacquer_box_v2.png",
+  "lap": 15.5,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_jade_pendant",
+  "tier": "D",
+  "path": "04-商品静物/good_jade_pendant/good_jade_pendant__R58_good_jade_pendant_v3.png",
+  "lap": 7.2,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_jade_pendant",
+  "tier": "D",
+  "path": "04-商品静物/good_jade_pendant/good_jade_pendant__R58_good_jade_pendant_v2.png",
+  "lap": 4.2,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_jade_pendant",
+  "tier": "D",
+  "path": "04-商品静物/good_jade_pendant/good_jade_pendant__R58_good_jade_pendant_v1.png",
+  "lap": 3.8,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_fan",
+  "tier": "D",
+  "path": "04-商品静物/good_fan/good_fan__R58_good_fan_v3.png",
+  "lap": 21.4,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_fan",
+  "tier": "D",
+  "path": "04-商品静物/good_fan/good_fan__R58_good_fan_v2.png",
+  "lap": 20.1,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_fan",
+  "tier": "D",
+  "path": "04-商品静物/good_fan/good_fan__R58_good_fan_v1.png",
+  "lap": 18.4,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_old_book",
+  "tier": "P",
+  "path": "04-商品静物/good_old_book/good_old_book__R58_good_old_book_v3.png",
+  "lap": 39.6,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_old_book",
+  "tier": "P",
+  "path": "04-商品静物/good_old_book/good_old_book__R58_good_old_book_v1.png",
+  "lap": 34.7,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_old_book",
+  "tier": "P",
+  "path": "04-商品静物/good_old_book/good_old_book__R58_good_old_book_v2.png",
+  "lap": 32.5,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_steel_pot",
+  "tier": "D",
+  "path": "04-商品静物/good_steel_pot/good_steel_pot__R58_good_steel_pot_v2.png",
+  "lap": 6.0,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_steel_pot",
+  "tier": "D",
+  "path": "04-商品静物/good_steel_pot/good_steel_pot__R58_good_steel_pot_v1.png",
+  "lap": 5.4,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_steel_pot",
+  "tier": "D",
+  "path": "04-商品静物/good_steel_pot/good_steel_pot__R58_good_steel_pot_v3.png",
+  "lap": 5.0,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_kintsugi",
+  "tier": "D",
+  "path": "04-商品静物/good_kintsugi/good_kintsugi__R58_good_kintsugi_v1.png",
+  "lap": 6.3,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_kintsugi",
+  "tier": "D",
+  "path": "04-商品静物/good_kintsugi/good_kintsugi__R58_good_kintsugi_v3.png",
+  "lap": 5.4,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_kintsugi",
+  "tier": "D",
+  "path": "04-商品静物/good_kintsugi/good_kintsugi__R58_good_kintsugi_v2.png",
+  "lap": 5.2,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_silk_fabric",
+  "tier": "D",
+  "path": "04-商品静物/good_silk_fabric/good_silk_fabric__R58_good_silk_fabric_v2.png",
+  "lap": 37.7,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_silk_fabric",
+  "tier": "D",
+  "path": "04-商品静物/good_silk_fabric/good_silk_fabric__R58_good_silk_fabric_v3.png",
+  "lap": 34.8,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_silk_fabric",
+  "tier": "D",
+  "path": "04-商品静物/good_silk_fabric/good_silk_fabric__R58_good_silk_fabric_v1.png",
+  "lap": 32.5,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_incense_set",
+  "tier": "D",
+  "path": "04-商品静物/good_incense_set/good_incense_set__R58_good_incense_set_v2.png",
+  "lap": 14.7,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_incense_set",
+  "tier": "D",
+  "path": "04-商品静物/good_incense_set/good_incense_set__R58_good_incense_set_v1.png",
+  "lap": 13.5,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_incense_set",
+  "tier": "D",
+  "path": "04-商品静物/good_incense_set/good_incense_set__R58_good_incense_set_v3.png",
+  "lap": 13.5,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_lacquer_tray",
+  "tier": "D",
+  "path": "04-商品静物/good_lacquer_tray/good_lacquer_tray__R58_good_lacquer_tray_v2.png",
+  "lap": 17.9,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_lacquer_tray",
+  "tier": "D",
+  "path": "04-商品静物/good_lacquer_tray/good_lacquer_tray__R58_good_lacquer_tray_v3.png",
+  "lap": 9.2,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "good_lacquer_tray",
+  "tier": "D",
+  "path": "04-商品静物/good_lacquer_tray/good_lacquer_tray__R58_good_lacquer_tray_v1.png",
+  "lap": 8.9,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_law",
+  "tier": "D",
+  "path": "13-纪实场景/serious_law/serious_law__R58_serious_law_v3.png",
+  "lap": 33.9,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_law",
+  "tier": "D",
+  "path": "13-纪实场景/serious_law/serious_law__R58_serious_law_v2.png",
+  "lap": 26.6,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_law",
+  "tier": "D",
+  "path": "13-纪实场景/serious_law/serious_law__R58_serious_law_v1.png",
+  "lap": 21.3,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_finance",
+  "tier": "D",
+  "path": "13-纪实场景/serious_finance/serious_finance__R58_serious_finance_v1.png",
+  "lap": 34.2,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_finance",
+  "tier": "D",
+  "path": "13-纪实场景/serious_finance/serious_finance__R58_serious_finance_v3.png",
+  "lap": 21.1,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_finance",
+  "tier": "D",
+  "path": "13-纪实场景/serious_finance/serious_finance__R58_serious_finance_v2.png",
+  "lap": 18.0,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_medical",
+  "tier": "D",
+  "path": "13-纪实场景/serious_medical/serious_medical__R58_serious_medical_v1.png",
+  "lap": 30.0,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_medical",
+  "tier": "D",
+  "path": "13-纪实场景/serious_medical/serious_medical__R58_serious_medical_v3.png",
+  "lap": 29.6,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_medical",
+  "tier": "D",
+  "path": "13-纪实场景/serious_medical/serious_medical__R58_serious_medical_v2.png",
+  "lap": 28.6,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_classroom",
+  "tier": "D",
+  "path": "13-纪实场景/serious_classroom/serious_classroom__R58_serious_classroom_v2.png",
+  "lap": 28.8,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_classroom",
+  "tier": "D",
+  "path": "13-纪实场景/serious_classroom/serious_classroom__R58_serious_classroom_v3.png",
+  "lap": 23.8,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_classroom",
+  "tier": "D",
+  "path": "13-纪实场景/serious_classroom/serious_classroom__R58_serious_classroom_v1.png",
+  "lap": 23.2,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_conference",
+  "tier": "D",
+  "path": "13-纪实场景/serious_conference/serious_conference__R58_serious_conference_v2.png",
+  "lap": 31.3,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_conference",
+  "tier": "D",
+  "path": "13-纪实场景/serious_conference/serious_conference__R58_serious_conference_v3.png",
+  "lap": 30.2,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_conference",
+  "tier": "D",
+  "path": "13-纪实场景/serious_conference/serious_conference__R58_serious_conference_v1.png",
+  "lap": 27.4,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_library",
+  "tier": "D",
+  "path": "13-纪实场景/serious_library/serious_library__R58_serious_library_v1.png",
+  "lap": 64.7,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_library",
+  "tier": "D",
+  "path": "13-纪实场景/serious_library/serious_library__R58_serious_library_v3.png",
+  "lap": 53.4,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_library",
+  "tier": "D",
+  "path": "13-纪实场景/serious_library/serious_library__R58_serious_library_v2.png",
+  "lap": 29.8,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_workshop",
+  "tier": "D",
+  "path": "13-纪实场景/serious_workshop/serious_workshop__R58_serious_workshop_v1.png",
+  "lap": 21.1,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_workshop",
+  "tier": "D",
+  "path": "13-纪实场景/serious_workshop/serious_workshop__R58_serious_workshop_v3.png",
+  "lap": 19.1,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_workshop",
+  "tier": "D",
+  "path": "13-纪实场景/serious_workshop/serious_workshop__R58_serious_workshop_v2.png",
+  "lap": 15.8,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_agri",
+  "tier": "D",
+  "path": "13-纪实场景/serious_agri/serious_agri__R58_serious_agri_v2.png",
+  "lap": 27.0,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_agri",
+  "tier": "D",
+  "path": "13-纪实场景/serious_agri/serious_agri__R58_serious_agri_v3.png",
+  "lap": 15.9,
+  "tag": "R58"
+ },
+ {
+  "category": "13-纪实场景",
+  "subject": "serious_agri",
+  "tier": "D",
+  "path": "13-纪实场景/serious_agri/serious_agri__R58_serious_agri_v1.png",
+  "lap": 15.8,
+  "tag": "R58"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_colored_pottery",
+  "tier": "D",
+  "path": "04-商品静物/craft_colored_pottery/craft_colored_pottery__R59_craft_colored_pottery_v3.png",
+  "lap": 9.3,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_colored_pottery",
+  "tier": "D",
+  "path": "04-商品静物/craft_colored_pottery/craft_colored_pottery__R59_craft_colored_pottery_v1.png",
+  "lap": 9.1,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_colored_pottery",
+  "tier": "D",
+  "path": "04-商品静物/craft_colored_pottery/craft_colored_pottery__R59_craft_colored_pottery_v2.png",
+  "lap": 6.1,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_leather_bag",
+  "tier": "D",
+  "path": "04-商品静物/craft_leather_bag/craft_leather_bag__R59_craft_leather_bag_v1.png",
+  "lap": 24.9,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_leather_bag",
+  "tier": "D",
+  "path": "04-商品静物/craft_leather_bag/craft_leather_bag__R59_craft_leather_bag_v3.png",
+  "lap": 16.2,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_leather_bag",
+  "tier": "D",
+  "path": "04-商品静物/craft_leather_bag/craft_leather_bag__R59_craft_leather_bag_v2.png",
+  "lap": 15.3,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_guqin",
+  "tier": "D",
+  "path": "04-商品静物/craft_guqin/craft_guqin__R59_craft_guqin_v1.png",
+  "lap": 10.5,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_guqin",
+  "tier": "D",
+  "path": "04-商品静物/craft_guqin/craft_guqin__R59_craft_guqin_v2.png",
+  "lap": 8.3,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_guqin",
+  "tier": "D",
+  "path": "04-商品静物/craft_guqin/craft_guqin__R59_craft_guqin_v3.png",
+  "lap": 6.0,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_carved_lacquer",
+  "tier": "D",
+  "path": "04-商品静物/craft_carved_lacquer/craft_carved_lacquer__R59_craft_carved_lacquer_v2.png",
+  "lap": 25.7,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_carved_lacquer",
+  "tier": "D",
+  "path": "04-商品静物/craft_carved_lacquer/craft_carved_lacquer__R59_craft_carved_lacquer_v1.png",
+  "lap": 14.3,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_carved_lacquer",
+  "tier": "D",
+  "path": "04-商品静物/craft_carved_lacquer/craft_carved_lacquer__R59_craft_carved_lacquer_v3.png",
+  "lap": 13.5,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_paper_lantern",
+  "tier": "D",
+  "path": "04-商品静物/craft_paper_lantern/craft_paper_lantern__R59_craft_paper_lantern_v2.png",
+  "lap": 29.9,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_paper_lantern",
+  "tier": "D",
+  "path": "04-商品静物/craft_paper_lantern/craft_paper_lantern__R59_craft_paper_lantern_v3.png",
+  "lap": 27.9,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_paper_lantern",
+  "tier": "D",
+  "path": "04-商品静物/craft_paper_lantern/craft_paper_lantern__R59_craft_paper_lantern_v1.png",
+  "lap": 26.7,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_tibetan_incense",
+  "tier": "D",
+  "path": "04-商品静物/craft_tibetan_incense/craft_tibetan_incense__R59_craft_tibetan_incense_v1.png",
+  "lap": 15.4,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_tibetan_incense",
+  "tier": "D",
+  "path": "04-商品静物/craft_tibetan_incense/craft_tibetan_incense__R59_craft_tibetan_incense_v3.png",
+  "lap": 11.0,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_tibetan_incense",
+  "tier": "D",
+  "path": "04-商品静物/craft_tibetan_incense/craft_tibetan_incense__R59_craft_tibetan_incense_v2.png",
+  "lap": 10.0,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_shadow_puppet",
+  "tier": "D",
+  "path": "04-商品静物/craft_shadow_puppet/craft_shadow_puppet__R59_craft_shadow_puppet_v2.png",
+  "lap": 33.3,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_shadow_puppet",
+  "tier": "D",
+  "path": "04-商品静物/craft_shadow_puppet/craft_shadow_puppet__R59_craft_shadow_puppet_v3.png",
+  "lap": 30.2,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_shadow_puppet",
+  "tier": "D",
+  "path": "04-商品静物/craft_shadow_puppet/craft_shadow_puppet__R59_craft_shadow_puppet_v1.png",
+  "lap": 25.7,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_bamboo_weave",
+  "tier": "D",
+  "path": "04-商品静物/craft_bamboo_weave/craft_bamboo_weave__R59_craft_bamboo_weave_v1.png",
+  "lap": 18.5,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_bamboo_weave",
+  "tier": "D",
+  "path": "04-商品静物/craft_bamboo_weave/craft_bamboo_weave__R59_craft_bamboo_weave_v3.png",
+  "lap": 17.5,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_bamboo_weave",
+  "tier": "D",
+  "path": "04-商品静物/craft_bamboo_weave/craft_bamboo_weave__R59_craft_bamboo_weave_v2.png",
+  "lap": 15.6,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_folding_fan",
+  "tier": "D",
+  "path": "04-商品静物/craft_folding_fan/craft_folding_fan__R59_craft_folding_fan_v1.png",
+  "lap": 25.9,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_folding_fan",
+  "tier": "D",
+  "path": "04-商品静物/craft_folding_fan/craft_folding_fan__R59_craft_folding_fan_v3.png",
+  "lap": 19.5,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_folding_fan",
+  "tier": "D",
+  "path": "04-商品静物/craft_folding_fan/craft_folding_fan__R59_craft_folding_fan_v2.png",
+  "lap": 18.3,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_bronze_mirror",
+  "tier": "D",
+  "path": "04-商品静物/craft_bronze_mirror/craft_bronze_mirror__R59_craft_bronze_mirror_v2.png",
+  "lap": 38.8,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_bronze_mirror",
+  "tier": "D",
+  "path": "04-商品静物/craft_bronze_mirror/craft_bronze_mirror__R59_craft_bronze_mirror_v1.png",
+  "lap": 27.5,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_bronze_mirror",
+  "tier": "D",
+  "path": "04-商品静物/craft_bronze_mirror/craft_bronze_mirror__R59_craft_bronze_mirror_v3.png",
+  "lap": 20.9,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_tang_sancai",
+  "tier": "D",
+  "path": "04-商品静物/craft_tang_sancai/craft_tang_sancai__R59_craft_tang_sancai_v2.png",
+  "lap": 17.3,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_tang_sancai",
+  "tier": "D",
+  "path": "04-商品静物/craft_tang_sancai/craft_tang_sancai__R59_craft_tang_sancai_v1.png",
+  "lap": 16.0,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_tang_sancai",
+  "tier": "D",
+  "path": "04-商品静物/craft_tang_sancai/craft_tang_sancai__R59_craft_tang_sancai_v3.png",
+  "lap": 15.7,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_inkstick",
+  "tier": "D",
+  "path": "04-商品静物/craft_inkstick/craft_inkstick__R59_craft_inkstick_v2.png",
+  "lap": 15.7,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_inkstick",
+  "tier": "D",
+  "path": "04-商品静物/craft_inkstick/craft_inkstick__R59_craft_inkstick_v1.png",
+  "lap": 7.2,
+  "tag": "R59"
+ },
+ {
+  "category": "04-商品静物",
+  "subject": "craft_inkstick",
+  "tier": "D",
+  "path": "04-商品静物/craft_inkstick/craft_inkstick__R59_craft_inkstick_v3.png",
+  "lap": 4.5,
+  "tag": "R59"
+ }
+]
